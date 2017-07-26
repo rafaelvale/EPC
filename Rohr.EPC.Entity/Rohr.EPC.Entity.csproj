@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F4B63F3A-060A-4DCE-AC13-F0C03F6C3405}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Rohr.EPC.Entity</RootNamespace>
+    <AssemblyName>Rohr.EPC.Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AplicacaoLista.cs" />
+    <Compile Include="Arquivo.cs" />
+    <Compile Include="Chave.cs" />
+    <Compile Include="ChavePreenchida.cs" />
+    <Compile Include="Documento.cs" />
+    <Compile Include="DocumentoBloqueado.cs" />
+    <Compile Include="DocumentoCliente.cs" />
+    <Compile Include="DocumentoComercial.cs" />
+    <Compile Include="DocumentoDescricaoGeralImagens.cs" />
+    <Compile Include="DocumentoDescricaoGeralPortfolio.cs" />
+    <Compile Include="DocumentoFilial.cs" />
+    <Compile Include="DocumentoHistoriaRohr.cs" />
+    <Compile Include="DocumentoImagens.cs" />
+    <Compile Include="DocumentoObjeto.cs" />
+    <Compile Include="DocumentoObjetoDetalheContrato.cs" />
+    <Compile Include="DocumentoObjetoItem.cs" />
+    <Compile Include="DocumentoObjetoObservacao.cs" />
+    <Compile Include="DocumentoObra.cs" />
+    <Compile Include="DocumentoPortfolioObras.cs" />
+    <Compile Include="DocumentoResumoProposta.cs" />
+    <Compile Include="DocumentoSemNegocio.cs" />
+    <Compile Include="DocumentoStatus.cs" />
+    <Compile Include="Filial.cs" />
+    <Compile Include="AuditoriaLog.cs" />
+    <Compile Include="Imagens.cs" />
+    <Compile Include="ItemPreco.cs" />
+    <Compile Include="Modelo.cs" />
+    <Compile Include="ModeloCondicoesGerais.cs" />
+    <Compile Include="ModeloEmail.cs" />
+    <Compile Include="ModeloHistoriaRohr.cs" />
+    <Compile Include="ModeloMeta.cs" />
+    <Compile Include="ModeloPortfolioObras.cs" />
+    <Compile Include="ModeloTipo.cs" />
+    <Compile Include="NotificacaoUsuario.cs" />
+    <Compile Include="Parte.cs" />
+    <Compile Include="PartePreenchida.cs" />
+    <Compile Include="Perfil.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Segmento.cs" />
+    <Compile Include="Usuario.cs" />
+    <Compile Include="Workflow.cs" />
+    <Compile Include="WorkflowAcao.cs" />
+    <Compile Include="WorkflowAcaoExecutada.cs" />
+    <Compile Include="WorkflowAlcada.cs" />
+    <Compile Include="WorkflowEtapa.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

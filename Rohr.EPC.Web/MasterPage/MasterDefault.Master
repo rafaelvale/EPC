@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterDefault.master.cs" Inherits="Rohr.EPC.Web.MasterPage.MasterDefault" %>
+
+<!DOCTYPE html>
+<html>
+<head id="Head1" runat="server">
+    <title>EPC</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-tooltip" content="Elaboração de Propostas e Contratos" />
+    <meta name="msapplication-starturl" content="Cockpit.aspx" />
+    <meta name="msapplication-navbutton-color" content="#ffe100" />
+    <meta name="msapplication-window" content="width=1230;height=700" />
+    <meta name="description" content="Elaboração de Propostas e Contratos" />
+    <link rel="apple-touch-icon" href="~/Content/Image/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="~/Content/Image/favicon.ico" />
+    <link rel="shortcut icon" href="~/Content/Image/favicon.ico">
+    <webopt:BundleReference runat="server" Path="~/bundles/style" />
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/scripts") %>
+    </asp:PlaceHolder>
+    <style type="text/css">
+        body {
+            padding-top: 50px;
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body onload="window.history.forward();">
+    <form id="form1" runat="server">
+        <div class="navbar">
+            <div class="navbar-inner navbar-fixed-top">
+                <div class="container">
+                    <div class="span3">
+                        <a href="../Redirecionar.aspx?p=5sRJ3o2ln+E=" class="brand">
+                            <img src="../Content/Image/logo_epc.png" class="ajuste-img" width="24" height="24" />&nbsp;EPC</a>
+                    </div>
+                    <div class="nav-collapse collapse">
+                        <div runat="server" id="menuPerfil"></div>
+                        <ul class="nav pull-right">
+                            <% Response.Write(menuUsuario); %>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="contentBody" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

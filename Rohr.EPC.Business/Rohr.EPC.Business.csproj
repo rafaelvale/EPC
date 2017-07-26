@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{24000B1C-EB06-4C5C-AE3A-747706D22DA2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Rohr.EPC.Business</RootNamespace>
+    <AssemblyName>Rohr.EPC.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CKEditor.NET, Version=3.6.6.2, Culture=neutral, PublicKeyToken=e379cdf2f8354999, processorArchitecture=MSIL">
+      <HintPath>..\packages\CKEditor.net.1.0.0\lib\CKEditor.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="EO.Pdf, Version=6.0.35.2, Culture=neutral, PublicKeyToken=e92353a6bf73fffc, processorArchitecture=MSIL">
+      <HintPath>..\packages\EO.Pdf.6.0.35\lib\EO.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.11.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.11\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AplicacaoListaBusiness.cs" />
+    <Compile Include="ArquivoBusiness.cs" />
+    <Compile Include="ChaveBusiness.cs" />
+    <Compile Include="ChavePreenchidaBusiness.cs" />
+    <Compile Include="CriptografiaBusiness.cs" />
+    <Compile Include="DocumentoBloqueadoBusiness.cs" />
+    <Compile Include="DocumentoBusiness.cs" />
+    <Compile Include="DocumentoClienteBusiness.cs" />
+    <Compile Include="DocumentoComercialBusiness.cs" />
+    <Compile Include="DocumentoDescricaoGeralImagemBusiness.cs" />
+    <Compile Include="DocumentoDescricaoGeralPortfolioBusiness.cs" />
+    <Compile Include="DocumentoImagensBusiness.cs" />
+    <Compile Include="DocumentoObjetoBusiness.cs" />
+    <Compile Include="DocumentoObjetoDetalheContratoBusiness.cs" />
+    <Compile Include="DocumentoObjetoObservacaoBusiness.cs" />
+    <Compile Include="DocumentoObraBusiness.cs" />
+    <Compile Include="DocumentoPortfolioBusiness.cs" />
+    <Compile Include="DocumentoResumoPropostaBusiness.cs" />
+    <Compile Include="DocumentoResumoBusiness.cs" />
+    <Compile Include="DocumentoSemNegocioBusiness.cs" />
+    <Compile Include="DocumentoStatusBusiness.cs" />
+    <Compile Include="ExcecaoBusiness.cs" />
+    <Compile Include="FilialBusiness.cs" />
+    <Compile Include="AuditoriaLogBusiness.cs" />
+    <Compile Include="ImagemBusiness.cs" />
+    <Compile Include="ModeloBusiness.cs" />
+    <Compile Include="ModeloCondicoesGeraisBusiness.cs" />
+    <Compile Include="ModeloEmailBusiness.cs" />
+    <Compile Include="ModeloHistoriaRohrBusiness.cs" />
+    <Compile Include="ModeloMetaBusiness.cs" />
+    <Compile Include="ModeloPortfolioObrasBusiness.cs" />
+    <Compile Include="MyException.cs" />
+    <Compile Include="NotificacaoUsuarioBusiness.cs" />
+    <Compile Include="PartePreenchidaBusiness.cs" />
+    <Compile Include="PdfBusiness.cs" />
+    <Compile Include="PerfilBusiness.cs" />
+    <Compile Include="PlanilhaOrcamentariaBusiness.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UsuarioBusiness.cs" />
+    <Compile Include="Util.cs" />
+    <Compile Include="UtilNumeroExtenso.cs" />
+    <Compile Include="WorkflowAcaoBusiness.cs" />
+    <Compile Include="WorkflowAcaoExecutadaBusiness.cs" />
+    <Compile Include="WorkflowAlcadaBusiness.cs" />
+    <Compile Include="WorkflowBusiness.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rohr.EPC.DAL\Rohr.EPC.DAL.csproj">
+      <Project>{b07cf951-e257-441d-b914-c407408772ea}</Project>
+      <Name>Rohr.EPC.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Rohr.EPC.Entity\Rohr.EPC.Entity.csproj">
+      <Project>{f4b63f3a-060a-4dce-ac13-f0c03f6c3405}</Project>
+      <Name>Rohr.EPC.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Rohr.PMWeb\Rohr.PMWeb.csproj">
+      <Project>{f9ace8e0-32c1-44f2-a1d4-934e091e9129}</Project>
+      <Name>Rohr.PMWeb</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

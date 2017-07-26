@@ -1,0 +1,144 @@
+﻿.Formulario
+{   
+    border: 1px solid #606060;
+    margin: 6px 0 10px 10px;
+    padding: 4px;
+}
+
+.Formulario tr.Static td
+{
+    font-weight: bold;
+    background-color: #eee;
+}
+
+.Formulario th, .Formulario td
+{
+    padding: 4px;
+}
+
+.Formulario .Label div img
+{
+    margin-left: 6px;
+}
+
+.Formulario .Versao
+{
+    background-color: #DFEFFF;
+}
+
+.Formulario .Button
+{
+    margin: 10px 15px 6px 0;
+}
+
+.Formulario .TextoGde
+{
+    width: 400px;
+}
+
+.Formulario .TextoPeq
+{
+    width: 80px;
+}
+
+.Formulario .Memo
+{
+    max-width: 350px;
+    max-height: 160px;
+}
+
+.Formulario input[readonly],
+.Formulario input[disabled]
+{
+    border: 1px solid #A0A0A0;
+    background-color: #E0E0E0;
+}
+.Formulario textarea[readonly], 
+.Formulario textarea[disabled] 
+{
+	border: 1px solid #A0A0A0;
+	background-color: #E0E0E0;
+}
+
+.Formulario select[disabled] 
+{
+	border: 1px solid #A0A0A0;
+	background-color: #E0E0E0;
+}
+
+.Formulario .Button:hover 
+{
+}
+
+.Button a
+{
+    padding: 2px 8px 3px 8px;
+    font-size: 16px; 
+    font-weight: 500;
+    color: #696969;
+    background: #E0E0E0;
+    text-decoration: none;
+    margin-right: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.Button a.aspNetDisabled 
+{
+    background: #888;
+}
+
+.CompEdit
+{
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+}
+.GradeDados 
+{
+    margin: 6px 0 10px 0;
+    width: 100%;
+    overflow: auto;
+}
+
+.GradeDados table
+{
+    border: 1px solid #606060;
+}
+
+.GradeDados .Cabec 
+{
+    background: #E0E0E0;
+}
+ 
+.GradeDados .Cabec th 
+{
+    color: #696969;
+    font-weight: normal;
+    border: 1px solid #606060;
+}
+
+.GradeDados .Cabec th.LastCol
+{
+    border: 1px solid #606060;
+}
+
+.GradeDados .ColunaMaior
+{
+    min-width: 200px;   
+}
+
+.GradeDados .Pager a:link
+{
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.GradeDados .Pager span
+{    
+    color:Blue;
+    font-weight:bold;
+	padding-left: 7px;
+	padding-right: 7px;
+}

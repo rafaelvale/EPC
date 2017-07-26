@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rohr.Data", "Rohr.Data\Rohr.Data.csproj", "{1F9E14F4-3530-4CAB-8F66-240F679BEA1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rohr.EPC.Business", "Rohr.EPC.Business\Rohr.EPC.Business.csproj", "{24000B1C-EB06-4C5C-AE3A-747706D22DA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rohr.EPC.DAL", "Rohr.EPC.DAL\Rohr.EPC.DAL.csproj", "{B07CF951-E257-441D-B914-C407408772EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rohr.PMWeb", "Rohr.PMWeb\Rohr.PMWeb.csproj", "{F9ACE8E0-32C1-44F2-A1D4-934E091E9129}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rohr.EPC.Web", "Rohr.EPC.Web\Rohr.EPC.Web.csproj", "{D0EDDDC2-4989-4E35-8711-FAAA6173CCBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rohr.EPC.Entity", "Rohr.EPC.Entity\Rohr.EPC.Entity.csproj", "{F4B63F3A-060A-4DCE-AC13-F0C03F6C3405}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rohr.EPC.Mobile", "Rohr.EPC.Mobile\Rohr.EPC.Mobile.csproj", "{23D9AB04-C194-4A11-94F7-973B531250BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F9E14F4-3530-4CAB-8F66-240F679BEA1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F9E14F4-3530-4CAB-8F66-240F679BEA1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F9E14F4-3530-4CAB-8F66-240F679BEA1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F9E14F4-3530-4CAB-8F66-240F679BEA1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24000B1C-EB06-4C5C-AE3A-747706D22DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24000B1C-EB06-4C5C-AE3A-747706D22DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24000B1C-EB06-4C5C-AE3A-747706D22DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24000B1C-EB06-4C5C-AE3A-747706D22DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B07CF951-E257-441D-B914-C407408772EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B07CF951-E257-441D-B914-C407408772EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B07CF951-E257-441D-B914-C407408772EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B07CF951-E257-441D-B914-C407408772EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9ACE8E0-32C1-44F2-A1D4-934E091E9129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9ACE8E0-32C1-44F2-A1D4-934E091E9129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9ACE8E0-32C1-44F2-A1D4-934E091E9129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9ACE8E0-32C1-44F2-A1D4-934E091E9129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0EDDDC2-4989-4E35-8711-FAAA6173CCBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0EDDDC2-4989-4E35-8711-FAAA6173CCBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0EDDDC2-4989-4E35-8711-FAAA6173CCBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0EDDDC2-4989-4E35-8711-FAAA6173CCBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B63F3A-060A-4DCE-AC13-F0C03F6C3405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B63F3A-060A-4DCE-AC13-F0C03F6C3405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B63F3A-060A-4DCE-AC13-F0C03F6C3405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B63F3A-060A-4DCE-AC13-F0C03F6C3405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D9AB04-C194-4A11-94F7-973B531250BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D9AB04-C194-4A11-94F7-973B531250BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D9AB04-C194-4A11-94F7-973B531250BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D9AB04-C194-4A11-94F7-973B531250BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

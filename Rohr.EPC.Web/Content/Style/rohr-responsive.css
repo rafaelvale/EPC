@@ -1,0 +1,22 @@
+﻿/*@media (max-width: 1030px) {
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  .visible-desktop {
+    display: none !important ;
+  }
+  .visible-tablet {
+    display: inherit !important;
+  }
+  .hidden-tablet {
+    display: none !important;
+  }
+}
+
+
+
+@media (max-width: 1030px) {
+    body {
+        font-size: 14px;
+    }
+}*/

@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterAuxiliar.master.cs" Inherits="Rohr.EPC.Web.MasterPage.MasterAuxiliar" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>EPC</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-tooltip" content="Elaboração de Propostas e Contratos" />
+    <meta name="msapplication-starturl" content="Cockpit.aspx" />
+    <meta name="msapplication-navbutton-color" content="#ffe100" />
+    <meta name="msapplication-window" content="width=1230;height=700" />
+    <meta name="description" content="Elaboração de Propostas e Contratos" />
+    <link rel="apple-touch-icon" href="/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <webopt:BundleReference runat="server" Path="~/bundles/style" />
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/scripts") %>
+    </asp:PlaceHolder>
+    <style type="text/css">
+        body {
+            padding-top: 50px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="navbar">
+            <div class="navbar-inner navbar-fixed-top">
+                <div class="container">
+                    <div class="span3">
+                        <span class="brand">EPC</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
