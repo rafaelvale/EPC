@@ -4,19 +4,22 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="contentBody" runat="server">
+    
+       
     <div class="container-fluid" style="display: none;">
         <div class="row-fluid">
             <div class="span12">
                 <div class="input-append">
                     <asp:TextBox ID="txtPesquisar" runat="server" class="input-xxlarge" placeholder="Pesquisar por número do documento, cliente ou obra" onkeypress="submitPesquisa();" autofocus/>
                     <asp:LinkButton ID="linkButtonPesquisar" runat="server" CssClass="btn" onclick="linkButtonPesquisar_Click"><i class="icon-search"></i></asp:LinkButton>
+                     
                 </div>
+                <div style="font-weight:bold;">ESTA PÁGINA IRÁ ATUALIZAR EM: <a id="sessao"></a>
+                     <img src="Content/Image/clock_16x16.png" /></div>
             </div>
             
                
         </div>
-        <DIV style="font-weight:bold;">ESTA PÁGINA IRÁ ATUALIZAR EM: <a id="sessao"></a>
-        <IMG src="Content/Image/clock_16x16.png" /></DIV>
                      
         <div class="row-fluid">
             <div class="span12">
@@ -159,6 +162,7 @@
                 </asp:Repeater>
             </div>
         </div>
+        
     </div>
     <div id="modal-content" class="modal fade" data-backdrop="static" style="display: none;">
         <div class="modal-dialog">
@@ -187,7 +191,6 @@
             </div>
         </div>
     </div>
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 
     <script type="text/javascript">
 
