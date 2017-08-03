@@ -1,0 +1,368 @@
+Error;2017/05/11 08:49:08.127;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/05/11 08:49:08.196;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/05/11 08:51:31.870;System.Exception: Orçamento não encontrado no PMWeb. Verifique se o orçamento está marcado como valido :(
+   em Rohr.PMWeb.Estimates.ObterEstimate(Int32 idEstimate) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 67
+   em Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 227;Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click;Button.RaisePostBackEvent => Button.OnClick => PropostaDocumento.btnUtilizarModelo_Click;
+Error;2017/05/11 09:22:11.421;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/05/11 09:22:11.465;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/05/11 09:22:42.318;Rohr.EPC.Business.MyException: Você não tem permissão para executar essa ação.
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 575
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/05/11 10:32:33.774;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/05/11 10:32:33.818;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/05/11 10:36:04.604;System.Exception: Orçamento não encontrado no PMWeb. Verifique se o orçamento está marcado como valido :(
+   em Rohr.PMWeb.Estimates.ObterEstimate(Int32 idEstimate) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 67
+   em Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 227;Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click;Button.RaisePostBackEvent => Button.OnClick => PropostaDocumento.btnUtilizarModelo_Click;
+Error;2017/05/11 12:29:23.311;System.Data.SqlClient.SqlException (0x80131904): O procedimento ou a função 'AddDocumentoHistoriaRohr' espera o parâmetro '@DescricaoDocumento', que não foi fornecido.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   em Rohr.Data.DbHelper.ExecutarScalar(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 90
+   em Rohr.EPC.DAL.HistoriaRohrDAO.AdicionarDocumentoHistoriaRohr(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\HistoriaRohrDAO.cs:linha 79
+   em Rohr.EPC.Business.ModeloHistoriaRohrBusiness.AdicionarDocumentoHistoriaRohr(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ModeloHistoriaRohrBusiness.cs:linha 25
+   em Rohr.EPC.Web.Finalizar.HistoriaRohr() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Finalizar.aspx.cs:linha 178
+   em Rohr.EPC.Web.Finalizar.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Finalizar.aspx.cs:linha 276
+ClientConnectionId:4a7829ef-cb9b-4767-8045-85287d586805
+Error Number:201,State:4,Class:16;Rohr.EPC.Web.Finalizar.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Finalizar.btnContinuar_Click;
+Error;2017/05/11 15:34:04.395;System.InvalidOperationException: Este SqlTransaction foi concluído; ele não pode mais ser usado.
+   em System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   em System.Data.SqlClient.SqlTransaction.Rollback()
+   em Rohr.Data.DbHelper.RollbackTransacao(IDbTransaction transacao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 27
+   em Rohr.EPC.DAL.HistoriaRohrDAO.AdicionarDocumentoHistoriaRohr(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\HistoriaRohrDAO.cs:linha 65
+   em Rohr.EPC.Business.ModeloHistoriaRohrBusiness.AdicionarDocumentoHistoriaRohr(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ModeloHistoriaRohrBusiness.cs:linha 25
+   em Rohr.EPC.Web.Finalizar.HistoriaRohr() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Finalizar.aspx.cs:linha 178
+   em Rohr.EPC.Web.Finalizar.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Finalizar.aspx.cs:linha 276;Rohr.EPC.Web.Finalizar.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Finalizar.btnContinuar_Click;
+Error;2017/05/11 15:58:10.878;System.InvalidOperationException: Este SqlTransaction foi concluído; ele não pode mais ser usado.
+   em System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   em System.Data.SqlClient.SqlTransaction.Rollback()
+   em Rohr.Data.DbHelper.RollbackTransacao(IDbTransaction transacao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 27
+   em Rohr.EPC.DAL.HistoriaRohrDAO.AdicionarDocumentoHistoriaRohr(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\HistoriaRohrDAO.cs:linha 65
+   em Rohr.EPC.Business.ModeloHistoriaRohrBusiness.AdicionarDocumentoHistoriaRohr(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ModeloHistoriaRohrBusiness.cs:linha 25
+   em Rohr.EPC.Web.Finalizar.HistoriaRohr() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Finalizar.aspx.cs:linha 178
+   em Rohr.EPC.Web.Finalizar.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Finalizar.aspx.cs:linha 276;Rohr.EPC.Web.Finalizar.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Finalizar.btnContinuar_Click;
+Error;2017/05/11 15:58:47.448;System.InvalidOperationException: Este SqlTransaction foi concluído; ele não pode mais ser usado.
+   em System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   em System.Data.SqlClient.SqlTransaction.Rollback()
+   em Rohr.Data.DbHelper.RollbackTransacao(IDbTransaction transacao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 27
+   em Rohr.EPC.DAL.HistoriaRohrDAO.AdicionarDocumentoHistoriaRohr(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\HistoriaRohrDAO.cs:linha 65
+   em Rohr.EPC.Business.ModeloHistoriaRohrBusiness.AdicionarDocumentoHistoriaRohr(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ModeloHistoriaRohrBusiness.cs:linha 25
+   em Rohr.EPC.Web.Finalizar.HistoriaRohr() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Finalizar.aspx.cs:linha 178
+   em Rohr.EPC.Web.Finalizar.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Finalizar.aspx.cs:linha 276;Rohr.EPC.Web.Finalizar.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Finalizar.btnContinuar_Click;
+Error;2017/05/11 16:22:47.776;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/05/11 16:22:47.818;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/05/11 16:39:18.657;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/05/11 16:39:18.718;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/05/11 16:39:50.700;System.Data.SqlClient.SqlException (0x80131904): Há muito argumentos especificados para o procedimento ou a função AddDocumentoProposta.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   em Rohr.Data.DbHelper.ExecutarScalar(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 90
+   em Rohr.Data.DbHelper.ExecutarScalar(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 73
+   em Rohr.EPC.DAL.DocumentoDAO.AdicionarProposta(Documento documento, Workflow workflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoDAO.cs:linha 66
+   em Rohr.EPC.Business.DocumentoBusiness.AdicionarRevisaoProposta(Documento documento, Int32 idUsuario, Int32 idPerfil) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 43
+   em Rohr.EPC.Web.Variaveis.VerificarRevisao(Documento oDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 521
+   em Rohr.EPC.Web.Variaveis.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 671
+ClientConnectionId:555b47f9-29f0-4563-a7e2-56483017d2fe
+Error Number:8144,State:2,Class:16;Rohr.EPC.Web.Variaveis.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Variaveis.btnContinuar_Click;
+Error;2017/05/11 16:39:52.513;System.Data.SqlClient.SqlException (0x80131904): Há muito argumentos especificados para o procedimento ou a função AddDocumentoProposta.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   em Rohr.Data.DbHelper.ExecutarScalar(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 90
+   em Rohr.Data.DbHelper.ExecutarScalar(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 73
+   em Rohr.EPC.DAL.DocumentoDAO.AdicionarProposta(Documento documento, Workflow workflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoDAO.cs:linha 66
+   em Rohr.EPC.Business.DocumentoBusiness.AdicionarRevisaoProposta(Documento documento, Int32 idUsuario, Int32 idPerfil) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 43
+   em Rohr.EPC.Web.Variaveis.VerificarRevisao(Documento oDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 521
+   em Rohr.EPC.Web.Variaveis.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 671
+ClientConnectionId:555b47f9-29f0-4563-a7e2-56483017d2fe
+Error Number:8144,State:2,Class:16;Rohr.EPC.Web.Variaveis.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Variaveis.btnContinuar_Click;
+Error;2017/05/11 16:39:54.432;System.Data.SqlClient.SqlException (0x80131904): Há muito argumentos especificados para o procedimento ou a função AddDocumentoProposta.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   em Rohr.Data.DbHelper.ExecutarScalar(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 90
+   em Rohr.Data.DbHelper.ExecutarScalar(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 73
+   em Rohr.EPC.DAL.DocumentoDAO.AdicionarProposta(Documento documento, Workflow workflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoDAO.cs:linha 66
+   em Rohr.EPC.Business.DocumentoBusiness.AdicionarRevisaoProposta(Documento documento, Int32 idUsuario, Int32 idPerfil) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 43
+   em Rohr.EPC.Web.Variaveis.VerificarRevisao(Documento oDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 521
+   em Rohr.EPC.Web.Variaveis.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 671
+ClientConnectionId:555b47f9-29f0-4563-a7e2-56483017d2fe
+Error Number:8144,State:2,Class:16;Rohr.EPC.Web.Variaveis.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Variaveis.btnContinuar_Click;
+Error;2017/05/11 16:45:29.532;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/05/11 16:45:29.589;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/05/11 16:49:01.009;System.Data.SqlClient.SqlException (0x80131904): Ocorreu um erro no nível de transporte durante o recebimento de resultados do servidor. (provider: TCP Provider, error: 0 - O nome da rede especificado não está mais disponível.) ---> System.ComponentModel.Win32Exception (0x80004005): O nome da rede especificado não está mais disponível
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   em System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   em System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   em System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   em System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   em Rohr.Data.DbComando.RetornarDataTable(String comandoSql, IDbConnection conexao, DbParametros parametros, CommandType tipoComando, IDbTransaction transacao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbComando.cs:linha 39
+   em Rohr.Data.DbHelper.ExecutarDataTable(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 206
+   em Rohr.Data.DbHelper.ExecutarDataTable(String comandoSql, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 188
+   em Rohr.Data.DbHelper.ExecutarDataTable(String comandoSql, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 176
+   em Rohr.EPC.DAL.DocumentoDAO.ObterTodos(String filiais, String segmentos) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoDAO.cs:linha 257
+   em Rohr.EPC.Business.DocumentoBusiness.ObterTodos(List`1 filial, Int32 idPerfil, Int32 idWorkFlowAcao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 186
+   em Rohr.EPC.Web.Cockpit.CarregarDocumentos(Boolean todos, Int32 idWorkflowAcao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Cockpit.aspx.cs:linha 115
+   em Rohr.EPC.Web.Cockpit.ConfigurarBotaoExibirDocumentos() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Cockpit.aspx.cs:linha 360
+   em Rohr.EPC.Web.Cockpit.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Cockpit.aspx.cs:linha 194
+ClientConnectionId:dfd7b15d-410d-46b8-8fa2-8b306569c5e3
+Error Number:64,State:0,Class:20;Rohr.EPC.Web.Cockpit.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Cockpit.Page_Load;
+Error;2017/05/11 16:49:12.669;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/05/11 16:49:12.701;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/05/11 16:49:58.501;System.Data.SqlClient.SqlException (0x80131904): Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: SQL Network Interfaces, error: 26 - Erro ao Localizar Servidor/Instância Especificada)
+   em System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   em System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   em System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   em System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   em System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   em System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   em System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   em System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   em System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   em System.Data.SqlClient.SqlConnection.Open()
+   em Rohr.Data.DbGerenciador.PegarConexao(String nomeConexao, String servidor) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbGerenciador.cs:linha 19
+   em Rohr.Data.DbGerenciador.PegarConexao(String nomeConexao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbGerenciador.cs:linha 12
+   em Rohr.Data.DbHelper..ctor(String nomeConexao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 12
+   em Rohr.EPC.DAL.UsuarioDAO..ctor() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\UsuarioDAO.cs:linha 12
+   em Rohr.EPC.Business.UsuarioBusiness.ValidarUsuarioSenha(String login, String senha) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\UsuarioBusiness.cs:linha 13
+   em Rohr.EPC.Web.Login.ValidarUsuarioSenha() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Login.aspx.cs:linha 19
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20;Rohr.EPC.Web.Login.ValidarUsuarioSenha;Button.OnClick => Login.btnAcessar_Click => Login.ValidarUsuarioSenha;
+Error;2017/05/11 16:50:39.155;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/05/11 16:50:39.200;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/05/11 16:51:50.261;System.Data.SqlClient.SqlException (0x80131904): Ocorreu um erro no nível de transporte durante o recebimento de resultados do servidor. (provider: TCP Provider, error: 0 - O nome da rede especificado não está mais disponível.) ---> System.ComponentModel.Win32Exception (0x80004005): O nome da rede especificado não está mais disponível
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   em System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   em System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   em System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   em System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 317
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 299
+   em Rohr.EPC.DAL.DocumentoDAO.Obter(String proc, Int32 id) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoDAO.cs:linha 213
+   em Rohr.EPC.DAL.DocumentoDAO.ObterPorId(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoDAO.cs:linha 248
+   em Rohr.EPC.Business.DocumentoBusiness.ObterPorId(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 95
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 79
+   em Rohr.EPC.Web.Acoes.MontarLinhaDataTable(DataTable dt, Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Acoes.aspx.cs:linha 80
+   em Rohr.EPC.Web.Acoes.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Acoes.aspx.cs:linha 132
+ClientConnectionId:aa8675fb-83a3-4460-af22-8b9ac2c63ca5
+Error Number:64,State:0,Class:20;Rohr.EPC.Web.Acoes.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Acoes.Page_Load;
+Error;2017/05/11 16:52:18.486;System.Data.SqlClient.SqlException (0x80131904): Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: SQL Network Interfaces, error: 26 - Erro ao Localizar Servidor/Instância Especificada)
+   em System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   em System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   em System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   em System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   em System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   em System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   em System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   em System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   em System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   em System.Data.SqlClient.SqlConnection.Open()
+   em Rohr.Data.DbGerenciador.PegarConexao(String nomeConexao, String servidor) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbGerenciador.cs:linha 19
+   em Rohr.Data.DbGerenciador.PegarConexao(String nomeConexao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbGerenciador.cs:linha 12
+   em Rohr.Data.DbHelper..ctor(String nomeConexao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 12
+   em Rohr.EPC.DAL.PerfilDAO..ctor() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\PerfilDAO.cs:linha 12
+   em Rohr.EPC.Business.PerfilBusiness.ObterPorId(Int32 idPerfil) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PerfilBusiness.cs:linha 21
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 26
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/05/11 16:52:18.512;System.Data.SqlClient.SqlException (0x80131904): Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: SQL Network Interfaces, error: 26 - Erro ao Localizar Servidor/Instância Especificada)
+   em System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   em System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   em System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   em System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   em System.Data.SqlClient.SqlConnection.Open()
+   em Rohr.Data.DbGerenciador.PegarConexao(String nomeConexao, String servidor) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbGerenciador.cs:linha 19
+   em Rohr.Data.DbGerenciador.PegarConexao(String nomeConexao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbGerenciador.cs:linha 12
+   em Rohr.Data.DbHelper..ctor(String nomeConexao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 12
+   em Rohr.EPC.DAL.DocumentoBloqueadoDAO..ctor() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoBloqueadoDAO.cs:linha 11
+   em Rohr.EPC.Business.DocumentoBloqueadoBusiness.ObterBloqueioAtivo(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBloqueadoBusiness.cs:linha 54
+   em Rohr.EPC.Web.Acoes.VerificarBloqueio() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Acoes.aspx.cs:linha 104
+   em Rohr.EPC.Web.Acoes.btnAcaoSecundaria_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Acoes.aspx.cs:linha 186
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20;Rohr.EPC.Web.Acoes.btnAcaoSecundaria_Click;Button.RaisePostBackEvent => Button.OnClick => Acoes.btnAcaoSecundaria_Click;
+Error;2017/05/11 16:52:51.471;System.Data.SqlClient.SqlException (0x80131904): Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: SQL Network Interfaces, error: 26 - Erro ao Localizar Servidor/Instância Especificada)
+   em System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   em System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   em System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   em System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   em System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   em System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   em System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   em System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   em System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   em System.Data.SqlClient.SqlConnection.Open()
+   em Rohr.Data.DbGerenciador.PegarConexao(String nomeConexao, String servidor) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbGerenciador.cs:linha 19
+   em Rohr.Data.DbGerenciador.PegarConexao(String nomeConexao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbGerenciador.cs:linha 12
+   em Rohr.Data.DbHelper..ctor(String nomeConexao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 12
+   em Rohr.EPC.DAL.UsuarioDAO..ctor() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\UsuarioDAO.cs:linha 12
+   em Rohr.EPC.Business.UsuarioBusiness.ValidarUsuarioSenha(String login, String senha) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\UsuarioBusiness.cs:linha 13
+   em Rohr.EPC.Web.Login.ValidarUsuarioSenha() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Login.aspx.cs:linha 19
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20;Rohr.EPC.Web.Login.ValidarUsuarioSenha;Button.OnClick => Login.btnAcessar_Click => Login.ValidarUsuarioSenha;
+Error;2017/05/11 16:54:20.586;System.Data.SqlClient.SqlException (0x80131904): Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: SQL Network Interfaces, error: 26 - Erro ao Localizar Servidor/Instância Especificada)
+   em System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   em System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   em System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   em System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   em System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   em System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   em System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   em System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   em System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   em System.Data.SqlClient.SqlConnection.Open()
+   em Rohr.Data.DbGerenciador.PegarConexao(String nomeConexao, String servidor) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbGerenciador.cs:linha 19
+   em Rohr.Data.DbGerenciador.PegarConexao(String nomeConexao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbGerenciador.cs:linha 12
+   em Rohr.Data.DbHelper..ctor(String nomeConexao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 12
+   em Rohr.EPC.DAL.UsuarioDAO..ctor() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\UsuarioDAO.cs:linha 12
+   em Rohr.EPC.Business.UsuarioBusiness.ValidarUsuarioSenha(String login, String senha) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\UsuarioBusiness.cs:linha 13
+   em Rohr.EPC.Web.Login.ValidarUsuarioSenha() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Login.aspx.cs:linha 19
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20;Rohr.EPC.Web.Login.ValidarUsuarioSenha;Button.OnClick => Login.btnAcessar_Click => Login.ValidarUsuarioSenha;
+Error;2017/05/11 17:07:33.171;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/05/11 17:07:33.288;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/05/11 17:11:45.365;Rohr.EPC.Business.MyException: Nenhum documento selecionado.
+   em Rohr.EPC.Web.MasterPage.MasterDefault.GerarPdf() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 651
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 82;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/05/11 17:20:41.329;System.IndexOutOfRangeException: ExibirHistoria
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em Rohr.EPC.DAL.DocumentoDAO.Obter(String proc, Int32 id) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoDAO.cs:linha 216
+   em Rohr.EPC.DAL.DocumentoDAO.ObterPorId(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoDAO.cs:linha 248
+   em Rohr.EPC.Business.DocumentoBusiness.ObterPorId(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 95
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 79
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 540
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/05/11 17:20:45.631;System.IndexOutOfRangeException: ExibirHistoria
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em Rohr.EPC.DAL.DocumentoDAO.Obter(String proc, Int32 id) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoDAO.cs:linha 216
+   em Rohr.EPC.DAL.DocumentoDAO.ObterPorId(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoDAO.cs:linha 248
+   em Rohr.EPC.Business.DocumentoBusiness.ObterPorId(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 95
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 79
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 540
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/05/11 17:23:02.374;System.IndexOutOfRangeException: ExibirHistoria
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em Rohr.EPC.DAL.DocumentoDAO.Obter(String proc, Int32 id) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoDAO.cs:linha 216
+   em Rohr.EPC.DAL.DocumentoDAO.ObterPorId(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoDAO.cs:linha 248
+   em Rohr.EPC.Business.DocumentoBusiness.ObterPorId(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 95
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 79
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 540
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/05/11 17:23:06.176;System.IndexOutOfRangeException: ExibirHistoria
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em Rohr.EPC.DAL.DocumentoDAO.Obter(String proc, Int32 id) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoDAO.cs:linha 216
+   em Rohr.EPC.DAL.DocumentoDAO.ObterPorId(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoDAO.cs:linha 248
+   em Rohr.EPC.Business.DocumentoBusiness.ObterPorId(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 95
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 79
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 540
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;

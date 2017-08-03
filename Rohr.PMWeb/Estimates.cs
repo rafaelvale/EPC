@@ -142,14 +142,16 @@ namespace Rohr.PMWeb
             _dbHelperPmweb.ExecutarNonQuery(sql, parametros, CommandType.StoredProcedure);
             _dbHelperPmweb.CloseConnection();
         }
-        //public void AtualizarPercentualDesconto(Int32 commitmentId)
-        //{
-        //    String sql = "AtualizaPercentualLimpeza_BR";
-        //    DbParametros parametros = new DbParametros();
-        //    parametros.Adicionar(new DbParametro("@CommitmentId", commitmentId));
+        /* -- desativado em 21/07/2017
+        public void AtualizarPercentualDesconto(Int32 commitmentId)
+        {
+            String sql = "AtualizaPercentualLimpeza_BR";
+            DbParametros parametros = new DbParametros();
+            parametros.Adicionar(new DbParametro("@CommitmentId", commitmentId));
 
-        //    _dbHelperPmweb.ExecutarNonQuery(sql, parametros, CommandType.StoredProcedure);
-        //    _dbHelperPmweb.CloseConnection();
-        //}
+            _dbHelperPmweb.ExecutarNonQuery(sql, parametros, CommandType.StoredProcedure);
+            _dbHelperPmweb.CloseConnection();
+        }
+        */
     }
 }

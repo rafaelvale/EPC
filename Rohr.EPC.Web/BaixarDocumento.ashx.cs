@@ -73,7 +73,7 @@ namespace Rohr.EPC.Web
             {
                 PdfDocument doc = new PdfBusiness().GerarPdf(documento, idPerfilAtivo, idUsuario);
                 new AuditoriaLogBusiness().AdicionarLogPdf(documento, context.Request.Browser);
-                
+
 
                 context.Response.Clear();
                 context.Response.ClearContent();

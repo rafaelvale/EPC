@@ -1,0 +1,25 @@
+Error;2017/03/15 14:42:02.949;System.Exception: Especificações não encontrada :(
+   em Rohr.PMWeb.Specifications.ObterSpecificationById(Int32 idSpecification) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Specifications.cs:linha 278
+   em Rohr.EPC.Business.PdfBusiness.ObterDataParaExibicao(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 233
+   em Rohr.EPC.Business.PdfBusiness.GerarCabecalho(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 176
+   em Rohr.EPC.Business.PdfBusiness.GerarPdf(Documento documento, Int32 idPerfil, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 80
+   em Rohr.EPC.Web.BaixarDocumento.GerarPdf(Documento documento, Int32 idPerfilAtivo, HttpContext context, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 74
+   em Rohr.EPC.Web.BaixarDocumento.ProcessRequest(HttpContext context) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 44;Rohr.EPC.Web.BaixarDocumento.ProcessRequest;HttpApplication.ExecuteStep => CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute => BaixarDocumento.ProcessRequest;
+Error;2017/03/15 14:43:31.904;System.Exception: Especificações não encontrada :(
+   em Rohr.PMWeb.Specifications.ObterSpecificationById(Int32 idSpecification) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Specifications.cs:linha 278
+   em Rohr.EPC.Business.PdfBusiness.GerarRodape(Documento documento, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 198
+   em Rohr.EPC.Business.PdfBusiness.GerarPdf(Documento documento, Int32 idPerfil, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 81
+   em Rohr.EPC.Web.BaixarDocumento.GerarPdf(Documento documento, Int32 idPerfilAtivo, HttpContext context, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 74
+   em Rohr.EPC.Web.BaixarDocumento.ProcessRequest(HttpContext context) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 44;Rohr.EPC.Web.BaixarDocumento.ProcessRequest;HttpApplication.ExecuteStep => CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute => BaixarDocumento.ProcessRequest;
+Error;2017/03/15 15:16:40.897;System.Exception: Especificações não encontrada :(
+   em Rohr.PMWeb.Specifications.ObterSpecificationById(Int32 idSpecification) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Specifications.cs:linha 278
+   em Rohr.EPC.Business.PdfBusiness.MontarHtmlCondicoesGerais(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 327
+   em Rohr.EPC.Business.PdfBusiness.GerarPdf(Documento documento, Int32 idPerfil, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 75
+   em Rohr.EPC.Web.BaixarDocumento.GerarPdf(Documento documento, Int32 idPerfilAtivo, HttpContext context, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 74
+   em Rohr.EPC.Web.BaixarDocumento.ProcessRequest(HttpContext context) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 44;Rohr.EPC.Web.BaixarDocumento.ProcessRequest;HttpApplication.ExecuteStep => CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute => BaixarDocumento.ProcessRequest;
+Error;2017/03/15 16:51:49.042;System.Exception: Especificações não encontrada :(
+   em Rohr.PMWeb.Specifications.ObterSpecificationById(Int32 idSpecification) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Specifications.cs:linha 278
+   em Rohr.EPC.Business.PdfBusiness.MontarHtmlCondicoesGerais(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 327
+   em Rohr.EPC.Business.PdfBusiness.GerarPdf(Documento documento, Int32 idPerfil, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 75
+   em Rohr.EPC.Web.BaixarDocumento.GerarPdf(Documento documento, Int32 idPerfilAtivo, HttpContext context, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 74
+   em Rohr.EPC.Web.BaixarDocumento.ProcessRequest(HttpContext context) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 44;Rohr.EPC.Web.BaixarDocumento.ProcessRequest;HttpApplication.ExecuteStep => CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute => BaixarDocumento.ProcessRequest;

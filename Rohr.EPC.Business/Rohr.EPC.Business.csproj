@@ -31,10 +31,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CKEditor.NET, Version=3.6.6.2, Culture=neutral, PublicKeyToken=e379cdf2f8354999, processorArchitecture=MSIL">
+   <Reference Include="CKEditor.NET, Version=3.6.6.2, Culture=neutral, PublicKeyToken=e379cdf2f8354999, processorArchitecture=MSIL">
       <HintPath>..\packages\CKEditor.net.1.0.0\lib\CKEditor.NET.dll</HintPath>
+    
+    <Reference Include="EO.Pdf">
+      <HintPath>R:\AdmCorporativa\Sistemas\Scripts\Rafael\EPC_Homo\bin\EO.Pdf.dll</HintPath>
     </Reference>
-    <Reference Include="EO.Pdf, Version=6.0.35.2, Culture=neutral, PublicKeyToken=e92353a6bf73fffc, processorArchitecture=MSIL">
+	<Reference Include="EO.Pdf, Version=6.0.35.2, Culture=neutral, PublicKeyToken=e92353a6bf73fffc, processorArchitecture=MSIL">
       <HintPath>..\packages\EO.Pdf.6.0.35\lib\EO.Pdf.dll</HintPath>
     </Reference>
     <Reference Include="itextsharp, Version=5.5.11.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
@@ -61,14 +64,14 @@
     <Compile Include="DocumentoBusiness.cs" />
     <Compile Include="DocumentoClienteBusiness.cs" />
     <Compile Include="DocumentoComercialBusiness.cs" />
-    <Compile Include="DocumentoDescricaoGeralImagemBusiness.cs" />
+	 <Compile Include="DocumentoDescricaoGeralImagemBusiness.cs" />
     <Compile Include="DocumentoDescricaoGeralPortfolioBusiness.cs" />
     <Compile Include="DocumentoImagensBusiness.cs" />
     <Compile Include="DocumentoObjetoBusiness.cs" />
     <Compile Include="DocumentoObjetoDetalheContratoBusiness.cs" />
     <Compile Include="DocumentoObjetoObservacaoBusiness.cs" />
     <Compile Include="DocumentoObraBusiness.cs" />
-    <Compile Include="DocumentoPortfolioBusiness.cs" />
+	<Compile Include="DocumentoPortfolioBusiness.cs" />
     <Compile Include="DocumentoResumoPropostaBusiness.cs" />
     <Compile Include="DocumentoResumoBusiness.cs" />
     <Compile Include="DocumentoSemNegocioBusiness.cs" />
@@ -76,13 +79,13 @@
     <Compile Include="ExcecaoBusiness.cs" />
     <Compile Include="FilialBusiness.cs" />
     <Compile Include="AuditoriaLogBusiness.cs" />
-    <Compile Include="ImagemBusiness.cs" />
+	 <Compile Include="ImagemBusiness.cs" />
     <Compile Include="ModeloBusiness.cs" />
     <Compile Include="ModeloCondicoesGeraisBusiness.cs" />
     <Compile Include="ModeloEmailBusiness.cs" />
-    <Compile Include="ModeloHistoriaRohrBusiness.cs" />
+	 <Compile Include="ModeloHistoriaRohrBusiness.cs" />
     <Compile Include="ModeloMetaBusiness.cs" />
-    <Compile Include="ModeloPortfolioObrasBusiness.cs" />
+	<Compile Include="ModeloPortfolioObrasBusiness.cs" />
     <Compile Include="MyException.cs" />
     <Compile Include="NotificacaoUsuarioBusiness.cs" />
     <Compile Include="PartePreenchidaBusiness.cs" />

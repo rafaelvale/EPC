@@ -1,0 +1,98 @@
+Error;2017/06/20 08:29:42.456;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 22;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/20 08:30:43.851;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 22;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/20 08:35:59.659;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 22;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/20 08:37:42.527;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 22;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/20 08:40:52.766;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 22;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/20 08:59:52.326;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 22;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/20 10:39:32.309;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 22;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/20 12:14:16.483;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 22;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/20 12:15:24.994;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 22;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/20 12:15:24.994;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 22;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/20 12:18:25.996;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 22;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/20 14:18:23.062;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 22;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/20 14:24:42.790;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/20 14:24:42.834;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/20 14:28:12.497;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 22;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/20 15:32:45.288;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/20 15:32:45.375;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/20 15:34:54.630;System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'UpdateDocumentoImagens'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 150
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 132
+   em Rohr.EPC.DAL.DocumentoImagensDAO.Update(DocumentoImagens DocImg) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoImagensDAO.cs:linha 65
+   em Rohr.EPC.Business.DocumentoImagensBusiness.UpdateDocumentoImagens(DocumentoImagens DocImg) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoImagensBusiness.cs:linha 21
+   em Rohr.EPC.Web.Fotos.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 342
+ClientConnectionId:63245176-af9e-402e-b8e4-890b0fccd71a
+Error Number:2812,State:62,Class:16;Rohr.EPC.Web.Fotos.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Fotos.btnContinuar_Click;
+Error;2017/06/20 15:38:10.071;Rohr.EPC.Business.MyException: Não foi possível identificar as chaves no modelo. Verifique se você não apagou nenhuma chave (em vermelho). As partes serão substituidas pelo texto original.
+   em Rohr.EPC.Web.Partes.SubstituirValorPorChave(String partePreenchida, Int32 idParte) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 119
+   em Rohr.EPC.Web.Partes.<btnContinuar_Click>b__8_1(CKEditorControl oCKEditorContro) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 186
+   em System.Linq.Enumerable.<>c__DisplayClass7_0`3.<CombineSelectors>b__0(TSource x)
+   em System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   em System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   em System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   em Rohr.EPC.Web.Partes.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 186;Rohr.EPC.Web.Partes.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Partes.btnContinuar_Click;
+Error;2017/06/20 15:38:18.851;Rohr.EPC.Business.MyException: Não foi possível identificar as chaves no modelo. Verifique se você não apagou nenhuma chave (em vermelho). As partes serão substituidas pelo texto original.
+   em Rohr.EPC.Web.Partes.SubstituirValorPorChave(String partePreenchida, Int32 idParte) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 119
+   em Rohr.EPC.Web.Partes.<btnContinuar_Click>b__8_1(CKEditorControl oCKEditorContro) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 186
+   em System.Linq.Enumerable.<>c__DisplayClass7_0`3.<CombineSelectors>b__0(TSource x)
+   em System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   em System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   em System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   em Rohr.EPC.Web.Partes.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 186;Rohr.EPC.Web.Partes.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Partes.btnContinuar_Click;
+Error;2017/06/20 16:56:20.780;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/20 16:56:20.811;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/20 17:10:54.565;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/20 17:10:54.607;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/20 17:11:22.257;Rohr.EPC.Business.MyException: Observação muito curta. Detalhe mais o motivo da reprovação :(
+   em Rohr.EPC.Web.Acoes.ValidarJustificativa() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Acoes.aspx.cs:linha 52
+   em Rohr.EPC.Web.Acoes.btnAcaoSecundaria_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Acoes.aspx.cs:linha 189;Rohr.EPC.Web.Acoes.btnAcaoSecundaria_Click;Button.RaisePostBackEvent => Button.OnClick => Acoes.btnAcaoSecundaria_Click;
+Error;2017/06/20 17:11:26.666;Rohr.EPC.Business.MyException: Observação muito curta. Detalhe mais o motivo da reprovação :(
+   em Rohr.EPC.Web.Acoes.ValidarJustificativa() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Acoes.aspx.cs:linha 52
+   em Rohr.EPC.Web.Acoes.btnAcaoSecundaria_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Acoes.aspx.cs:linha 189;Rohr.EPC.Web.Acoes.btnAcaoSecundaria_Click;Button.RaisePostBackEvent => Button.OnClick => Acoes.btnAcaoSecundaria_Click;

@@ -20,95 +20,97 @@ namespace Rohr.EPC.Web
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            try
-            {
-                CKEditorObservacoesObjeto.config.toolbar = new object[] { new object[] { "Maximize", "-", "Undo", "Redo", "-", "Bold", "Italic", "RemoveFormat" } };
-                CKEditorObservacoesObjeto.config.enterMode = EnterMode.BR;
-                CKEditorObservacoesObjeto.config.removePlugins = "elementspath";
-                CKEditorObservacoesObjeto.config.pasteFromWordPromptCleanup = true;
-                CKEditorObservacoesObjeto.config.forcePasteAsPlainText = true;
-                CKEditorObservacoesObjeto.config.fillEmptyBlocks = false;
-                CKEditorObservacoesObjeto.config.ignoreEmptyParagraph = false;
-
-
-                _documento = new Util().GetSessaoDocumento();
-                new DocumentoBusiness().VerificarPropostaFechadaPMWeb(_documento);
-                CarregarPainelDetalhes();
-                CarregarObjeto();
-                VerificarModeloCliente(_documento);
-
-                if (IsPostBack) return;
-
-                if (_documento.ListDocumentoObjeto == null || _documento.ListDocumentoObjeto.Count <= 0)
-                    ObterItensTela();
-                else
+            
+                try
                 {
-                    ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c02")).Checked = _documento.ListDocumentoObjeto[0].ExibirDescricaoResumida;
-                    ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c04")).Checked = _documento.ListDocumentoObjeto[0].ExibirQuantidade;
-                    ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c05")).Checked = _documento.ListDocumentoObjeto[0].ExibirUnidade;
-                    ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c06")).Checked = _documento.ListDocumentoObjeto[0].ExibirPeso;
-                    ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c07")).Checked = _documento.ListDocumentoObjeto[0].ExibirValorTabelaLocacao;
-                    ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c08")).Checked = _documento.ListDocumentoObjeto[0].ExibirValorPraticadoLocacao;
-                    ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c09")).Checked = _documento.ListDocumentoObjeto[0].ExibirValorTabelaIndenizacao;
-                    ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c10")).Checked = _documento.ListDocumentoObjeto[0].ExibirValorPraticadoIndenizacao;
-                    ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c11")).Checked = _documento.ListDocumentoObjeto[0].ExibirDesconto;
-                    ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c12")).Checked = _documento.ListDocumentoObjeto[0].ExibirValorTotalItem;
-                    ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c13")).Checked = _documento.ListDocumentoObjeto[0].ExibirPesoTotalItem;
+                    CKEditorObservacoesObjeto.config.toolbar = new object[] { new object[] { "Maximize", "-", "Undo", "Redo", "-", "Bold", "Italic", "RemoveFormat" } };
+                    CKEditorObservacoesObjeto.config.enterMode = EnterMode.BR;
+                    CKEditorObservacoesObjeto.config.removePlugins = "elementspath";
+                    CKEditorObservacoesObjeto.config.pasteFromWordPromptCleanup = true;
+                    CKEditorObservacoesObjeto.config.forcePasteAsPlainText = true;
+                    CKEditorObservacoesObjeto.config.fillEmptyBlocks = false;
+                    CKEditorObservacoesObjeto.config.ignoreEmptyParagraph = false;
 
-                    if (_documento.Modelo.Segmento.IdSegmento == 2)
+
+                    _documento = new Util().GetSessaoDocumento();
+                    new DocumentoBusiness().VerificarPropostaFechadaPMWeb(_documento);
+                    CarregarPainelDetalhes();
+                    CarregarObjeto();
+                    VerificarModeloCliente(_documento);
+
+                    if (IsPostBack) return;
+
+                    if (_documento.ListDocumentoObjeto == null || _documento.ListDocumentoObjeto.Count <= 0)
+                        ObterItensTela();
+                    else
                     {
-                        ckSubTotalPeso.Checked = false;
-                        ckSubTotalPeso.Enabled = false;
+                        ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c02")).Checked = _documento.ListDocumentoObjeto[0].ExibirDescricaoResumida;
+                        ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c04")).Checked = _documento.ListDocumentoObjeto[0].ExibirQuantidade;
+                        ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c05")).Checked = _documento.ListDocumentoObjeto[0].ExibirUnidade;
+                        ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c06")).Checked = _documento.ListDocumentoObjeto[0].ExibirPeso;
+                        ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c07")).Checked = _documento.ListDocumentoObjeto[0].ExibirValorTabelaLocacao;
+                        ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c08")).Checked = _documento.ListDocumentoObjeto[0].ExibirValorPraticadoLocacao;
+                        ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c09")).Checked = _documento.ListDocumentoObjeto[0].ExibirValorTabelaIndenizacao;
+                        ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c10")).Checked = _documento.ListDocumentoObjeto[0].ExibirValorPraticadoIndenizacao;
+                        ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c11")).Checked = _documento.ListDocumentoObjeto[0].ExibirDesconto;
+                        ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c12")).Checked = _documento.ListDocumentoObjeto[0].ExibirValorTotalItem;
+                        ((HtmlInputCheckBox)tabelaColunas.Rows[0].FindControl("c13")).Checked = _documento.ListDocumentoObjeto[0].ExibirPesoTotalItem;
+
+                        if (_documento.Modelo.Segmento.IdSegmento == 2)
+                        {
+                            ckSubTotalPeso.Checked = false;
+                            ckSubTotalPeso.Enabled = false;
+                        }
+
+                        ckSubtotalFaturamentoMensal.Checked = _documento.ListDocumentoObjeto[0].ExibirFaturamentoMensalObjeto;
+                        ckValorTotalFaturamentoMensal.Checked = _documento.ListDocumentoObjeto[0].ExibirFaturamentoMensal;
+                        ckValorTotalNegocio.Checked = _documento.ListDocumentoObjeto[0].ExibirValorNegocio;
+                        ckSubtotalNegocio.Checked = _documento.ListDocumentoObjeto[0].ExibirValorNegocioObjeto;
+                        ckPrevisaoUtilizacao.Checked = _documento.ListDocumentoObjeto[0].ExibirPrevisaoUtilizacao;
+                        ckSubTotalPeso.Checked = _documento.ListDocumentoObjeto[0].ExibirSubTotalPeso;
+
+                        if (_documento.Modelo.Segmento.IdSegmento == 3)
+                        {
+                            ckValorTotalNegocio.Checked = false;
+                            ckValorTotalNegocio.Enabled = false;
+
+                            ckSubtotalNegocio.Checked = false;
+                            ckSubtotalNegocio.Enabled = false;
+                        }
+
+                        ObterItensTela();
                     }
 
-                    ckSubtotalFaturamentoMensal.Checked = _documento.ListDocumentoObjeto[0].ExibirFaturamentoMensalObjeto;
-                    ckValorTotalFaturamentoMensal.Checked = _documento.ListDocumentoObjeto[0].ExibirFaturamentoMensal;
-                    ckValorTotalNegocio.Checked = _documento.ListDocumentoObjeto[0].ExibirValorNegocio;
-                    ckSubtotalNegocio.Checked = _documento.ListDocumentoObjeto[0].ExibirValorNegocioObjeto;
-                    ckPrevisaoUtilizacao.Checked = _documento.ListDocumentoObjeto[0].ExibirPrevisaoUtilizacao;
-                    ckSubTotalPeso.Checked = _documento.ListDocumentoObjeto[0].ExibirSubTotalPeso;
-
-                    if (_documento.Modelo.Segmento.IdSegmento == 3)
+                    if (!_documento.EProposta)
                     {
-                        ckValorTotalNegocio.Checked = false;
+                        ckValorTotalFaturamentoMensal.Enabled = true;
+                        ckValorTotalFaturamentoMensal.Checked = false;
+
                         ckValorTotalNegocio.Enabled = false;
-
-                        ckSubtotalNegocio.Checked = false;
-                        ckSubtotalNegocio.Enabled = false;
+                        ckValorTotalNegocio.Checked = true;
                     }
 
-                    ObterItensTela();
-                }
+                    CarregarObservacaoObjeto(_documento);
 
-                if (!_documento.EProposta)
+                    ckValorTotalFaturamentoMensal.Text = String.Format("Valor total do Faturamento Mensal (R$ {0:N2})", _documento.ValorFaturamentoMensal);
+                    ckValorTotalNegocio.Text = String.Format("Valor total do Negócio (R$ {0:N2})", _documento.ValorNegocio);
+                }
+                catch (Exception ex)
                 {
-                    ckValorTotalFaturamentoMensal.Enabled = true;
-                    ckValorTotalFaturamentoMensal.Checked = false;
-
-                    ckValorTotalNegocio.Enabled = false;
-                    ckValorTotalNegocio.Checked = true;
+                    Util.ExibirMensagem(lblMensagem, ex.Message, Util.TipoMensagem.Erro);
+                    btnContinuar.Enabled = false;
+                    btnContinuar.Attributes.Add("disabled", "disabled");
+                    tableColunas.Visible = false;
+                    demaisOpcoes.Visible = false;
+                    lkPlanilhaOrcamentaria.Visible = false;
+                    NLog.Log().Error(ex);
+                    ExcecaoBusiness.Adicionar(ex, HttpContext.Current.Request.Url.AbsolutePath);
                 }
-
-                CarregarObservacaoObjeto(_documento);
-
-                ckValorTotalFaturamentoMensal.Text = String.Format("Valor total do Faturamento Mensal (R$ {0:N2})", _documento.ValorFaturamentoMensal);
-                ckValorTotalNegocio.Text = String.Format("Valor total do Negócio (R$ {0:N2})", _documento.ValorNegocio);
-            }
-            catch (Exception ex)
-            {
-                Util.ExibirMensagem(lblMensagem, ex.Message, Util.TipoMensagem.Erro);
-                btnContinuar.Enabled = false;
-                btnContinuar.Attributes.Add("disabled", "disabled");
-                tableColunas.Visible = false;
-                demaisOpcoes.Visible = false;
-                lkPlanilhaOrcamentaria.Visible = false;
-                NLog.Log().Error(ex);
-                ExcecaoBusiness.Adicionar(ex, HttpContext.Current.Request.Url.AbsolutePath);
-            }
+            
         }
         protected void btnContinuar_Click(object sender, EventArgs e)
         {
-            
+
             try
             {
                 ObterItensTela();

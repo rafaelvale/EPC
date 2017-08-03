@@ -1,0 +1,50 @@
+Error;2017/01/23 15:37:43.379;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/01/23 15:37:43.485;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/01/23 15:45:47.743;System.Configuration.ConfigurationErrorsException: A seção de configuração não pode conter um elemento de texto ou CDATA. (C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Web\web.config line 35)
+   em System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   em System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   em System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   em System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   em System.Web.HttpContext.GetSection(String sectionName)
+   em System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   em System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   em System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   em Rohr.EPC.Business.Util.ObterServidorDados(Label label) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 298
+   em Rohr.EPC.Web.Login.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Web\Login.aspx.cs:linha 150;Rohr.EPC.Web.Login.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Login.Page_Load;
+Error;2017/01/23 15:45:52.961;System.Configuration.ConfigurationErrorsException: A seção de configuração não pode conter um elemento de texto ou CDATA. (C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Web\web.config line 35)
+   em System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   em System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   em System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   em System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   em System.Web.HttpContext.GetSection(String sectionName)
+   em System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   em System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   em System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   em Rohr.EPC.Business.Util.ObterServidorDados(Label label) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 298
+   em Rohr.EPC.Web.Login.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Web\Login.aspx.cs:linha 150;Rohr.EPC.Web.Login.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Login.Page_Load;
+Error;2017/01/23 15:45:52.998;System.Configuration.ConfigurationErrorsException: A seção de configuração não pode conter um elemento de texto ou CDATA. (C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Web\web.config line 35)
+   em System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   em System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   em System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   em System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   em System.Web.HttpContext.GetSection(String sectionName)
+   em System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   em System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   em System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   em Rohr.Data.DbGerenciador.PegarStringConexao(String nomeConexao) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.Data\DbGerenciador.cs:linha 24
+   em Rohr.Data.DbGerenciador.PegarConexao(String nomeConexao, String servidor) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.Data\DbGerenciador.cs:linha 18
+   em Rohr.Data.DbGerenciador.PegarConexao(String nomeConexao) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.Data\DbGerenciador.cs:linha 12
+   em Rohr.Data.DbHelper..ctor(String nomeConexao) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 12
+   em Rohr.EPC.DAL.UsuarioDAO..ctor() na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.DAL\UsuarioDAO.cs:linha 12
+   em Rohr.EPC.Business.UsuarioBusiness.ValidarUsuarioSenha(String login, String senha) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Business\UsuarioBusiness.cs:linha 13
+   em Rohr.EPC.Web.Login.ValidarUsuarioSenha() na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Web\Login.aspx.cs:linha 19;Rohr.EPC.Web.Login.ValidarUsuarioSenha;Button.OnClick => Login.btnAcessar_Click => Login.ValidarUsuarioSenha;
+Error;2017/01/23 15:53:12.536;System.Exception: Não foi possível encontrar o contrato associado a essa proposta no PMWeb. Verifique se o contrato foi gerado. :(
+   em Rohr.PMWeb.CostManagementCommitments.ObterContratoPorOportunidade(Int32 documentTodoListId) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.PMWeb\CostManagementCommitments.cs:linha 76
+   em Rohr.EPC.Web.ContratoDocumento.ObterDadosPmweb(Documento documentoProposta) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Web\ContratoDocumento.aspx.cs:linha 107
+   em Rohr.EPC.Web.ContratoDocumento.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Web\ContratoDocumento.aspx.cs:linha 183;Rohr.EPC.Web.ContratoDocumento.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => ContratoDocumento.Page_Load;
+Error;2017/01/23 15:55:15.002;Rohr.EPC.Business.MyException: Informe um parametro para pesquisa
+   em Rohr.EPC.Business.DocumentoBusiness.ObterTodosDocumento(String valor, Int32 idPerfil, Usuario usuario) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 236
+   em Rohr.EPC.Web.Relatorios.Pesquisa.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Web\Relatorios\Pesquisa.aspx.cs:linha 20;Rohr.EPC.Web.Relatorios.Pesquisa.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Pesquisa.Page_Load;

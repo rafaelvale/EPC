@@ -1,0 +1,569 @@
+Error;2017/04/25 08:13:29.520;System.InvalidCastException: Não é possível converter um objeto do tipo 'System.DBNull' no tipo 'System.Byte[]'.
+   em Rohr.EPC.DAL.DocumentoComercialDAO.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoComercialDAO.cs:linha 24
+   em Rohr.EPC.Business.DocumentoComercialBusiness.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoComercialBusiness.cs:linha 11
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 84
+   em Rohr.EPC.Web.MasterPage.MasterDefault.GerarPdf() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 657
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 82;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/25 08:42:24.826;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 08:42:24.870;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 08:42:35.955;System.InvalidCastException: Não é possível converter um objeto do tipo 'System.DBNull' no tipo 'System.Byte[]'.
+   em Rohr.EPC.DAL.DocumentoComercialDAO.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoComercialDAO.cs:linha 24
+   em Rohr.EPC.Business.DocumentoComercialBusiness.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoComercialBusiness.cs:linha 11
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 84
+   em Rohr.EPC.Web.MasterPage.MasterDefault.GerarPdf() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 657
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 82;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/25 08:42:42.086;System.InvalidCastException: Não é possível converter um objeto do tipo 'System.DBNull' no tipo 'System.Byte[]'.
+   em Rohr.EPC.DAL.DocumentoComercialDAO.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoComercialDAO.cs:linha 24
+   em Rohr.EPC.Business.DocumentoComercialBusiness.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoComercialBusiness.cs:linha 11
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 84
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 540
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/25 09:01:43.408;System.InvalidCastException: Não é possível converter um objeto do tipo 'System.DBNull' no tipo 'System.Byte[]'.
+   em Rohr.EPC.DAL.DocumentoComercialDAO.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoComercialDAO.cs:linha 25
+   em Rohr.EPC.Business.DocumentoComercialBusiness.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoComercialBusiness.cs:linha 11
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 84
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 540
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/25 09:16:03.363;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 81
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 561
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 611;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 09:19:45.089;System.InvalidCastException: Não é possível converter um objeto do tipo 'System.DBNull' no tipo 'System.Byte[]'.
+   em Rohr.EPC.DAL.DocumentoComercialDAO.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoComercialDAO.cs:linha 25
+   em Rohr.EPC.Business.DocumentoComercialBusiness.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoComercialBusiness.cs:linha 11
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 84
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 540
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/25 09:21:04.153;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 81
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 561
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 611;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 09:22:47.291;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 81
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 561
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 611;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 09:24:48.756;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 09:24:48.812;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 09:24:58.568;System.IndexOutOfRangeException: Conteudo
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em Rohr.EPC.DAL.DocumentoComercialDAO.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoComercialDAO.cs:linha 26
+   em Rohr.EPC.Business.DocumentoComercialBusiness.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoComercialBusiness.cs:linha 11
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 84
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 540
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/25 09:25:06.401;System.IndexOutOfRangeException: Conteudo
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em Rohr.EPC.DAL.DocumentoComercialDAO.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoComercialDAO.cs:linha 26
+   em Rohr.EPC.Business.DocumentoComercialBusiness.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoComercialBusiness.cs:linha 11
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 84
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 540
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/25 09:25:12.354;System.IndexOutOfRangeException: Conteudo
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em Rohr.EPC.DAL.DocumentoComercialDAO.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoComercialDAO.cs:linha 26
+   em Rohr.EPC.Business.DocumentoComercialBusiness.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoComercialBusiness.cs:linha 11
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 84
+   em Rohr.EPC.Web.MasterPage.MasterDefault.GerarPdf() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 657
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 82;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/25 09:25:20.895;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Business.PdfBusiness.GerarRodape(Documento documento, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 234
+   em Rohr.EPC.Business.PdfBusiness.GerarPdf(Documento documento, Int32 idPerfil, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 98
+   em Rohr.EPC.Web.BaixarDocumento.GerarPdf(Documento documento, Int32 idPerfilAtivo, HttpContext context, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 74
+   em Rohr.EPC.Web.BaixarDocumento.ProcessRequest(HttpContext context) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 44;Rohr.EPC.Web.BaixarDocumento.ProcessRequest;HttpApplication.ExecuteStep => CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute => BaixarDocumento.ProcessRequest;
+Error;2017/04/25 09:37:34.327;System.InvalidCastException: Não é possível converter um objeto do tipo 'System.DBNull' no tipo 'System.Byte[]'.
+   em Rohr.EPC.DAL.DocumentoComercialDAO.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoComercialDAO.cs:linha 26
+   em Rohr.EPC.Business.DocumentoComercialBusiness.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoComercialBusiness.cs:linha 11
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 84
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 540
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/25 09:37:43.037;System.InvalidCastException: Não é possível converter um objeto do tipo 'System.DBNull' no tipo 'System.Byte[]'.
+   em Rohr.EPC.DAL.DocumentoComercialDAO.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoComercialDAO.cs:linha 26
+   em Rohr.EPC.Business.DocumentoComercialBusiness.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoComercialBusiness.cs:linha 11
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 84
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 540
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/25 10:00:59.255;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 81
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 561
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 611;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 10:03:04.877;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 10:03:04.920;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 10:05:03.642;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 81
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 561
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 611;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 10:05:09.506;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 81
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 561
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 611;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 10:05:32.575;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 81
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 561
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 611;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 10:05:45.989;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 81
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 561
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 611;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 11:41:01.545;System.Data.SqlTypes.SqlNullValueException: Dados são Null. Não é possível chamar este método ou esta propriedade em valores Null.
+   em System.Data.SqlClient.SqlBuffer.get_String()
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.DocumentoComercialDAO.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoComercialDAO.cs:linha 26
+   em Rohr.EPC.Business.DocumentoComercialBusiness.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoComercialBusiness.cs:linha 11
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 84
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 540
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/25 11:45:08.259;System.Data.SqlTypes.SqlNullValueException: Dados são Null. Não é possível chamar este método ou esta propriedade em valores Null.
+   em System.Data.SqlClient.SqlBuffer.get_String()
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.DocumentoComercialDAO.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoComercialDAO.cs:linha 26
+   em Rohr.EPC.Business.DocumentoComercialBusiness.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoComercialBusiness.cs:linha 11
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 84
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 540
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/25 11:50:07.598;System.Data.SqlTypes.SqlNullValueException: Dados são Null. Não é possível chamar este método ou esta propriedade em valores Null.
+   em System.Data.SqlClient.SqlBuffer.get_String()
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.DocumentoComercialDAO.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoComercialDAO.cs:linha 26
+   em Rohr.EPC.Business.DocumentoComercialBusiness.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoComercialBusiness.cs:linha 11
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 84
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 540
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/25 11:53:18.538;System.InvalidCastException: Não é possível converter um objeto do tipo 'System.DBNull' no tipo 'System.Byte[]'.
+   em Rohr.EPC.DAL.DocumentoComercialDAO.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoComercialDAO.cs:linha 26
+   em Rohr.EPC.Business.DocumentoComercialBusiness.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoComercialBusiness.cs:linha 11
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 84
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 540
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/25 11:55:26.757;System.InvalidCastException: Não é possível converter um objeto do tipo 'System.DBNull' no tipo 'System.Byte[]'.
+   em Rohr.EPC.DAL.DocumentoComercialDAO.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoComercialDAO.cs:linha 26
+   em Rohr.EPC.Business.DocumentoComercialBusiness.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoComercialBusiness.cs:linha 11
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 84
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 540
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/25 11:55:33.456;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 85
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 593
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 645;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 11:59:11.701;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 11:59:11.756;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 11:59:22.839;System.InvalidCastException: Não é possível converter um objeto do tipo 'System.DBNull' no tipo 'System.Byte[]'.
+   em Rohr.EPC.DAL.DocumentoComercialDAO.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoComercialDAO.cs:linha 26
+   em Rohr.EPC.Business.DocumentoComercialBusiness.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoComercialBusiness.cs:linha 11
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 84
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 540
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/25 12:00:14.112;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 12:00:14.159;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 12:02:23.047;System.InvalidCastException: Não é possível converter um objeto do tipo 'System.DBNull' no tipo 'System.Byte[]'.
+   em Rohr.EPC.DAL.DocumentoComercialDAO.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoComercialDAO.cs:linha 26
+   em Rohr.EPC.Business.DocumentoComercialBusiness.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoComercialBusiness.cs:linha 11
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 84
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 540
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/25 12:03:38.823;System.InvalidCastException: Não é possível converter um objeto do tipo 'System.DBNull' no tipo 'System.Byte[]'.
+   em Rohr.EPC.DAL.DocumentoComercialDAO.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoComercialDAO.cs:linha 26
+   em Rohr.EPC.Business.DocumentoComercialBusiness.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoComercialBusiness.cs:linha 11
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 84
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 540
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/25 12:04:41.261;System.IndexOutOfRangeException: FotoComercial
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em Rohr.EPC.DAL.DocumentoComercialDAO.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoComercialDAO.cs:linha 26
+   em Rohr.EPC.Business.DocumentoComercialBusiness.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoComercialBusiness.cs:linha 11
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 84
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 540
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/25 12:16:38.206;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 85
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 593
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 645;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 12:25:10.718;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 85
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 593
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 645;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 12:37:20.870;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 12:37:20.914;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 14:29:52.797;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 14:29:52.841;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 14:30:02.794;System.Data.SqlClient.SqlException (0x80131904): Sintaxe incorreta próxima a 'CompanyAddressesContacts'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 317
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 295
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, IDbTransaction transacao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 287
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 279
+   em Rohr.PMWeb.Contacts.GetImage(Int32 documentId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 38
+   em Rohr.EPC.Web.Variaveis.MontarLabelValor(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 203
+   em Rohr.EPC.Web.Variaveis.MontarControles(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 24
+   em Rohr.EPC.Web.Variaveis.MontarHtml(IEnumerable`1 partes, Table table) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 501
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 631
+ClientConnectionId:1c3358a4-7d5b-4d2e-8532-f25a788ca1ae
+Error Number:102,State:1,Class:15;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 14:31:45.324;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 14:31:45.369;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 14:31:54.180;System.Data.SqlClient.SqlException (0x80131904): Sintaxe incorreta próxima a 'CompanyAddressesContacts'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 317
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 295
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, IDbTransaction transacao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 287
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 279
+   em Rohr.PMWeb.Contacts.GetImage(Int32 documentId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 39
+   em Rohr.EPC.Web.Variaveis.MontarLabelValor(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 203
+   em Rohr.EPC.Web.Variaveis.MontarControles(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 24
+   em Rohr.EPC.Web.Variaveis.MontarHtml(IEnumerable`1 partes, Table table) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 501
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 631
+ClientConnectionId:41450238-7d86-492f-a138-cab2d4173221
+Error Number:102,State:1,Class:15;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 14:33:21.482;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 14:33:21.528;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 14:33:33.191;System.Data.SqlClient.SqlException (0x80131904): Sintaxe incorreta próxima a 'CompanyAddressesContacts'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 317
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 295
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, IDbTransaction transacao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 287
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 279
+   em Rohr.PMWeb.Contacts.GetImage(Int32 documentId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 38
+   em Rohr.EPC.Web.Variaveis.MontarLabelValor(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 203
+   em Rohr.EPC.Web.Variaveis.MontarControles(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 24
+   em Rohr.EPC.Web.Variaveis.MontarHtml(IEnumerable`1 partes, Table table) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 501
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 631
+ClientConnectionId:b083449d-21b1-41dd-b185-50b537cc0c66
+Error Number:102,State:1,Class:15;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 14:45:56.146;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 14:45:56.193;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 14:46:08.002;System.Data.SqlClient.SqlException (0x80131904): Sintaxe incorreta próxima a 'CompanyAddressesContacts'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 317
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 295
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, IDbTransaction transacao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 287
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 279
+   em Rohr.PMWeb.Contacts.GetImage(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 37
+   em Rohr.EPC.Web.Variaveis.MontarLabelValor(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 203
+   em Rohr.EPC.Web.Variaveis.MontarControles(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 24
+   em Rohr.EPC.Web.Variaveis.MontarHtml(IEnumerable`1 partes, Table table) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 501
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 631
+ClientConnectionId:8eb7612a-20d9-40fd-a4e1-c06ac0937ee7
+Error Number:102,State:1,Class:15;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 14:46:42.082;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 14:46:42.128;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 14:48:58.100;System.Data.SqlClient.SqlException (0x80131904): Sintaxe incorreta próxima a 'CompanyAddressesContacts'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 317
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 295
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, IDbTransaction transacao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 287
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 279
+   em Rohr.PMWeb.Contacts.GetImage(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 37
+   em Rohr.EPC.Web.Variaveis.MontarLabelValor(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 203
+   em Rohr.EPC.Web.Variaveis.MontarControles(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 24
+   em Rohr.EPC.Web.Variaveis.MontarHtml(IEnumerable`1 partes, Table table) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 501
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 631
+ClientConnectionId:06b11054-a8f9-4d3a-963d-d4c9cca3e92b
+Error Number:102,State:1,Class:15;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 14:50:10.433;System.Data.SqlClient.SqlException (0x80131904): Sintaxe incorreta próxima a 'CompanyAddressesContacts'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 317
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 295
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, IDbTransaction transacao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 287
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 279
+   em Rohr.PMWeb.Contacts.GetImage(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 37
+   em Rohr.EPC.Web.Variaveis.MontarLabelValor(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 203
+   em Rohr.EPC.Web.Variaveis.MontarControles(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 24
+   em Rohr.EPC.Web.Variaveis.MontarHtml(IEnumerable`1 partes, Table table) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 501
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 631
+ClientConnectionId:1188472e-c2a0-4347-863d-5fbbe3dcbb92
+Error Number:102,State:1,Class:15;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 14:51:43.153;System.Data.SqlClient.SqlException (0x80131904): Sintaxe incorreta próxima a 'CompanyAddressesContacts'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 317
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 295
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, IDbTransaction transacao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 287
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 279
+   em Rohr.PMWeb.Contacts.GetImage(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 37
+   em Rohr.EPC.Web.Variaveis.MontarLabelValor(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 203
+   em Rohr.EPC.Web.Variaveis.MontarControles(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 24
+   em Rohr.EPC.Web.Variaveis.MontarHtml(IEnumerable`1 partes, Table table) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 501
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 631
+ClientConnectionId:06b11054-a8f9-4d3a-963d-d4c9cca3e92b
+Error Number:102,State:1,Class:15;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 14:54:42.081;System.Data.SqlClient.SqlException (0x80131904): Sintaxe incorreta próxima a 'CompanyAddressesContacts'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 317
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 295
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, IDbTransaction transacao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 287
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 279
+   em Rohr.PMWeb.Contacts.GetImage(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 37
+   em Rohr.EPC.Web.Variaveis.MontarLabelValor(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 203
+   em Rohr.EPC.Web.Variaveis.MontarControles(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 24
+   em Rohr.EPC.Web.Variaveis.MontarHtml(IEnumerable`1 partes, Table table) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 501
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 631
+ClientConnectionId:edf24042-6edc-4ce4-8309-27febe51e0c3
+Error Number:102,State:1,Class:15;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 15:20:46.254;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 15:20:46.301;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 15:20:58.216;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 97
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 560
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 612;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 15:22:02.863;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 97
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 560
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 612;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 15:28:50.563;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 15:28:50.595;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 15:29:03.199;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 97
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 560
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 616;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 15:32:32.205;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 15:32:32.249;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 15:33:07.950;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 97
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 560
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 616;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 15:41:46.914;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 15:41:46.957;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 15:42:10.636;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 97
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 560
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 616;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 15:47:50.626;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 15:47:50.671;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 15:47:58.954;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 97
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 560
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 616;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 15:48:05.241;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 97
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 560
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 616;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 15:50:00.206;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 97
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 560
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 616;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 15:50:49.079;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 15:50:49.140;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 15:51:02.646;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 97
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 560
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 616;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 15:51:41.561;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 15:51:41.606;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 15:53:11.081;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 97
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 560
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 616;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 16:06:39.368;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 16:06:39.417;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 16:06:48.531;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 108
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 560
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 616;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 16:10:32.898;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 16:10:32.942;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 16:10:46.390;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 108
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 560
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 616;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 16:11:36.789;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 108
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 560
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 616;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 16:13:01.114;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 16:13:01.161;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 16:13:10.690;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 108
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 560
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 616;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 16:14:58.998;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 108
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 560
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 616;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 16:28:31.932;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 16:28:31.977;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 16:28:58.697;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 110
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 560
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 616;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/25 16:31:19.735;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 16:31:19.780;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 16:34:40.599;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/25 16:34:40.642;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/25 16:34:54.170;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 110
+   em Rohr.EPC.Web.Variaveis.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 560
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 616;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;

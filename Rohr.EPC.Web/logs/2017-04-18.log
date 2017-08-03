@@ -1,0 +1,65 @@
+Error;2017/04/18 08:24:25.243;System.Exception: Não foi possível recuperar a descrição do serviço no PMWeb :(
+   em Rohr.PMWeb.Specifications.ObterDescricaoDoServico(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Specifications.cs:linha 253
+   em Rohr.EPC.Web.Variaveis.MontarLabelValor(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 301
+   em Rohr.EPC.Web.Variaveis.MontarControles(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 21
+   em Rohr.EPC.Web.Variaveis.MontarHtml(IEnumerable`1 partes, Table table) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 489
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 614;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/18 09:57:09.496;System.Exception: Especificações não encontrada :(
+   em Rohr.PMWeb.Specifications.ObterSpecificationById(Int32 idSpecification) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Specifications.cs:linha 278
+   em Rohr.EPC.Business.PdfBusiness.ObterDataParaExibicao(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 281
+   em Rohr.EPC.Business.PdfBusiness.GerarCabecalho(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 212
+   em Rohr.EPC.Business.PdfBusiness.GerarPdf(Documento documento, Int32 idPerfil, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 96
+   em Rohr.EPC.Web.BaixarDocumento.GerarPdf(Documento documento, Int32 idPerfilAtivo, HttpContext context, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 74
+   em Rohr.EPC.Web.BaixarDocumento.ProcessRequest(HttpContext context) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 44;Rohr.EPC.Web.BaixarDocumento.ProcessRequest;HttpApplication.ExecuteStep => CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute => BaixarDocumento.ProcessRequest;
+Error;2017/04/18 09:57:27.319;Rohr.EPC.Business.MyException: Nenhum documento selecionado.
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 516
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 78;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/18 09:58:06.396;System.Exception: Especificações não encontrada :(
+   em Rohr.PMWeb.Specifications.ObterSpecificationById(Int32 idSpecification) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Specifications.cs:linha 278
+   em Rohr.EPC.Business.PdfBusiness.ObterDataParaExibicao(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 281
+   em Rohr.EPC.Business.PdfBusiness.GerarCabecalho(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 212
+   em Rohr.EPC.Business.PdfBusiness.GerarPdf(Documento documento, Int32 idPerfil, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 96
+   em Rohr.EPC.Web.BaixarDocumento.GerarPdf(Documento documento, Int32 idPerfilAtivo, HttpContext context, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 74
+   em Rohr.EPC.Web.BaixarDocumento.ProcessRequest(HttpContext context) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 44;Rohr.EPC.Web.BaixarDocumento.ProcessRequest;HttpApplication.ExecuteStep => CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute => BaixarDocumento.ProcessRequest;
+Error;2017/04/18 12:50:05.982;System.Exception: Orçamento não encontrado no PMWeb. Verifique se o orçamento está marcado como valido :(
+   em Rohr.PMWeb.Estimates.ObterEstimate(Int32 idEstimate) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 67
+   em Rohr.EPC.Web.Variaveis.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 676;Rohr.EPC.Web.Variaveis.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Variaveis.btnContinuar_Click;
+Error;2017/04/18 12:50:11.745;System.Exception: Orçamento não encontrado no PMWeb. Verifique se o orçamento está marcado como valido :(
+   em Rohr.PMWeb.Estimates.ObterEstimate(Int32 idEstimate) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 67
+   em Rohr.EPC.Web.Variaveis.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 676;Rohr.EPC.Web.Variaveis.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Variaveis.btnContinuar_Click;
+Error;2017/04/18 12:53:08.396;System.Exception: Orçamento não encontrado no PMWeb. Verifique se o orçamento está marcado como valido :(
+   em Rohr.PMWeb.Estimates.ObterEstimate(Int32 idEstimate) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 67
+   em Rohr.EPC.Web.Variaveis.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 676;Rohr.EPC.Web.Variaveis.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Variaveis.btnContinuar_Click;
+Error;2017/04/18 12:54:58.385;System.Exception: Não foi possível verificar o percentual de limpeza no PMWeb :(
+   em Rohr.PMWeb.Specifications.ObterPercentualLimpezaProposta(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Specifications.cs:linha 204
+   em Rohr.EPC.Web.Variaveis.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 683;Rohr.EPC.Web.Variaveis.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Variaveis.btnContinuar_Click;
+Error;2017/04/18 12:55:01.612;System.Exception: Não foi possível verificar o percentual de limpeza no PMWeb :(
+   em Rohr.PMWeb.Specifications.ObterPercentualLimpezaProposta(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Specifications.cs:linha 204
+   em Rohr.EPC.Web.Variaveis.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 683;Rohr.EPC.Web.Variaveis.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Variaveis.btnContinuar_Click;
+Error;2017/04/18 14:55:19.297;Rohr.EPC.Business.MyException: Nenhum documento selecionado.
+   em Rohr.EPC.Web.MasterPage.MasterDefault.GerarPdf() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 651
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 82;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/18 14:56:37.112;System.Exception: Orçamento não encontrado no PMWeb. Verifique se o orçamento está marcado como valido :(
+   em Rohr.PMWeb.Estimates.ObterEstimate(Int32 idEstimate) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 67
+   em Rohr.EPC.Web.Variaveis.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 676;Rohr.EPC.Web.Variaveis.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Variaveis.btnContinuar_Click;
+Error;2017/04/18 15:12:51.542;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.BaixarDocumento.GerarPdf(Documento documento, Int32 idPerfilAtivo, HttpContext context, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 60
+   em Rohr.EPC.Web.BaixarDocumento.ProcessRequest(HttpContext context) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 44;Rohr.EPC.Web.BaixarDocumento.ProcessRequest;HttpApplication.ExecuteStep => CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute => BaixarDocumento.ProcessRequest;
+Error;2017/04/18 16:19:17.018;System.InvalidOperationException: A sequência contém mais de um elemento de correspondência
+   em System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   em Rohr.EPC.Business.PdfBusiness.MontarHtmlParteAssinatura(Documento documento, Boolean quebraPagina) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 337
+   em Rohr.EPC.Business.PdfBusiness.GerarPdf(Documento documento, Int32 idPerfil, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 69
+   em Rohr.EPC.Web.BaixarDocumento.GerarPdf(Documento documento, Int32 idPerfilAtivo, HttpContext context, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 74
+   em Rohr.EPC.Web.BaixarDocumento.ProcessRequest(HttpContext context) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 44;Rohr.EPC.Web.BaixarDocumento.ProcessRequest;HttpApplication.ExecuteStep => CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute => BaixarDocumento.ProcessRequest;
+Error;2017/04/18 16:19:24.804;System.InvalidOperationException: A sequência contém mais de um elemento de correspondência
+   em System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   em Rohr.EPC.Business.PdfBusiness.MontarHtmlParteAssinatura(Documento documento, Boolean quebraPagina) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 337
+   em Rohr.EPC.Business.PdfBusiness.GerarPdf(Documento documento, Int32 idPerfil, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 69
+   em Rohr.EPC.Web.BaixarDocumento.GerarPdf(Documento documento, Int32 idPerfilAtivo, HttpContext context, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 74
+   em Rohr.EPC.Web.BaixarDocumento.ProcessRequest(HttpContext context) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 44;Rohr.EPC.Web.BaixarDocumento.ProcessRequest;HttpApplication.ExecuteStep => CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute => BaixarDocumento.ProcessRequest;
+Error;2017/04/18 17:01:45.050;Rohr.EPC.Business.MyException: Nenhum documento selecionado.
+   em Rohr.EPC.Web.MasterPage.MasterDefault.GerarPdf() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 651
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 82;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/04/18 17:02:27.235;Rohr.EPC.Business.MyException: Nenhum documento selecionado.
+   em Rohr.EPC.Web.MasterPage.MasterDefault.GerarPdf() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 651
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 82;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;

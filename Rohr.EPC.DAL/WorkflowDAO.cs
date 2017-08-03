@@ -43,6 +43,32 @@ namespace Rohr.EPC.DAL
                 return oWorkflow;
             }
         }
+
+        public DataTable ObterEnderecoDne(String cep)
+        {
+            DbParametros parametrosHistoricoAcoes = new DbParametros();
+            parametrosHistoricoAcoes.Adicionar(new DbParametro("@CEP", cep));
+
+            DataTable oDataTable = _dbHelper.ExecutarDataTable("GetEnderecoByCep", parametrosHistoricoAcoes, CommandType.StoredProcedure);
+            _dbHelper.CloseConnection();
+
+            return oDataTable;
+
+        }
+
+        public DataTable GetVisitaSemOportunidade(String ComercialResponsavel, int opcao)
+        {
+            DbParametros parametrosHistoricoAcoes = new DbParametros();
+            parametrosHistoricoAcoes.Adicionar(new DbParametro("@Valor", ComercialResponsavel));
+            parametrosHistoricoAcoes.Adicionar(new DbParametro("@opcao", opcao));
+            DataTable oDataTable = _dbHelper.ExecutarDataTable("GetVisitaSemOportunidade", parametrosHistoricoAcoes, CommandType.StoredProcedure);
+            _dbHelper.CloseConnection();
+            return oDataTable;
+
+        }
+        
+
+
         public Workflow ObterUltimaAcaoPorIdDocumento(Int32 idDocumento)
         {
             Workflow oWorkflow = null;
@@ -106,6 +132,40 @@ namespace Rohr.EPC.DAL
 
             return oDataTable;
         }
+
+
+        public DataTable GetTempoMedioPropostas()
+        {
+
+            DataTable oDataTable = _dbHelper.ExecutarDataTable("GetTempoMedioPropostas", CommandType.StoredProcedure);
+            _dbHelper.CloseConnection();
+
+            return oDataTable;
+        }
+
+
+
+        public DataTable GetTempoMedioContratos()
+        {
+
+            DataTable oDataTable = _dbHelper.ExecutarDataTable("GetTempoMedioContratos", CommandType.StoredProcedure);
+            _dbHelper.CloseConnection();
+
+            return oDataTable;
+        }
+
+
+        public DataTable GetDocumentos()
+        {            
+
+            DataTable oDataTable = _dbHelper.ExecutarDataTable("GetDocumentos", CommandType.StoredProcedure);
+            _dbHelper.CloseConnection();
+
+            return oDataTable;
+        }
+
+
+
         public DataTable ObterAprovacaoJuridico(Int32 idDocumento)
         {
             DbParametros param = new DbParametros();

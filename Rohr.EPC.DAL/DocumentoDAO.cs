@@ -11,7 +11,34 @@ namespace Rohr.EPC.DAL
     public class DocumentoDAO
     {
         readonly DbHelper _dbHelper = new DbHelper("epc");
+        readonly DbHelper _dbHelperPMWeb = new DbHelper("PMWeb");
 
+
+        public Int32 ObterTermoID(Int32 TermoNumero)
+        {
+            Int32 Termo = 0;
+            string query = String.Format("SELECT ISNULL(MAX(IDTermo), 0) FROM documentos_ta WHERE NumeroTermo = {0}", TermoNumero);            
+            Termo = Int32.Parse(_dbHelper.ExecutarScalar(query, CommandType.Text).ToString());
+            _dbHelper.CloseConnection();
+            return Termo;
+        }
+
+        public DataTable ObterTermoPMweb(Int32 TermoNumero)
+        {
+            string query = String.Format("SELECT Id, RevisionNumber, Description FROM Estimates WHERE SUBSTRING(RevisionId, 0, CHARINDEX('.', RevisionId, 0)) = {0}", TermoNumero);
+            DataTable dataTable = _dbHelperPMWeb.ExecutarDataTable(query, CommandType.Text);
+            _dbHelper.CloseConnection();
+            return dataTable;
+        }
+
+
+        public DataTable ObterDadosTermo(Int32 IDOportunidade)
+        {
+            string query = String.Format("SELECT EClausula, EOrcamento, IDStatus FROM documentos_ta WHERE IDOportunidade = {0}", IDOportunidade);            
+            DataTable dataTable = _dbHelper.ExecutarDataTable(query, CommandType.Text);
+            _dbHelper.CloseConnection();
+            return dataTable;
+        }
         public Int32 AdicionarProposta(Documento documento, Workflow workflow)
         {
             DbParametros parametros = new DbParametros();
@@ -26,24 +53,6 @@ namespace Rohr.EPC.DAL
             parametros.Adicionar(new DbParametro("@IdModelo", documento.Modelo.IdModelo));
             parametros.Adicionar(new DbParametro("@RevisaoCliente", documento.RevisaoCliente));
             parametros.Adicionar(new DbParametro("@VersaoInterna", documento.VersaoInterna));
-            
-            if(documento.ExibirHistoria == true)
-            {
-                parametros.Adicionar(new DbParametro("@ExibirHistoria", 1));
-            }
-            else
-            {
-                parametros.Adicionar(new DbParametro("@ExibirHistoria", 0));
-            }
-
-            if(documento.PortfolioObras == true)
-            {
-                parametros.Adicionar(new DbParametro("@PortfolioObra", 1));
-            }
-            else
-            {
-                parametros.Adicionar(new DbParametro("@PortfolioObra", 0));
-            }
 
             parametros.Adicionar(new DbParametro("@CodigoOrigemCliente", documento.DocumentoCliente.CodigoOrigem));
             parametros.Adicionar(new DbParametro("@CPF_CNPJ", documento.DocumentoCliente.CpfCnpj));
@@ -175,34 +184,6 @@ namespace Rohr.EPC.DAL
             _dbHelper.ExecutarNonQuery("UpdateDocumento", parametros, CommandType.StoredProcedure);
             _dbHelper.CloseConnection();
         }
-
-        public void UpdatePortfolioObras(Int32 IdDocumento, Int32 exibir)
-        {
-            DbParametros parametros = new DbParametros();
-
-            parametros.Adicionar(new DbParametro("@IdDocumento", IdDocumento));
-            parametros.Adicionar(new DbParametro("@Exibir", exibir));
-
-            _dbHelper.ExecutarNonQuery("UpdatePortfolioObras", parametros, CommandType.StoredProcedure);
-            _dbHelper.CloseConnection();
-        }
-
-
-        public void UpdateHistoria(Int32 IdDocumento, Int32 exibir)
-        {
-            
-           
-
-            DbParametros parametros = new DbParametros();
-            parametros.Adicionar(new DbParametro("@IdDocumento", IdDocumento));
-            parametros.Adicionar(new DbParametro("@Exibir", exibir));
-
-            
-
-            _dbHelper.ExecutarNonQuery("UpdateHistoriaRohr",parametros, CommandType.StoredProcedure);
-            _dbHelper.CloseConnection();
-        }
-
         public void AtualizarStatusDocumento(Int32 idDocumento)
         {
             StringBuilder query = new StringBuilder();
@@ -278,10 +259,6 @@ namespace Rohr.EPC.DAL
                         Usuario = new Usuario(Int32.Parse(dataReader["idUsuario"].ToString())),
                         DocumentoStatus = new DocumentoStatus(Int32.Parse(dataReader["IdDocumentoStatus"].ToString())),
                         PercentualLimpeza = Decimal.Parse(dataReader["percentualLimpeza"].ToString()),
-                        
-                        ExibirHistoria = Boolean.Parse(dataReader["ExibirHistoria"].ToString()),
-                        PortfolioObras = Boolean.Parse(dataReader["PortfolioObras"].ToString()),
-                        
                     };
                 }
 

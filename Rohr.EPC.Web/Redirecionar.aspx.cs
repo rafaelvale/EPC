@@ -111,11 +111,11 @@ namespace Rohr.EPC.Web
                     //    Session["listWorkflow"] = null;
                     //    Response.Redirect(ResolveUrl("~/Relatorios/EfetividadeComercial.aspx"), false);
                     //    break;
-                    //case "205":
-                    //    Session["documento"] = null;
-                    //    Session["listWorkflow"] = null;
-                    //    Response.Redirect(ResolveUrl("~/Relatorios/Performance.aspx"), false);
-                    //    break;
+                    case "205":                        
+                        Session["listWorkflow"] = null;
+                        Response.Redirect("~/Relatorios/TempoAprovacaoPropostas.aspx", false);
+                        
+                        break;
                     case "206":
                         Session["documento"] = null;
                         Session["listWorkflow"] = null;

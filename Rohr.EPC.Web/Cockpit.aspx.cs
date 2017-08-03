@@ -195,7 +195,7 @@ namespace Rohr.EPC.Web
                 //Util.ObterServidorDados(lblServidor);
                 ConfigurarBotaoExibirDocumentos();
                 ConfigurarFiltroProximaAcao();
-                
+
 
                 if (!Page.IsPostBack)
                 {
@@ -204,7 +204,7 @@ namespace Rohr.EPC.Web
                 }
                 else
                     Page.ClientScript.RegisterStartupScript(GetType(), "script", "<script>$(document).ready(function () {$('.container-fluid').delay(10).fadeIn();})</script>");
-                
+
             }
             catch (Exception ex)
             {
@@ -215,22 +215,22 @@ namespace Rohr.EPC.Web
                 ExcecaoBusiness.Adicionar(ex, HttpContext.Current.Request.Url.AbsolutePath);
             }
         }
-        
+
 
         protected void Repeater1_ItemDataBound(object sender, RepeaterItemEventArgs e)
         {
-                if (e.Item.ItemType != ListItemType.Item && e.Item.ItemType != ListItemType.AlternatingItem) return;
-                VerificarPendencia(Int32.Parse(((DataRowView)(e.Item.DataItem)).Row.ItemArray[0].ToString()), e);
-                TratarNomeCliente(((DataRowView)(e.Item.DataItem)).Row.ItemArray[9].ToString(), e);
-                TratarNomeObra(((DataRowView)(e.Item.DataItem)).Row.ItemArray[14].ToString(), e);
-                TratarBloqueio(((DataRowView)(e.Item.DataItem)).Row.ItemArray[3].ToString(),
-                               ((DataRowView)(e.Item.DataItem)).Row.ItemArray[21].ToString(),
-                               e);
+            if (e.Item.ItemType != ListItemType.Item && e.Item.ItemType != ListItemType.AlternatingItem) return;
+            VerificarPendencia(Int32.Parse(((DataRowView)(e.Item.DataItem)).Row.ItemArray[0].ToString()), e);
+            TratarNomeCliente(((DataRowView)(e.Item.DataItem)).Row.ItemArray[9].ToString(), e);
+            TratarNomeObra(((DataRowView)(e.Item.DataItem)).Row.ItemArray[14].ToString(), e);
+            TratarBloqueio(((DataRowView)(e.Item.DataItem)).Row.ItemArray[3].ToString(),
+                           ((DataRowView)(e.Item.DataItem)).Row.ItemArray[21].ToString(),
+                           e);
 
-                ((CheckBox)e.Item.FindControl("ckDocumento")).Attributes.Add("idDocumento", ((DataRowView)(e.Item.DataItem)).Row.ItemArray[0].ToString());
-                ((HiddenField)e.Item.FindControl("hdIdDocumento")).Value = ((DataRowView)(e.Item.DataItem)).Row.ItemArray[0].ToString();
-          
-                
+            ((CheckBox)e.Item.FindControl("ckDocumento")).Attributes.Add("idDocumento", ((DataRowView)(e.Item.DataItem)).Row.ItemArray[0].ToString());
+            ((HiddenField)e.Item.FindControl("hdIdDocumento")).Value = ((DataRowView)(e.Item.DataItem)).Row.ItemArray[0].ToString();
+
+
         }
         protected void btnExibicao_Click(object sender, EventArgs e)
         {

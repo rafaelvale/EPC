@@ -1,0 +1,63 @@
+Error;2017/05/25 08:20:10.658;System.Exception: Orçamento não encontrado no PMWeb. Verifique se o orçamento está marcado como valido :(
+   em Rohr.PMWeb.Estimates.ObterEstimate(Int32 idEstimate) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 67
+   em Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 227;Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click;Button.RaisePostBackEvent => Button.OnClick => PropostaDocumento.btnUtilizarModelo_Click;
+Error;2017/05/25 08:20:38.694;System.Exception: Orçamento não encontrado no PMWeb. Verifique se o orçamento está marcado como valido :(
+   em Rohr.PMWeb.Estimates.ObterEstimate(Int32 idEstimate) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 67
+   em Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 227;Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click;Button.RaisePostBackEvent => Button.OnClick => PropostaDocumento.btnUtilizarModelo_Click;
+Error;2017/05/25 08:28:08.754;System.Exception: Orçamento não encontrado no PMWeb. Verifique se o orçamento está marcado como valido :(
+   em Rohr.PMWeb.Estimates.ObterEstimate(Int32 idEstimate) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 67
+   em Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 227;Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click;Button.RaisePostBackEvent => Button.OnClick => PropostaDocumento.btnUtilizarModelo_Click;
+Error;2017/05/25 08:41:10.855;System.Exception: Não foi possível encontrar o comercial responsável no PMWeb :(
+   em Rohr.PMWeb.Contacts.ObterComercialResponsavelOportunidade(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Contacts.cs:linha 76
+   em Rohr.EPC.Web.PropostaDocumento.ObterOportunidadePmweb(Int32 numeroOportunidade) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 56
+   em Rohr.EPC.Web.PropostaDocumento.ValidarNumeroProposta() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 38
+   em Rohr.EPC.Web.PropostaDocumento.linkButtonPesquisar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 198;Rohr.EPC.Web.PropostaDocumento.linkButtonPesquisar_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => PropostaDocumento.linkButtonPesquisar_Click;
+Error;2017/05/25 08:42:12.719;System.Exception: Orçamento não encontrado no PMWeb. Verifique se o orçamento está marcado como valido :(
+   em Rohr.PMWeb.Estimates.ObterEstimate(Int32 idEstimate) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 67
+   em Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 227;Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click;Button.RaisePostBackEvent => Button.OnClick => PropostaDocumento.btnUtilizarModelo_Click;
+Error;2017/05/25 08:42:20.916;System.Exception: Orçamento não encontrado no PMWeb. Verifique se o orçamento está marcado como valido :(
+   em Rohr.PMWeb.Estimates.ObterEstimate(Int32 idEstimate) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 67
+   em Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 227;Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click;Button.RaisePostBackEvent => Button.OnClick => PropostaDocumento.btnUtilizarModelo_Click;
+Error;2017/05/25 12:02:25.540;System.Exception: Oportunidade não encontrada ou não está disponível no PMWeb :(
+   em Rohr.PMWeb.DocumentTodoList.ObterDocumentTodoLists(Int32 docNumber) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\DocumentTodoList.cs:linha 53
+   em Rohr.EPC.Web.PropostaDocumento.ObterOportunidadePmweb(Int32 numeroOportunidade) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 50
+   em Rohr.EPC.Web.PropostaDocumento.ValidarNumeroProposta() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 38
+   em Rohr.EPC.Web.PropostaDocumento.linkButtonPesquisar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 198;Rohr.EPC.Web.PropostaDocumento.linkButtonPesquisar_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => PropostaDocumento.linkButtonPesquisar_Click;
+Error;2017/05/25 12:04:12.824;System.Exception: O contrato não tem nenhum orçamento finalizado no PMWeb. Finalize o orçamento para continuar :(
+   em Rohr.PMWeb.Estimates.OrcamentoFinalizado(Int32 projectId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 125
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 602;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/05/25 12:04:47.000;System.Exception: O contrato não tem nenhum orçamento finalizado no PMWeb. Finalize o orçamento para continuar :(
+   em Rohr.PMWeb.Estimates.OrcamentoFinalizado(Int32 projectId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 125
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 602;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/05/25 12:04:57.500;System.Exception: O contrato não tem nenhum orçamento finalizado no PMWeb. Finalize o orçamento para continuar :(
+   em Rohr.PMWeb.Estimates.OrcamentoFinalizado(Int32 projectId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 125
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 602;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/05/25 12:05:35.742;System.Exception: O contrato não tem nenhum orçamento finalizado no PMWeb. Finalize o orçamento para continuar :(
+   em Rohr.PMWeb.Estimates.OrcamentoFinalizado(Int32 projectId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 125
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 602;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/05/25 12:05:51.830;System.Exception: O contrato não tem nenhum orçamento finalizado no PMWeb. Finalize o orçamento para continuar :(
+   em Rohr.PMWeb.Estimates.OrcamentoFinalizado(Int32 projectId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 125
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 602;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/05/25 12:29:38.265;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 22;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/05/25 15:32:33.555;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/05/25 15:32:33.597;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/05/25 17:00:08.141;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/05/25 17:00:08.181;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/05/25 17:11:00.601;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/05/25 17:11:00.633;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/05/25 17:12:21.531;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/05/25 17:12:21.561;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;

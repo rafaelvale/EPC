@@ -137,7 +137,8 @@ namespace Rohr.EPC.Web {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtDataExibicao;
-        
+
+
         /// <summary>
         /// rbHistoriaSim control.
         /// </summary>
@@ -146,7 +147,7 @@ namespace Rohr.EPC.Web {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton rbHistoriaSim;
-        
+
         /// <summary>
         /// rbHistoriaNao control.
         /// </summary>
@@ -155,7 +156,7 @@ namespace Rohr.EPC.Web {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton rbHistoriaNao;
-        
+
         /// <summary>
         /// lkPlanilhaOrcamentaria control.
         /// </summary>

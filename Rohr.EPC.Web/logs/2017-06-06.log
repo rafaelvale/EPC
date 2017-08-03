@@ -1,0 +1,133 @@
+Error;2017/06/06 11:18:36.719;Rohr.EPC.Business.MyException: Nenhum documento selecionado.
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 525
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/06/06 11:19:57.017;Rohr.EPC.Business.MyException: Nenhum documento selecionado.
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 525
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/06/06 11:20:45.586;Rohr.EPC.Business.MyException: Informe um parametro para pesquisa
+   em Rohr.EPC.Business.DocumentoBusiness.ObterTodosDocumento(String valor, Int32 idPerfil, Usuario usuario) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 236
+   em Rohr.EPC.Web.Relatorios.Pesquisa.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Relatorios\Pesquisa.aspx.cs:linha 20;Rohr.EPC.Web.Relatorios.Pesquisa.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Pesquisa.Page_Load;
+Error;2017/06/06 11:29:46.785;Não foi possível recuparar o destino.;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/06 11:46:07.277;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 11:49:23.386;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 11:50:00.445;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 11:50:11.679;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 11:50:16.153;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 11:53:47.638;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 11:56:09.080;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 11:56:17.776;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 12:00:39.759;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 12:03:29.482;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 12:05:28.526;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 12:06:57.386;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 12:08:32.413;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 12:12:48.936;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 12:14:10.782;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 12:20:12.638;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 12:21:51.164;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 12:25:00.400;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 12:39:11.926;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 12:45:08.597;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 12:52:25.993;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 15:07:15.836;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 15:08:16.284;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 15:11:35.057;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 15:16:02.193;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 15:17:40.610;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 15:18:36.147;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 15:19:45.941;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 15:23:15.812;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 15:25:33.224;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 15:32:46.717;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 15:34:26.108;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 15:42:44.889;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 15:45:18.445;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 15:46:01.233;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 15:46:55.002;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 17:04:24.388;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 17:23:40.590;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 17:30:15.369;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 17:31:10.700;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/06 17:33:54.467;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 24;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;

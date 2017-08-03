@@ -35,7 +35,9 @@ namespace Rohr.Data
             IDbCommand command = PrepararComando(comandoSql, conexao, tipoComando, parametros);
             command.Transaction = transacao;
 
+            
             DbDataAdapter adapter = RetornarDataAdapter(command);
+            
             adapter.Fill(dataTable);
 
             return dataTable;

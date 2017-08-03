@@ -1,0 +1,96 @@
+Error;2017/05/03 09:42:24.016;System.ArgumentOutOfRangeException: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.Collections.ArrayList.get_Item(Int32 index)
+   em System.Web.UI.WebControls.ListItemCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.ConfiguracoesConta.RecuperarNotificacoesUsuarioEmail() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\ConfiguracoesConta.aspx.cs:linha 131
+   em Rohr.EPC.Web.ConfiguracoesConta.AtualizarUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\ConfiguracoesConta.aspx.cs:linha 150
+   em Rohr.EPC.Web.ConfiguracoesConta.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\ConfiguracoesConta.aspx.cs:linha 179;Rohr.EPC.Web.ConfiguracoesConta.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => ConfiguracoesConta.btnContinuar_Click;
+Error;2017/05/03 09:42:49.524;System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'GetDocumentoResumo'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 317
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 299
+   em Rohr.EPC.DAL.DocumentoResumoDAO.Obter(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoResumoDAO.cs:linha 19
+   em Rohr.EPC.Business.DocumentoResumoBusiness.ObterPorIdDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoResumoBusiness.cs:linha 11
+   em Rohr.EPC.Business.DocumentoBusiness.RecuperarDocumento(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 89
+   em Rohr.EPC.Web.MasterPage.MasterDefault.GerarPdf() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 657
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 82
+ClientConnectionId:570a4cb4-fcce-4db2-a661-55a976ce31e0
+Error Number:2812,State:62,Class:16;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/05/03 09:55:05.312;Rohr.EPC.Business.MyException: Nenhum documento selecionado.
+   em Rohr.EPC.Web.MasterPage.MasterDefault.GerarPdf() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 651
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 82;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/05/03 12:28:13.959;Rohr.EPC.Business.MyException: Nenhum documento selecionado.
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 516
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/05/03 12:33:28.258;System.Exception: Orçamento não encontrado no PMWeb. Verifique se o orçamento está marcado como valido :(
+   em Rohr.PMWeb.Estimates.ObterEstimate(Int32 idEstimate) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 67
+   em Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 227;Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click;Button.RaisePostBackEvent => Button.OnClick => PropostaDocumento.btnUtilizarModelo_Click;
+Error;2017/05/03 12:33:45.901;System.Exception: Orçamento não encontrado no PMWeb. Verifique se o orçamento está marcado como valido :(
+   em Rohr.PMWeb.Estimates.ObterEstimate(Int32 idEstimate) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 67
+   em Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 227;Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click;Button.RaisePostBackEvent => Button.OnClick => PropostaDocumento.btnUtilizarModelo_Click;
+Error;2017/05/03 15:18:26.065;Rohr.EPC.Business.MyException: Nenhum documento selecionado.
+   em Rohr.EPC.Web.MasterPage.MasterDefault.GerarPdf() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 651
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 82;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/05/03 15:21:16.823;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.BaixarDocumento.GerarPdf(Documento documento, Int32 idPerfilAtivo, HttpContext context, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 60
+   em Rohr.EPC.Web.BaixarDocumento.ProcessRequest(HttpContext context) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 44;Rohr.EPC.Web.BaixarDocumento.ProcessRequest;HttpApplication.ExecuteStep => CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute => BaixarDocumento.ProcessRequest;
+Error;2017/05/03 15:52:45.139;System.IndexOutOfRangeException: Resumo
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em Rohr.EPC.DAL.DocumentoResumoDAO.ObterUltimoResumo(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoResumoDAO.cs:linha 50
+   em Rohr.EPC.Business.DocumentoResumoBusiness.ObterUltimoResumo(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoResumoBusiness.cs:linha 21
+   em Rohr.EPC.Web.Resumo.CarregarResumoProposta(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Resumo.aspx.cs:linha 126
+   em Rohr.EPC.Web.Resumo.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Resumo.aspx.cs:linha 52;Rohr.EPC.Web.Resumo.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Resumo.Page_Load;
+Error;2017/05/03 15:54:29.702;System.IndexOutOfRangeException: Resumo
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em Rohr.EPC.DAL.DocumentoResumoDAO.ObterUltimoResumo(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoResumoDAO.cs:linha 50
+   em Rohr.EPC.Business.DocumentoResumoBusiness.ObterUltimoResumo(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoResumoBusiness.cs:linha 21
+   em Rohr.EPC.Web.Resumo.CarregarResumoProposta(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Resumo.aspx.cs:linha 126
+   em Rohr.EPC.Web.Resumo.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Resumo.aspx.cs:linha 52;Rohr.EPC.Web.Resumo.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Resumo.Page_Load;
+Error;2017/05/03 16:17:08.266;System.IndexOutOfRangeException: Resumo
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em Rohr.EPC.DAL.DocumentoResumoDAO.ObterUltimoResumo(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoResumoDAO.cs:linha 50
+   em Rohr.EPC.Business.DocumentoResumoBusiness.ObterUltimoResumo(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoResumoBusiness.cs:linha 21
+   em Rohr.EPC.Web.Resumo.CarregarResumoProposta(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Resumo.aspx.cs:linha 126
+   em Rohr.EPC.Web.Resumo.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Resumo.aspx.cs:linha 52;Rohr.EPC.Web.Resumo.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Resumo.Page_Load;
+Error;2017/05/03 16:19:44.796;System.IndexOutOfRangeException: Resumo
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em Rohr.EPC.DAL.DocumentoResumoDAO.ObterUltimoResumo(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoResumoDAO.cs:linha 50
+   em Rohr.EPC.Business.DocumentoResumoBusiness.ObterUltimoResumo(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoResumoBusiness.cs:linha 21
+   em Rohr.EPC.Web.Resumo.CarregarResumoProposta(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Resumo.aspx.cs:linha 126
+   em Rohr.EPC.Web.Resumo.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Resumo.aspx.cs:linha 52;Rohr.EPC.Web.Resumo.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Resumo.Page_Load;
+Error;2017/05/03 16:55:44.176;System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Rohr.EPC.Web.BaixarDocumento.ProcessRequest(HttpContext context) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 41;Rohr.EPC.Web.BaixarDocumento.ProcessRequest;HttpApplication.ExecuteStep => CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute => BaixarDocumento.ProcessRequest;
+Error;2017/05/03 16:55:49.529;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 22;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/05/03 17:06:24.301;Rohr.EPC.Business.MyException: Você não tem permissão para executar essa ação.
+   em Rohr.EPC.Web.MasterPage.MasterDefault.ObterProximaAcao(Boolean visualizarWorkflow) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 575
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 80;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;
+Error;2017/05/03 17:30:51.879;System.FormatException: A cadeia de caracteres de entrada não estava em um formato correto.
+   em System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   em System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   em System.String.Format(String format, Object[] args)
+   em Rohr.EPC.Business.PdfBusiness.GerarRodape(Documento documento, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 242
+   em Rohr.EPC.Business.PdfBusiness.GerarPdf(Documento documento, Int32 idPerfil, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 96
+   em Rohr.EPC.Web.BaixarDocumento.GerarPdf(Documento documento, Int32 idPerfilAtivo, HttpContext context, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 74
+   em Rohr.EPC.Web.BaixarDocumento.ProcessRequest(HttpContext context) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 44;Rohr.EPC.Web.BaixarDocumento.ProcessRequest;HttpApplication.ExecuteStep => CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute => BaixarDocumento.ProcessRequest;

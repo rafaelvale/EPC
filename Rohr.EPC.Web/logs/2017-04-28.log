@@ -1,0 +1,287 @@
+Error;2017/04/28 08:59:29.770;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/28 08:59:29.833;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/28 08:59:57.679;Rohr.EPC.Business.MyException: Observação muito curta. Detalhe mais o motivo da reprovação :(
+   em Rohr.EPC.Web.Acoes.ValidarJustificativa() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Acoes.aspx.cs:linha 52
+   em Rohr.EPC.Web.Acoes.btnAcaoSecundaria_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Acoes.aspx.cs:linha 189;Rohr.EPC.Web.Acoes.btnAcaoSecundaria_Click;Button.RaisePostBackEvent => Button.OnClick => Acoes.btnAcaoSecundaria_Click;
+Error;2017/04/28 11:01:28.357;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/28 11:01:28.412;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/28 11:05:22.405;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/28 11:05:22.453;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/28 11:13:05.604;System.Exception: Não foi possível verificar o percentual de limpeza no PMWeb :(
+   em Rohr.PMWeb.Specifications.ObterPercentualLimpezaProposta(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Specifications.cs:linha 204
+   em Rohr.EPC.Web.Variaveis.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 683;Rohr.EPC.Web.Variaveis.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Variaveis.btnContinuar_Click;
+Error;2017/04/28 15:40:01.112;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/28 15:40:01.242;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/28 15:40:46.157;System.Exception: O contrato não tem nenhum orçamento finalizado no PMWeb. Finalize o orçamento para continuar :(
+   em Rohr.PMWeb.Estimates.OrcamentoFinalizado(Int32 projectId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 125
+   em Rohr.EPC.Web.ContratoDocumento.ObterDadosPmweb(Documento documentoProposta) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\ContratoDocumento.aspx.cs:linha 108
+   em Rohr.EPC.Web.ContratoDocumento.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\ContratoDocumento.aspx.cs:linha 183;Rohr.EPC.Web.ContratoDocumento.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => ContratoDocumento.Page_Load;
+Error;2017/04/28 15:45:15.495;System.Exception: Orçamento não encontrado no PMWeb. Verifique se o orçamento está marcado como valido :(
+   em Rohr.PMWeb.Estimates.ObterEstimate(Int32 idEstimate) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 67
+   em Rohr.EPC.Web.Variaveis.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 676;Rohr.EPC.Web.Variaveis.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Variaveis.btnContinuar_Click;
+Error;2017/04/28 15:45:27.432;System.Exception: O contrato não tem nenhum orçamento finalizado no PMWeb. Finalize o orçamento para continuar :(
+   em Rohr.PMWeb.Estimates.OrcamentoFinalizado(Int32 projectId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 125
+   em Rohr.EPC.Web.ContratoDocumento.ObterDadosPmweb(Documento documentoProposta) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\ContratoDocumento.aspx.cs:linha 108
+   em Rohr.EPC.Web.ContratoDocumento.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\ContratoDocumento.aspx.cs:linha 183;Rohr.EPC.Web.ContratoDocumento.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => ContratoDocumento.Page_Load;
+Error;2017/04/28 15:46:26.521;System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'AtualizaPercentualLimpeza_BR'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 150
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 132
+   em Rohr.PMWeb.Estimates.AtualizarPercentualDesconto(Int32 commitmentId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 151
+   em Rohr.EPC.Web.ContratoDocumento.btnUtilizarModelo_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\ContratoDocumento.aspx.cs:linha 210
+ClientConnectionId:7ec89bb9-86f1-4882-91e3-a89d0cb57365
+Error Number:2812,State:62,Class:16;Rohr.EPC.Web.ContratoDocumento.btnUtilizarModelo_Click;Button.RaisePostBackEvent => Button.OnClick => ContratoDocumento.btnUtilizarModelo_Click;
+Error;2017/04/28 15:46:39.082;System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'AtualizaPercentualLimpeza_BR'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 150
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 132
+   em Rohr.PMWeb.Estimates.AtualizarPercentualDesconto(Int32 commitmentId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 151
+   em Rohr.EPC.Web.ContratoDocumento.btnUtilizarModelo_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\ContratoDocumento.aspx.cs:linha 210
+ClientConnectionId:7ec89bb9-86f1-4882-91e3-a89d0cb57365
+Error Number:2812,State:62,Class:16;Rohr.EPC.Web.ContratoDocumento.btnUtilizarModelo_Click;Button.RaisePostBackEvent => Button.OnClick => ContratoDocumento.btnUtilizarModelo_Click;
+Error;2017/04/28 15:48:06.407;System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'AtualizaPercentualLimpeza_BR'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 150
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 132
+   em Rohr.PMWeb.Estimates.AtualizarPercentualDesconto(Int32 commitmentId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 151
+   em Rohr.EPC.Web.ContratoDocumento.btnUtilizarModelo_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\ContratoDocumento.aspx.cs:linha 210
+ClientConnectionId:7ec89bb9-86f1-4882-91e3-a89d0cb57365
+Error Number:2812,State:62,Class:16;Rohr.EPC.Web.ContratoDocumento.btnUtilizarModelo_Click;Button.RaisePostBackEvent => Button.OnClick => ContratoDocumento.btnUtilizarModelo_Click;
+Error;2017/04/28 15:49:13.531;System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'AtualizaPercentualLimpeza_BR'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 150
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 132
+   em Rohr.PMWeb.Estimates.AtualizarPercentualDesconto(Int32 commitmentId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 151
+   em Rohr.EPC.Web.ContratoDocumento.btnUtilizarModelo_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\ContratoDocumento.aspx.cs:linha 210
+ClientConnectionId:7ec89bb9-86f1-4882-91e3-a89d0cb57365
+Error Number:2812,State:62,Class:16;Rohr.EPC.Web.ContratoDocumento.btnUtilizarModelo_Click;Button.RaisePostBackEvent => Button.OnClick => ContratoDocumento.btnUtilizarModelo_Click;
+Error;2017/04/28 15:49:52.870;System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'AtualizaPercentualLimpeza_BR'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 150
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 132
+   em Rohr.PMWeb.Estimates.AtualizarPercentualDesconto(Int32 commitmentId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 151
+   em Rohr.EPC.Web.ContratoDocumento.btnUtilizarModelo_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\ContratoDocumento.aspx.cs:linha 210
+ClientConnectionId:7ec89bb9-86f1-4882-91e3-a89d0cb57365
+Error Number:2812,State:62,Class:16;Rohr.EPC.Web.ContratoDocumento.btnUtilizarModelo_Click;Button.RaisePostBackEvent => Button.OnClick => ContratoDocumento.btnUtilizarModelo_Click;
+Error;2017/04/28 15:51:20.060;System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'AtualizaPercentualLimpeza_BR'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 150
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 132
+   em Rohr.PMWeb.Estimates.AtualizarPercentualDesconto(Int32 commitmentId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 151
+   em Rohr.EPC.Web.ContratoDocumento.btnUtilizarModelo_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\ContratoDocumento.aspx.cs:linha 210
+ClientConnectionId:a964e249-0a3e-4aa4-8406-8d37196eddb6
+Error Number:2812,State:62,Class:16;Rohr.EPC.Web.ContratoDocumento.btnUtilizarModelo_Click;Button.RaisePostBackEvent => Button.OnClick => ContratoDocumento.btnUtilizarModelo_Click;
+Error;2017/04/28 15:51:23.292;System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'AtualizaPercentualLimpeza_BR'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 150
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 132
+   em Rohr.PMWeb.Estimates.AtualizarPercentualDesconto(Int32 commitmentId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 151
+   em Rohr.EPC.Web.ContratoDocumento.btnUtilizarModelo_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\ContratoDocumento.aspx.cs:linha 210
+ClientConnectionId:a964e249-0a3e-4aa4-8406-8d37196eddb6
+Error Number:2812,State:62,Class:16;Rohr.EPC.Web.ContratoDocumento.btnUtilizarModelo_Click;Button.RaisePostBackEvent => Button.OnClick => ContratoDocumento.btnUtilizarModelo_Click;
+Error;2017/04/28 15:52:51.641;System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'AtualizaPercentualLimpeza_BR'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 150
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 132
+   em Rohr.PMWeb.Estimates.AtualizarPercentualDesconto(Int32 commitmentId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Estimates.cs:linha 151
+   em Rohr.EPC.Web.ContratoDocumento.btnUtilizarModelo_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\ContratoDocumento.aspx.cs:linha 210
+ClientConnectionId:a964e249-0a3e-4aa4-8406-8d37196eddb6
+Error Number:2812,State:62,Class:16;Rohr.EPC.Web.ContratoDocumento.btnUtilizarModelo_Click;Button.RaisePostBackEvent => Button.OnClick => ContratoDocumento.btnUtilizarModelo_Click;
+Error;2017/04/28 15:53:26.024;System.Exception: Não foi possível identificar o objeto no PMWeb :(
+   em Rohr.PMWeb.ObjetoOrcamento.ObterObjetoOrcamento(Int32 estimateId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\ObjetoOrcamento.cs:linha 66
+   em Rohr.EPC.Web.Objeto.CarregarObjeto() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Objeto.aspx.cs:linha 197
+   em Rohr.EPC.Web.Objeto.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Objeto.aspx.cs:linha 37;Rohr.EPC.Web.Objeto.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Objeto.Page_Load;
+Error;2017/04/28 15:59:06.588;Rohr.EPC.Business.MyException: Você alterou um valor de uma variável (em vermelho). Se for necessário, altere na tela de variáveis. As partes serão substituidas pelo texto original.
+   em Rohr.EPC.Web.Partes.SubstituirValorPorChave(String partePreenchida, Int32 idParte) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 128
+   em Rohr.EPC.Web.Partes.<btnContinuar_Click>b__8_1(CKEditorControl oCKEditorContro) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 182
+   em System.Linq.Enumerable.<>c__DisplayClass7_0`3.<CombineSelectors>b__0(TSource x)
+   em System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   em System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   em System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   em Rohr.EPC.Web.Partes.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 182;Rohr.EPC.Web.Partes.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Partes.btnContinuar_Click;
+Error;2017/04/28 16:02:36.340;System.IndexOutOfRangeException: Observacao
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em Rohr.EPC.DAL.DocumentoResumoDAO.ObterUltimoResumo(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoResumoDAO.cs:linha 50
+   em Rohr.EPC.Business.DocumentoResumoBusiness.ObterUltimoResumo(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoResumoBusiness.cs:linha 21
+   em Rohr.EPC.Web.Resumo.CarregarResumoProposta(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Resumo.aspx.cs:linha 126
+   em Rohr.EPC.Web.Resumo.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Resumo.aspx.cs:linha 52;Rohr.EPC.Web.Resumo.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Resumo.Page_Load;
+Error;2017/04/28 16:02:57.479;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/28 16:02:57.537;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/28 16:03:10.621;System.IndexOutOfRangeException: Observacao
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em Rohr.EPC.DAL.DocumentoResumoDAO.ObterUltimoResumo(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoResumoDAO.cs:linha 50
+   em Rohr.EPC.Business.DocumentoResumoBusiness.ObterUltimoResumo(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoResumoBusiness.cs:linha 21
+   em Rohr.EPC.Web.Resumo.CarregarResumoProposta(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Resumo.aspx.cs:linha 126
+   em Rohr.EPC.Web.Resumo.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Resumo.aspx.cs:linha 52;Rohr.EPC.Web.Resumo.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Resumo.Page_Load;
+Error;2017/04/28 16:04:20.236;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/28 16:04:20.281;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/28 16:09:07.557;Rohr.EPC.Business.MyException: Você alterou um valor de uma variável (em vermelho). Se for necessário, altere na tela de variáveis. As partes serão substituidas pelo texto original.
+   em Rohr.EPC.Web.Partes.SubstituirValorPorChave(String partePreenchida, Int32 idParte) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 128
+   em Rohr.EPC.Web.Partes.<btnContinuar_Click>b__8_1(CKEditorControl oCKEditorContro) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 182
+   em System.Linq.Enumerable.<>c__DisplayClass7_0`3.<CombineSelectors>b__0(TSource x)
+   em System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   em System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   em System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   em Rohr.EPC.Web.Partes.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 182;Rohr.EPC.Web.Partes.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Partes.btnContinuar_Click;
+Error;2017/04/28 16:10:54.592;Rohr.EPC.Business.MyException: Você alterou um valor de uma variável (em vermelho). Se for necessário, altere na tela de variáveis. As partes serão substituidas pelo texto original.
+   em Rohr.EPC.Web.Partes.SubstituirValorPorChave(String partePreenchida, Int32 idParte) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 128
+   em Rohr.EPC.Web.Partes.<btnContinuar_Click>b__8_1(CKEditorControl oCKEditorContro) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 182
+   em System.Linq.Enumerable.<>c__DisplayClass7_0`3.<CombineSelectors>b__0(TSource x)
+   em System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   em System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   em System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   em Rohr.EPC.Web.Partes.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 182;Rohr.EPC.Web.Partes.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Partes.btnContinuar_Click;
+Error;2017/04/28 16:19:00.897;Rohr.EPC.Business.MyException: Você alterou um valor de uma variável (em vermelho). Se for necessário, altere na tela de variáveis. As partes serão substituidas pelo texto original.
+   em Rohr.EPC.Web.Partes.SubstituirValorPorChave(String partePreenchida, Int32 idParte) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 128
+   em Rohr.EPC.Web.Partes.<btnContinuar_Click>b__8_1(CKEditorControl oCKEditorContro) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 182
+   em System.Linq.Enumerable.<>c__DisplayClass7_0`3.<CombineSelectors>b__0(TSource x)
+   em System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   em System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   em System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   em Rohr.EPC.Web.Partes.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 182;Rohr.EPC.Web.Partes.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Partes.btnContinuar_Click;
+Error;2017/04/28 16:22:33.569;Rohr.EPC.Business.MyException: Você alterou um valor de uma variável (em vermelho). Se for necessário, altere na tela de variáveis. As partes serão substituidas pelo texto original.
+   em Rohr.EPC.Web.Partes.SubstituirValorPorChave(String partePreenchida, Int32 idParte) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 128
+   em Rohr.EPC.Web.Partes.<btnContinuar_Click>b__8_1(CKEditorControl oCKEditorContro) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 182
+   em System.Linq.Enumerable.<>c__DisplayClass7_0`3.<CombineSelectors>b__0(TSource x)
+   em System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   em System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   em System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   em Rohr.EPC.Web.Partes.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 182;Rohr.EPC.Web.Partes.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Partes.btnContinuar_Click;
+Error;2017/04/28 16:45:43.361;Rohr.EPC.Business.MyException: Você alterou um valor de uma variável (em vermelho). Se for necessário, altere na tela de variáveis. As partes serão substituidas pelo texto original.
+   em Rohr.EPC.Web.Partes.SubstituirValorPorChave(String partePreenchida, Int32 idParte) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 128
+   em Rohr.EPC.Web.Partes.<btnContinuar_Click>b__8_1(CKEditorControl oCKEditorContro) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 182
+   em System.Linq.Enumerable.<>c__DisplayClass7_0`3.<CombineSelectors>b__0(TSource x)
+   em System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   em System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   em System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   em Rohr.EPC.Web.Partes.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 182;Rohr.EPC.Web.Partes.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Partes.btnContinuar_Click;
+Error;2017/04/28 16:58:05.558;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/28 16:58:05.603;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/28 17:16:06.418;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/28 17:16:06.464;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/28 17:18:01.918;Rohr.EPC.Business.MyException: Você alterou um valor de uma variável (em vermelho). Se for necessário, altere na tela de variáveis. As partes serão substituidas pelo texto original.
+   em Rohr.EPC.Web.Partes.SubstituirValorPorChave(String partePreenchida, Int32 idParte)
+   em Rohr.EPC.Web.Partes.<btnContinuar_Click>b__8_1(CKEditorControl oCKEditorContro)
+   em System.Linq.Enumerable.<>c__DisplayClass7_0`3.<CombineSelectors>b__0(TSource x)
+   em System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   em System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   em System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   em Rohr.EPC.Web.Partes.btnContinuar_Click(Object sender, EventArgs e);Rohr.EPC.Web.Partes.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Partes.btnContinuar_Click;
+Error;2017/04/28 17:18:40.992;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/28 17:18:41.037;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/28 17:23:42.295;Rohr.EPC.Business.MyException: Você alterou um valor de uma variável (em vermelho). Se for necessário, altere na tela de variáveis. As partes serão substituidas pelo texto original.
+   em Rohr.EPC.Web.Partes.SubstituirValorPorChave(String partePreenchida, Int32 idParte)
+   em Rohr.EPC.Web.Partes.<btnContinuar_Click>b__8_1(CKEditorControl oCKEditorContro)
+   em System.Linq.Enumerable.<>c__DisplayClass7_0`3.<CombineSelectors>b__0(TSource x)
+   em System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   em System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   em System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   em Rohr.EPC.Web.Partes.btnContinuar_Click(Object sender, EventArgs e);Rohr.EPC.Web.Partes.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Partes.btnContinuar_Click;
+Error;2017/04/28 17:29:54.293;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/04/28 17:29:54.338;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/04/28 17:30:45.615;Rohr.EPC.Business.MyException: Você alterou um valor de uma variável (em vermelho). Se for necessário, altere na tela de variáveis. As partes serão substituidas pelo texto original.
+   em Rohr.EPC.Web.Partes.SubstituirValorPorChave(String partePreenchida, Int32 idParte) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 128
+   em Rohr.EPC.Web.Partes.<btnContinuar_Click>b__8_1(CKEditorControl oCKEditorContro) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 182
+   em System.Linq.Enumerable.<>c__DisplayClass7_0`3.<CombineSelectors>b__0(TSource x)
+   em System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   em System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   em System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   em Rohr.EPC.Web.Partes.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Partes.aspx.cs:linha 182;Rohr.EPC.Web.Partes.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Partes.btnContinuar_Click;

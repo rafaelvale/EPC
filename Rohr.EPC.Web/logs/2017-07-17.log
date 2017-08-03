@@ -1,0 +1,30 @@
+Error;2017/07/17 14:28:24.095;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/07/17 14:28:24.224;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/07/17 14:28:36.230;Rohr.EPC.Business.MyException: Informe o número do termo aditivo corretamente ;(
+   em Rohr.EPC.Web.Gerar_TermoAditivo.linkButtonPesquisar_Click(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Gerar_TermoAditivo.aspx.cs:linha 73;Rohr.EPC.Web.Gerar_TermoAditivo.linkButtonPesquisar_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => Gerar_TermoAditivo.linkButtonPesquisar_Click;
+Error;2017/07/17 14:50:21.321;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/07/17 14:50:21.369;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/07/17 14:50:31.620;Rohr.EPC.Business.MyException: Informe o número do termo aditivo corretamente ;(
+   em Rohr.EPC.Web.Gerar_TermoAditivo.linkButtonPesquisar_Click(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Gerar_TermoAditivo.aspx.cs:linha 73;Rohr.EPC.Web.Gerar_TermoAditivo.linkButtonPesquisar_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => Gerar_TermoAditivo.linkButtonPesquisar_Click;
+Error;2017/07/17 14:50:33.295;Rohr.EPC.Business.MyException: Informe o número do termo aditivo corretamente ;(
+   em Rohr.EPC.Web.Gerar_TermoAditivo.linkButtonPesquisar_Click(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Gerar_TermoAditivo.aspx.cs:linha 73;Rohr.EPC.Web.Gerar_TermoAditivo.linkButtonPesquisar_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => Gerar_TermoAditivo.linkButtonPesquisar_Click;
+Error;2017/07/17 14:50:33.476;Rohr.EPC.Business.MyException: Informe o número do termo aditivo corretamente ;(
+   em Rohr.EPC.Web.Gerar_TermoAditivo.linkButtonPesquisar_Click(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Gerar_TermoAditivo.aspx.cs:linha 73;Rohr.EPC.Web.Gerar_TermoAditivo.linkButtonPesquisar_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => Gerar_TermoAditivo.linkButtonPesquisar_Click;
+Error;2017/07/17 14:52:13.147;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/07/17 14:52:13.213;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/07/17 14:52:30.739;Rohr.EPC.Business.MyException: Informe o número do termo aditivo corretamente ;(
+   em Rohr.EPC.Web.Gerar_TermoAditivo.linkButtonPesquisar_Click(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Gerar_TermoAditivo.aspx.cs:linha 73;Rohr.EPC.Web.Gerar_TermoAditivo.linkButtonPesquisar_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => Gerar_TermoAditivo.linkButtonPesquisar_Click;
+Error;2017/07/17 14:57:53.570;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/07/17 14:57:53.621;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;

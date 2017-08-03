@@ -1,0 +1,7 @@
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.PMWeb\bin\Release\Rohr.PMWeb.dll
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.PMWeb\bin\Release\Rohr.PMWeb.pdb
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.PMWeb\bin\Release\Rohr.Data.dll
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.PMWeb\bin\Release\Rohr.Data.pdb
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.PMWeb\obj\Release\Rohr.PMWeb.csprojResolveAssemblyReference.cache
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.PMWeb\obj\Release\Rohr.PMWeb.dll
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.PMWeb\obj\Release\Rohr.PMWeb.pdb

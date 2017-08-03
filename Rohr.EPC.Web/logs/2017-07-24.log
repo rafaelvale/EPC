@@ -1,0 +1,43 @@
+Error;2017/07/24 12:36:42.980;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/07/24 12:36:43.130;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/07/24 14:30:28.038;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/07/24 14:30:28.090;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/07/24 14:48:58.557;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/07/24 14:48:58.623;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/07/24 14:53:31.849;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Business.DocumentoBusiness.ObterPorId(Int32 idDocumento) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\DocumentoBusiness.cs:linha 95
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e);Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/07/24 14:54:49.285;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Variaveis.MontarLabelValor(Chave chave)
+   em Rohr.EPC.Web.Variaveis.MontarControles(Chave chave)
+   em Rohr.EPC.Web.Variaveis.MontarHtml(IEnumerable`1 partes, Table table)
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e);Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/07/24 14:59:23.997;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/07/24 14:59:24.057;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/07/24 15:11:33.118;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/07/24 15:11:33.170;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/07/24 15:45:36.146;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/07/24 15:45:36.195;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/07/24 15:48:36.295;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/07/24 15:48:36.350;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;

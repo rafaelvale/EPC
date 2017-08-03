@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>\\10.11.5.27\c$\inetpub\wwwroot\epc_2</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Acoes.aspx">
+      <publishTime>06/23/2017 12:15:30</publishTime>
+    </File>
+    <File Include="Administracao.aspx">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="Ajuda.aspx">
+      <publishTime>06/23/2017 12:15:32</publishTime>
+    </File>
+    <File Include="AnaliseJuridico.aspx">
+      <publishTime>06/23/2017 12:15:29</publishTime>
+    </File>
+    <File Include="AtividadeConta.aspx">
+      <publishTime>06/23/2017 12:15:32</publishTime>
+    </File>
+    <File Include="BaixarDocumento.ashx">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>06/23/2017 12:15:12</publishTime>
+    </File>
+    <File Include="bin/CKEditor.NET.dll">
+      <publishTime>06/23/2017 12:15:16</publishTime>
+    </File>
+    <File Include="bin/EO.Pdf.dll">
+      <publishTime>06/23/2017 12:15:25</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Web.Optimization.WebForms.dll">
+      <publishTime>06/23/2017 12:15:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>06/23/2017 12:15:16</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/23/2017 12:15:25</publishTime>
+    </File>
+    <File Include="bin/NLog.dll">
+      <publishTime>06/23/2017 12:15:16</publishTime>
+    </File>
+    <File Include="bin/Rohr.Data.dll">
+      <publishTime>07/25/2017 15:50:18</publishTime>
+    </File>
+    <File Include="bin/Rohr.EPC.Business.dll">
+      <publishTime>07/31/2017 17:49:21</publishTime>
+    </File>
+    <File Include="bin/Rohr.EPC.DAL.dll">
+      <publishTime>07/31/2017 17:49:20</publishTime>
+    </File>
+    <File Include="bin/Rohr.EPC.Entity.dll">
+      <publishTime>07/27/2017 08:40:30</publishTime>
+    </File>
+    <File Include="bin/Rohr.EPC.Web.dll">
+      <publishTime>08/02/2017 10:18:53</publishTime>
+    </File>
+    <File Include="bin/Rohr.PMWeb.dll">
+      <publishTime>07/25/2017 15:50:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>06/23/2017 12:15:12</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.dll">
+      <publishTime>06/23/2017 12:15:16</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>06/23/2017 12:15:17</publishTime>
+    </File>
+    <File Include="CKEditor/ckeditor.js">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="CKEditor/config.js">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="CKEditor/contents.css">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="CKEditor/lang/en.js">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="CKEditor/lang/pt-br.js">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="CKEditor/skins/moono/dialog.css">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="CKEditor/skins/moono/dialog_ie.css">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="CKEditor/skins/moono/dialog_ie7.css">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="CKEditor/skins/moono/dialog_ie8.css">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="CKEditor/skins/moono/dialog_iequirks.css">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="CKEditor/skins/moono/dialog_opera.css">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="CKEditor/skins/moono/editor.css">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="CKEditor/skins/moono/editor_gecko.css">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="CKEditor/skins/moono/editor_ie.css">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="CKEditor/skins/moono/editor_ie7.css">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="CKEditor/skins/moono/editor_ie8.css">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="CKEditor/skins/moono/editor_iequirks.css">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="CKEditor/skins/moono/icons.png">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="CKEditor/skins/moono/images/arrow.png">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="CKEditor/skins/moono/images/close.png">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="CKEditor/skins/moono/images/mini.png">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="CKEditor/skins/moono/readme.md">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="CKEditor/styles.js">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="Cockpit.aspx">
+      <publishTime>06/23/2017 12:15:30</publishTime>
+    </File>
+    <File Include="ConfiguracoesConta.aspx">
+      <publishTime>06/23/2017 12:15:30</publishTime>
+    </File>
+    <File Include="Content/Image/301.gif">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/add.png">
+      <publishTime>06/23/2017 12:15:29</publishTime>
+    </File>
+    <File Include="Content/Image/Agreement-02.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/aprovadoJuridico.jpg">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/assKatia.jpg">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/assRafael.jpg">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/Check.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/Expand-01.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/favicon.ico">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/flag_blue.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/flag_red.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/flag_yellow.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/glyphicons-halflings.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/grippy_large.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/img1.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/logo.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/Logo03.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/Logo04.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/logopmweb.jpg">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/logo_epc.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/logo_old.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/logo_pb.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/Play-Once.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/Reload.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/Repeat-All.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/share.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/Tab-History.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/timeline.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Image/Verify.png">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Modelo_PlanilhaOrcamentaria.xml">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="Content/Script/jquery-1.12.4.js">
+      <publishTime>06/23/2017 12:15:29</publishTime>
+    </File>
+    <File Include="Content/Script/jquery.dataTables.min.js">
+      <publishTime>06/23/2017 12:15:29</publishTime>
+    </File>
+    <File Include="Content/Script/rohr-1.0.0.js">
+      <publishTime>06/23/2017 12:15:29</publishTime>
+    </File>
+    <File Include="Content/Script/vendor/bootbox.min.js">
+      <publishTime>06/23/2017 12:15:29</publishTime>
+    </File>
+    <File Include="Content/Script/vendor/bootstrap.min.js">
+      <publishTime>06/23/2017 12:15:29</publishTime>
+    </File>
+    <File Include="Content/Script/vendor/dropdown.js">
+      <publishTime>06/23/2017 12:15:29</publishTime>
+    </File>
+    <File Include="Content/Script/vendor/jquery-1.10.2.min.js">
+      <publishTime>06/23/2017 12:15:29</publishTime>
+    </File>
+    <File Include="Content/Script/vendor/jquery-1.10.2.min.map">
+      <publishTime>06/23/2017 12:15:29</publishTime>
+    </File>
+    <File Include="Content/Script/vendor/jquery-1.9.1.min.js">
+      <publishTime>06/23/2017 12:15:29</publishTime>
+    </File>
+    <File Include="Content/Script/vendor/jquery-scrolltofixed-min.js">
+      <publishTime>06/23/2017 12:15:29</publishTime>
+    </File>
+    <File Include="Content/Script/vendor/jquery.knob.js">
+      <publishTime>06/23/2017 12:15:29</publishTime>
+    </File>
+    <File Include="Content/Script/vendor/jquery.min.js">
+      <publishTime>06/23/2017 12:15:29</publishTime>
+    </File>
+    <File Include="Content/Script/vendor/jquery.password_strength.js">
+      <publishTime>06/23/2017 12:15:29</publishTime>
+    </File>
+    <File Include="Content/Script/vendor/modernizr-2.6.2.js">
+      <publishTime>06/23/2017 12:15:29</publishTime>
+    </File>
+    <File Include="Content/Style/jquery.dataTables.min.css">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="Content/Style/normalize.css">
+      <publishTime>06/23/2017 12:15:28</publishTime>
+    </File>
+    <File Include="Content/Style/password_stregth.css">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="Content/Style/rohr-responsive.css">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="Content/Style/rohr.css">
+      <publishTime>07/14/2017 10:31:49</publishTime>
+    </File>
+    <File Include="ContratoDocumento.aspx">
+      <publishTime>07/28/2017 17:25:34</publishTime>
+    </File>
+    <File Include="Detalhe.aspx">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="EditarNotificacoes.aspx">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="EditarSenha.aspx">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="Erro.aspx">
+      <publishTime>06/23/2017 12:15:31</publishTime>
+    </File>
+    <File Include="Fim.aspx">
+      <publishTime>06/23/2017 12:15:30</publishTime>
+    </File>
+    <File Include="Finalizar.aspx">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="GerarTermoAditivo.aspx">
+      <publishTime>08/01/2017 17:52:57</publishTime>
+    </File>
+    <File Include="Gerar_TermoAditivo.aspx">
+      <publishTime>07/18/2017 12:28:53</publishTime>
+    </File>
+    <File Include="GetImage.ashx">
+      <publishTime>06/23/2017 12:15:32</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="MasterPage/MasterAuxiliar.Master">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="MasterPage/MasterDefault.Master">
+      <publishTime>07/13/2017 14:39:17</publishTime>
+    </File>
+    <File Include="Objeto.aspx">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="Partes.aspx">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="PermissoesUsuario.aspx">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="PMWebDownloaderDB.ashx">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="Precos.aspx">
+      <publishTime>06/23/2017 12:15:27</publishTime>
+    </File>
+    <File Include="PropostaDocumento.aspx">
+      <publishTime>07/13/2017 14:35:12</publishTime>
+    </File>
+    <File Include="Redirecionar.aspx">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+    <File Include="Relatorios/DocumentosCancelados.aspx">
+      <publishTime>06/23/2017 12:15:31</publishTime>
+    </File>
+    <File Include="Relatorios/DocumentosEmCirculacao.aspx">
+      <publishTime>06/23/2017 12:15:31</publishTime>
+    </File>
+    <File Include="Relatorios/Pesquisa.aspx">
+      <publishTime>06/23/2017 12:15:31</publishTime>
+    </File>
+    <File Include="Relatorios/TempoAprovacaoPropostas.aspx">
+      <publishTime>06/23/2017 12:15:31</publishTime>
+    </File>
+    <File Include="Relatorios/WorkflowMetas.aspx">
+      <publishTime>06/23/2017 12:15:31</publishTime>
+    </File>
+    <File Include="Signout.aspx">
+      <publishTime>06/23/2017 12:15:30</publishTime>
+    </File>
+    <File Include="TermoAditivo.aspx">
+      <publishTime>07/19/2017 12:37:38</publishTime>
+    </File>
+    <File Include="Variaveis.aspx">
+      <publishTime>01/08/2017 17:29:22</publishTime>
+    </File>
+    <File Include="Visitas.aspx">
+      <publishTime>07/07/2017 17:27:30</publishTime>
+    </File>
+    <File Include="VisitasSemOportunidade.aspx">
+      <publishTime>06/29/2017 12:42:57</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/07/2017 10:59:03</publishTime>
+    </File>
+    <File Include="WorkflowView.aspx">
+      <publishTime>06/23/2017 12:15:26</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

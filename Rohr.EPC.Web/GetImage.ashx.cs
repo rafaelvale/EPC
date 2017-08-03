@@ -13,7 +13,7 @@ namespace Rohr.EPC.Web
             Int32 entityId = Int32.Parse(context.Request.QueryString["entityId"]);
 
             File file = new File().GetImage(entityId);
-            
+
 
             if (file.FileContent == null) return;
             context.Response.ContentType = "image/png";

@@ -9,6 +9,8 @@ using System.Web;
 using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 
+
+
 namespace Rohr.EPC.Web.MasterPage
 {
     public partial class MasterDefault : System.Web.UI.MasterPage
@@ -36,14 +38,14 @@ namespace Rohr.EPC.Web.MasterPage
         {
             menuUsuario = MontarMenuUsuario(usuario, idPerfil);
 
-            
+
             switch (Path.GetFileName(Request.Path))
             {
                 case "Cockpit":
                     menuPerfil.Controls.Add(MontarMenuPerfil(idPerfil));
                     menuPerfil.Controls.Add(MontarMenuUploadFotos(usuario.IdUsuario));
                     menuPerfil.Controls.Add(MontarMenuApoio());
-                    
+
                     break;
                 case "WorkflowView":
                     menuPerfil.Controls.Add(MontarMenuWorkflow(idPerfil));
@@ -64,8 +66,13 @@ namespace Rohr.EPC.Web.MasterPage
                     }
                     else if (Path.GetFileName(Request.Path) == "PropostaDocumento")
                         menuPerfil.Controls.Add(MontarMenuPerfilPropostaDocumento(idPerfil));
+
+                    else if (Path.GetFileName(Request.Path) == "GerarTermoAditivo")
+                        menuPerfil.Controls.Add(MontarMenuTA(idPerfil));
+                    
                     else
                         menuPerfil.Controls.Add(MontarMenuPerfilProposta(idPerfil));
+                    
                     break;
             }
         }
@@ -82,6 +89,13 @@ namespace Rohr.EPC.Web.MasterPage
                     Response.Redirect(ResolveUrl(String.Format("~/Redirecionar.aspx?p={0}", CriptografiaBusiness.Criptografar(oLinkButton.Attributes["destino"]))), false);
                 else if (String.Compare(atributo, "102", StringComparison.Ordinal) == 0 || String.Compare(atributo, "104", StringComparison.Ordinal) == 0)
                     ObterProximaAcao(true);
+
+                else if (String.Compare(atributo, "205", StringComparison.Ordinal) == 0)
+                    Response.Redirect(ResolveUrl(String.Format("~/Relatorios/TempoAprovacaoPropostas.aspx", CriptografiaBusiness.Criptografar(oLinkButton.Attributes["destino"]))), false);
+
+                else if (String.Compare(atributo, "100", StringComparison.Ordinal) == 0)
+                    Response.Redirect(ResolveUrl(String.Format("~/GerarTermoAditivo.aspx", CriptografiaBusiness.Criptografar(oLinkButton.Attributes["destino"]))), false);
+
                 else if (String.Compare(atributo, "103", StringComparison.Ordinal) == 0)
                     ObterProximaAcao();
                 else if (String.Compare(atributo, "106", StringComparison.Ordinal) == 0)
@@ -90,9 +104,10 @@ namespace Rohr.EPC.Web.MasterPage
                     GerarPlanilhaOrcamentaria();
                 else if (String.Compare(atributo, "208", StringComparison.Ordinal) == 0)
                     Detalhe();
-                else if (String.Compare(atributo, "201", StringComparison.Ordinal) == 0
-                    || String.Compare(atributo, "202", StringComparison.Ordinal) == 0 || String.Compare(atributo, "203", StringComparison.Ordinal) == 0
-                    || String.Compare(atributo, "204", StringComparison.Ordinal) == 0 || String.Compare(atributo, "205", StringComparison.Ordinal) == 0
+                else if (String.Compare(atributo, "201", StringComparison.Ordinal) == 0)
+                     Response.Redirect(ResolveUrl(String.Format("~/VisitasSemOportunidade.aspx", CriptografiaBusiness.Criptografar(oLinkButton.Attributes["destino"]))), false);
+                else if (String.Compare(atributo, "202", StringComparison.Ordinal) == 0 || String.Compare(atributo, "203", StringComparison.Ordinal) == 0
+                    || String.Compare(atributo, "204", StringComparison.Ordinal) == 0 
                     || String.Compare(atributo, "206", StringComparison.Ordinal) == 0 || String.Compare(atributo, "207", StringComparison.Ordinal) == 0)
                     Response.Redirect(ResolveUrl(String.Format("~/Redirecionar.aspx?p={0}", CriptografiaBusiness.Criptografar(atributo))), false);
                 else if (String.Compare(atributo, "308", StringComparison.Ordinal) == 0)
@@ -143,10 +158,12 @@ namespace Rohr.EPC.Web.MasterPage
 
             if (idPerfil == 1 || idPerfil == 6)
             {
+
                 ul = new HtmlGenericControl("ul");
                 ul.Attributes.Add("class", "nav");
 
-                HtmlGenericControl li = new HtmlGenericControl("li");
+                HtmlGenericControl li = new HtmlGenericControl("li");                
+
 
                 LinkButton novaProposta = new LinkButton
                 {
@@ -155,19 +172,23 @@ namespace Rohr.EPC.Web.MasterPage
                 novaProposta.Attributes.Add("destino", "101");
                 novaProposta.Click += btnMenu_Click;
                 li.Controls.Add(novaProposta);
-                ul.Controls.Add(li);
+                ul.Controls.Add(li);                             
 
                 Dictionary<String, Int16> menu = new Dictionary<String, Int16>
                     {
-                        {"Executar Próxima Ação", 103},
+                     {"Executar Próxima Ação", 103},
+                        {"TA", 100 },
+                        { "Executar Próxima Ação", 103},
                         {"Workflow", 102}
-
+                        
                     };
 
+                LinkButton oLinkButton;
                 foreach (var item in menu)
                 {
                     HtmlGenericControl li1 = new HtmlGenericControl("li");
-                    LinkButton oLinkButton = new LinkButton { Text = item.Key };
+                    if (item.Key == "TA") { oLinkButton = new LinkButton { Text = @"<img src='../../Content/Image/add.png' class='ajuste-img' width='24' height='24'  /> Termo Aditivo" }; }
+                    else { oLinkButton = new LinkButton { Text = item.Key }; }                    
                     oLinkButton.Attributes.Add("destino", item.Value.ToString());
                     oLinkButton.Click += btnMenu_Click;
                     li1.Controls.Add(oLinkButton);
@@ -186,6 +207,7 @@ namespace Rohr.EPC.Web.MasterPage
                     menu.Add("Executar Próxima Ação", 103);
 
                 menu.Add("Workflow", 104);
+                
 
                 foreach (var item in menu)
                 {
@@ -195,7 +217,7 @@ namespace Rohr.EPC.Web.MasterPage
                     if (item.Key == "Executar Próxima Ação")
                         oLinkButton.Text = @"<img src='../../Content/Image/share.png' class='ajuste-img' width='24' height='24'/> Executar Próxima Ação";
                     else if (item.Key == "Workflow" && menu.Count <= 1)
-                        oLinkButton.Text = @"<img src='../../Content/Image/timeline.png' class='ajuste-img' width='24' height='24'/> Workflow";
+                        oLinkButton.Text = @"<img src='../../Content/Image/timeline.png' class='ajuste-img' width='24' height='24'/> Workflow";                    
                     else
                         oLinkButton.Text = item.Key;
 
@@ -214,7 +236,7 @@ namespace Rohr.EPC.Web.MasterPage
             HtmlGenericControl ul = new HtmlGenericControl("ul");
             ul.Attributes.Add("class", "nav");
 
-            if(idUsuario == 9 || idUsuario == 110 || idUsuario == 111)
+            if (idUsuario == 9 || idUsuario == 110 || idUsuario == 111)
             {
                 HtmlGenericControl li = new HtmlGenericControl("li");
 
@@ -248,6 +270,7 @@ namespace Rohr.EPC.Web.MasterPage
                 novaProposta.Click += btnMenu_Click;
                 li.Controls.Add(novaProposta);
                 ul.Controls.Add(li);
+                
             }
 
             Dictionary<String, Int16> menu = new Dictionary<String, Int16>
@@ -299,6 +322,31 @@ namespace Rohr.EPC.Web.MasterPage
 
             return ul;
         }
+
+
+        private HtmlGenericControl MontarMenuTA(Int32 idPerfil)
+        {
+            HtmlGenericControl ul = new HtmlGenericControl("ul");
+            ul.Attributes.Add("class", "nav");
+
+            HtmlGenericControl li = new HtmlGenericControl("li");
+            if (idPerfil == 1 || idPerfil == 6)
+            {
+                LinkButton novaProposta = new LinkButton
+                {
+                    Text =
+                        @"<img src='../../Content/Image/add.png' class='ajuste-img' width='24' height='24'/> Nova Proposta"
+                };
+                novaProposta.Attributes.Add("destino", "101");
+                novaProposta.Click += btnMenu_Click;
+                li.Controls.Add(novaProposta);
+                ul.Controls.Add(li);
+            }
+            
+
+            return ul;
+        }
+
         private HtmlGenericControl MontarMenuPerfilPropostaDocumento(Int32 idPerfil)
         {
             HtmlGenericControl ul = new HtmlGenericControl("ul");
@@ -350,6 +398,7 @@ namespace Rohr.EPC.Web.MasterPage
                 novaProposta.Click += btnMenu_Click;
                 li.Controls.Add(novaProposta);
                 ul.Controls.Add(li);
+                                
             }
 
             HtmlGenericControl li1 = new HtmlGenericControl("li");
@@ -386,7 +435,7 @@ namespace Rohr.EPC.Web.MasterPage
             return ul;
         }
 
-        
+
 
         private HtmlGenericControl MontarMenuAcao(Int32 idPerfil)
         {
@@ -448,6 +497,18 @@ namespace Rohr.EPC.Web.MasterPage
             li16.Controls.Add(oLinkButton16);
             ul2.Controls.Add(li16);
 
+            HtmlGenericControl ul3 = new HtmlGenericControl("ul");
+            ul3.Attributes.Add("class", "dropdown-menu");
+
+            HtmlGenericControl li7 = new HtmlGenericControl("li");
+            LinkButton oLinkButton5 = new LinkButton();
+            oLinkButton5.Text = "Visitas Sem Oportunidade";
+            oLinkButton5.Attributes.Add("destino", "201");
+            oLinkButton5.Click += btnMenu_Click;
+            li7.Controls.Add(oLinkButton5);
+            ul2.Controls.Add(li7);
+
+
             HtmlGenericControl li14 = new HtmlGenericControl("li");
             li14.Attributes.Add("class", "divider");
             ul2.Controls.Add(li14);
@@ -458,14 +519,6 @@ namespace Rohr.EPC.Web.MasterPage
             oLinkButton15.Click += btnMenu_Click;
             li15.Controls.Add(oLinkButton15);
             ul2.Controls.Add(li15);
-
-            //HtmlGenericControl li44 = new HtmlGenericControl("li");
-            //LinkButton oLinkButton34 = new LinkButton { Text = "Upload de fotos" };
-            //oLinkButton34.Attributes.Add("destino", "308");
-            //oLinkButton34.Click += btnMenu_Click;
-            //li44.Controls.Add(oLinkButton34);
-            //ul2.Controls.Add(li44);
-
 
             HtmlGenericControl li5 = new HtmlGenericControl("li");
             li5.Attributes.Add("class", "divider");
@@ -503,14 +556,7 @@ namespace Rohr.EPC.Web.MasterPage
             //oLinkButton8.Click += btnMenu_Click;
             //li10.Controls.Add(oLinkButton8);
             //ul3.Controls.Add(li10);
-
-            //HtmlGenericControl li11 = new HtmlGenericControl("li");
-            //LinkButton oLinkButton9 = new LinkButton();
-            //oLinkButton9.Text = "Performance";
-            //oLinkButton9.Attributes.Add("destino", "205");
-            //oLinkButton9.Click += btnMenu_Click;
-            //li11.Controls.Add(oLinkButton9);
-            //ul3.Controls.Add(li11);
+            
 
             HtmlGenericControl li12 = new HtmlGenericControl("li");
             LinkButton oLinkButton10 = new LinkButton { Text = "Workflow, Metas e Modelos" };
@@ -519,6 +565,23 @@ namespace Rohr.EPC.Web.MasterPage
             li12.Controls.Add(oLinkButton10);
             ul3.Controls.Add(li12);
 
+
+            Int32 idPerfilAtivo = new Util().GetSessaoPerfilAtivo();
+
+            if (idPerfilAtivo == 3 ||
+                   idPerfilAtivo == 4||
+                   idPerfilAtivo == 5||
+                   idPerfilAtivo == 9 ||
+                idPerfilAtivo == 10) {
+
+                HtmlGenericControl li11 = new HtmlGenericControl("li");
+                LinkButton oLinkButton9 = new LinkButton();
+                oLinkButton9.Text = "Tempo de Aprovação das Propostas / Contratos";
+                oLinkButton9.Attributes.Add("destino", "205");
+                oLinkButton9.Click += btnMenu_Click;
+                li11.Controls.Add(oLinkButton9);
+                ul3.Controls.Add(li11);
+            }
             li6.Controls.Add(ul3);
             ul2.Controls.Add(li6);
             li.Controls.Add(ul2);
@@ -550,9 +613,10 @@ namespace Rohr.EPC.Web.MasterPage
         {
             Int32 idPerfilAtivo = new Util().GetSessaoPerfilAtivo();
             List<Workflow> listWorkflow = ObterListWorkflow();
-
+            
             if (listWorkflow.Count <= 0)
                 throw new MyException("Nenhum documento selecionado.");
+          
 
             if (visualizarWorkflow)
             {
@@ -564,6 +628,7 @@ namespace Rohr.EPC.Web.MasterPage
                 Session["documento"] = oDocumento;
                 Response.Redirect(ResolveUrl(String.Format("~/Redirecionar.aspx?p={0}", CriptografiaBusiness.Criptografar("455"))), false);
             }
+
             else
             {
                 Int32 idWorkflowAcaoBase = 0;
@@ -684,6 +749,37 @@ namespace Rohr.EPC.Web.MasterPage
         }
 
 
+
+        void ObterTempoAprovacao(Boolean visualizarWorkflow = false)
+        {
+            Int32 idPerfilAtivo = new Util().GetSessaoPerfilAtivo();
+            List<Workflow> listWorkflow = ObterListWorkflow();
+            
+            if (visualizarWorkflow)
+            {
+                if (listWorkflow.Count > 1)
+                    throw new MyException("Selecione um documento por vez para visualiar o workflow.");
+
+                Documento oDocumento = new DocumentoBusiness().RecuperarDocumento(listWorkflow[0].IdDocumento);
+                Session["documento"] = null;
+                Session["documento"] = oDocumento;
+                Response.Redirect(ResolveUrl(String.Format("~/Redirecionar.aspx?p={0}", CriptografiaBusiness.Criptografar("205"))), false);
+            }            
+                else
+                    throw new NotImplementedException();
+            
+        }
+
+        void ObterTempoMedioAprovacao()
+        {
+            //DataTable IDDocumento = 3020; //3047
+            Documento oDocumento = new DocumentoBusiness().RecuperarDocumento(0);
+                Session["documento"] = null;
+                Session["documento"] = oDocumento;
+                Response.Redirect(ResolveUrl(String.Format("~/Redirecionar.aspx?p={0}", CriptografiaBusiness.Criptografar("205"))), false);
+            
+        }
+
         void GerarPdf()
         {
             List<Workflow> listWorkflow = ObterListWorkflow();
@@ -741,7 +837,9 @@ namespace Rohr.EPC.Web.MasterPage
             }
 
             if (totalItensSelecionados <= 0)
-                throw new MyException("Nenhum documento selecionado.");
+                    throw new MyException("Nenhum documento selecionado.");
+
+
 
             Session["documentoBaixar"] = null;
             Session["documentoBaixar"] = new DocumentoBusiness().RecuperarDocumento(idDocumento);

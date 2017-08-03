@@ -1,0 +1,17 @@
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Mobile\bin\Rohr.EPC.Mobile.dll.config
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Mobile\bin\Rohr.EPC.Mobile.dll
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Mobile\bin\Rohr.EPC.Mobile.pdb
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Mobile\bin\Rohr.EPC.Business.dll
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Mobile\bin\Rohr.EPC.Entity.dll
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Mobile\bin\Rohr.PMWeb.dll
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Mobile\bin\EO.Pdf.dll
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Mobile\bin\Rohr.EPC.DAL.dll
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Mobile\bin\Rohr.Data.dll
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Mobile\bin\Rohr.EPC.Business.pdb
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Mobile\bin\Rohr.EPC.Entity.pdb
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Mobile\bin\Rohr.PMWeb.pdb
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Mobile\bin\Rohr.EPC.DAL.pdb
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Mobile\bin\Rohr.Data.pdb
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Mobile\obj\Debug\Rohr.EPC.Mobile.csprojResolveAssemblyReference.cache
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Mobile\obj\Debug\Rohr.EPC.Mobile.dll
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Mobile\obj\Debug\Rohr.EPC.Mobile.pdb

@@ -171,27 +171,6 @@ namespace Rohr.EPC.Web
             }
         }
 
-
-        
-        void HistoriaRohr()
-        {
-
-            if (rbHistoriaSim.Checked)
-            {
-                new ModeloHistoriaRohrBusiness().ObterPorModeloDocumento(_documento);
-                new DocumentoDAO().UpdateHistoria(_documento.IdDocumento, 1);
-                _documento.ExibirHistoria = true;
-
-            }
-            else if (rbHistoriaNao.Checked)
-            {
-                new DocumentoDAO().UpdateHistoria(_documento.IdDocumento, 0);
-                _documento.ExibirHistoria = false;
-            }
-
-        }
-        
-
         void EnviarEmail()
         {
             String titulo = _documento.Edicao ? "EPC - Documento revisado" : "EPC - Documento criado";
@@ -277,19 +256,15 @@ namespace Rohr.EPC.Web
         {
             try
             {
+                new DocumentoBusiness().VerificarPropostaFechadaPMWeb(_documento);
+                Int32 idPerfil = new Util().GetSessaoPerfilAtivo();
+                Int32 idUsuario = new Util().GetSessaoUsuario().IdUsuario;
+                _documento.DataParaExibicao = ValidarData();
+                new DocumentoBusiness().FinalizarDocumento(idPerfil, _documento, CriarWorkflow(_documento, idUsuario, idPerfil), CriarWorkflowAcaoExecutada(_documento, idUsuario, idPerfil, txtJustificativa.Text));
+                new AuditoriaLogBusiness().AdicionarLogDocumento(_documento, Request.Browser);
+                EnviarEmail();
 
-
-                    new DocumentoBusiness().VerificarPropostaFechadaPMWeb(_documento);
-                    Int32 idPerfil = new Util().GetSessaoPerfilAtivo();
-                    Int32 idUsuario = new Util().GetSessaoUsuario().IdUsuario;
-                    _documento.DataParaExibicao = ValidarData();
-                    new DocumentoBusiness().FinalizarDocumento(idPerfil, _documento, CriarWorkflow(_documento, idUsuario, idPerfil), CriarWorkflowAcaoExecutada(_documento, idUsuario, idPerfil, txtJustificativa.Text));
-                    new AuditoriaLogBusiness().AdicionarLogDocumento(_documento, Request.Browser);
-                    EnviarEmail();
-                    HistoriaRohr();
-
-                    Response.Redirect("Fim.aspx", false);
-
+                Response.Redirect("Fim.aspx", false);
             }
             catch (Exception ex)
             {

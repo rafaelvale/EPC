@@ -23,6 +23,19 @@ namespace Rohr.EPC.Business
 
             return oWorkflow != null;
         }
+
+        public DataTable GetVisitaSemOportunidade(String ComercialResponsavel, int opcao)
+        {
+
+            return new WorkflowDAO().GetVisitaSemOportunidade(ComercialResponsavel, opcao);
+
+        }
+        public DataTable ObterEnderecoDne(String cep)
+        {
+
+            return new WorkflowDAO().ObterEnderecoDne(cep);
+        }
+
         public Workflow ObterUltimaAcaoPorIdDocumento(Int32 idDocumento)
         {
             Workflow oWorkflow = new WorkflowDAO().ObterUltimaAcaoPorIdDocumento(idDocumento);
@@ -410,6 +423,26 @@ namespace Rohr.EPC.Business
         {
             return new WorkflowDAO().ObterHistoricoAcoes(documento.IdDocumento);
         }
+
+
+        public DataTable ObterTempoAprovacaoProposta()
+        {
+            return new WorkflowDAO().GetTempoMedioPropostas();
+        }
+
+
+        public DataTable ObterTempoAprovacaoContratos()
+        {
+            return new WorkflowDAO().GetTempoMedioContratos();
+        }
+
+
+        public DataTable GetDocumentos()
+        {
+            return new WorkflowDAO().GetDocumentos();
+        }
+
+
         public String ObterHistoricoAcoesFormatadoEmail(Documento documento)
         {
             DataTable dtHistoricoAcoes = ObterHistoricoAcoes(documento);
@@ -452,7 +485,7 @@ namespace Rohr.EPC.Business
             return new WorkflowDAO().ObterTodosPorIdDocumento(idDocumento);
         }
 
-        
+
 
         public static String ObterObterCaminhoAssinatura(Int32 idDocumento, Int32 idUsuario)
         {

@@ -68,7 +68,11 @@ namespace Rohr.EPC.Web
                 TimeSpan diferenca = proximaDataCadastro.Subtract(DateTime.Parse(historicoAcoes.Rows[i]["dataCadastro"].ToString()));
                 historicoAcoes.Rows[i - 1]["realizado"] = new Util().TratarTempoMinuto(Convert.ToDecimal(diferenca.TotalMinutes));
                 proximaDataCadastro = DateTime.Parse(historicoAcoes.Rows[i]["dataCadastro"].ToString());
-            }
+
+
+            }         
+
+
 
             Repeater1.DataSource = historicoAcoes;
             Repeater1.DataBind();

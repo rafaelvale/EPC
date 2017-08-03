@@ -1,0 +1,98 @@
+Error;2017/07/21 08:58:54.852;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/07/21 08:58:54.923;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/07/21 09:01:34.550;System.FormatException: A cadeia de caracteres de entrada não estava em um formato correto.
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Int32.Parse(String s)
+   em Rohr.PMWeb.CostManagementCommitments.ObterContrato(Int32 idCostManagementCommitments) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.PMWeb\CostManagementCommitments.cs:linha 116
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 604;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/07/21 09:08:46.599;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/07/21 09:08:46.646;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/07/21 09:13:04.928;System.FormatException: A cadeia de caracteres de entrada não estava em um formato correto.
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Int32.Parse(String s)
+   em Rohr.PMWeb.CostManagementCommitments.ObterContrato(Int32 idCostManagementCommitments) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.PMWeb\CostManagementCommitments.cs:linha 116
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 604;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/07/21 09:17:09.737;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/07/21 09:17:09.786;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/07/21 09:29:01.885;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/07/21 09:29:01.923;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/07/21 09:56:39.085;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/07/21 09:56:39.229;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/07/21 10:00:06.744;System.FormatException: A cadeia de caracteres de entrada não estava em um formato correto.
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Int32.Parse(String s)
+   em Rohr.PMWeb.CostManagementCommitments.ObterContrato(Int32 idCostManagementCommitments) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.PMWeb\CostManagementCommitments.cs:linha 116
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 604;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/07/21 10:09:13.647;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/07/21 10:09:13.796;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/07/21 10:14:33.050;System.FormatException: A cadeia de caracteres de entrada não estava em um formato correto.
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Int32.Parse(String s)
+   em Rohr.PMWeb.CostManagementCommitments.ObterContrato(Int32 idCostManagementCommitments) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.PMWeb\CostManagementCommitments.cs:linha 116
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 604;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/07/21 10:23:44.420;System.Exception: Não foi possível identificar os itens do objeto no PMWeb. Verifique se não tem nenhum objeto sem itens :(
+   em Rohr.PMWeb.ItemObjetoOrcamento.ObterItemObjetoOrcamento(Int32 idObjetoOrcamento) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.PMWeb\ItemObjetoOrcamento.cs:linha 69
+   em Rohr.PMWeb.ObjetoOrcamento.ObterObjetoOrcamento(Int32 estimateId) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.PMWeb\ObjetoOrcamento.cs:linha 50
+   em Rohr.EPC.Web.Objeto.CarregarObjeto() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Objeto.aspx.cs:linha 197
+   em Rohr.EPC.Web.Objeto.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Objeto.aspx.cs:linha 37;Rohr.EPC.Web.Objeto.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Objeto.Page_Load;
+Error;2017/07/21 10:52:24.804;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/07/21 10:52:24.930;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/07/21 10:53:07.346;System.FormatException: A cadeia de caracteres de entrada não estava em um formato correto.
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Int32.Parse(String s)
+   em Rohr.PMWeb.CostManagementCommitments.ObterContrato(Int32 idCostManagementCommitments) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.PMWeb\CostManagementCommitments.cs:linha 116
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 604;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/07/21 10:53:13.188;System.FormatException: A cadeia de caracteres de entrada não estava em um formato correto.
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Int32.Parse(String s)
+   em Rohr.PMWeb.CostManagementCommitments.ObterContrato(Int32 idCostManagementCommitments) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.PMWeb\CostManagementCommitments.cs:linha 116
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 604;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/07/21 10:53:48.267;System.FormatException: A cadeia de caracteres de entrada não estava em um formato correto.
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Int32.Parse(String s)
+   em Rohr.PMWeb.CostManagementCommitments.ObterContrato(Int32 idCostManagementCommitments) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.PMWeb\CostManagementCommitments.cs:linha 116
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 604;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/07/21 10:55:08.804;System.FormatException: A cadeia de caracteres de entrada não estava em um formato correto.
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Int32.Parse(String s)
+   em Rohr.PMWeb.CostManagementCommitments.ObterContrato(Int32 idCostManagementCommitments) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.PMWeb\CostManagementCommitments.cs:linha 116
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 604;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/07/21 10:57:57.354;System.Exception: Não foi possível identificar os itens do objeto no PMWeb. Verifique se não tem nenhum objeto sem itens :(
+   em Rohr.PMWeb.ItemObjetoOrcamento.ObterItemObjetoOrcamento(Int32 idObjetoOrcamento) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.PMWeb\ItemObjetoOrcamento.cs:linha 69
+   em Rohr.PMWeb.ObjetoOrcamento.ObterObjetoOrcamento(Int32 estimateId) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.PMWeb\ObjetoOrcamento.cs:linha 50
+   em Rohr.EPC.Web.Objeto.CarregarObjeto() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Objeto.aspx.cs:linha 197
+   em Rohr.EPC.Web.Objeto.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Objeto.aspx.cs:linha 37;Rohr.EPC.Web.Objeto.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Objeto.Page_Load;
+Error;2017/07/21 10:58:00.777;System.Exception: Não foi possível identificar os itens do objeto no PMWeb. Verifique se não tem nenhum objeto sem itens :(
+   em Rohr.PMWeb.ItemObjetoOrcamento.ObterItemObjetoOrcamento(Int32 idObjetoOrcamento) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.PMWeb\ItemObjetoOrcamento.cs:linha 69
+   em Rohr.PMWeb.ObjetoOrcamento.ObterObjetoOrcamento(Int32 estimateId) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.PMWeb\ObjetoOrcamento.cs:linha 50
+   em Rohr.EPC.Web.Objeto.CarregarObjeto() na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Objeto.aspx.cs:linha 197
+   em Rohr.EPC.Web.Objeto.Page_Load(Object sender, EventArgs e) na R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Web\Objeto.aspx.cs:linha 37;Rohr.EPC.Web.Objeto.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Objeto.Page_Load;

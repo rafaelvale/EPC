@@ -19,10 +19,10 @@ namespace Rohr.EPC.Web
             Int32 numeroOportunidade;
 
             if (String.IsNullOrEmpty(txtNumeroOportunidade.Text) || (txtNumeroOportunidade.Text.Length != 6))
-                throw new MyException("Informe o número da oportunidade corretamento ;(");
+                throw new MyException("Informe o número da oportunidade corretamente ;(");
 
             if (!Int32.TryParse(txtNumeroOportunidade.Text, out numeroOportunidade))
-                throw new MyException("Informe o número da oportunidade corretamento ;(");
+                throw new MyException("Informe o número da oportunidade corretamente ;(");
 
             if (new DocumentoBusiness().PropostaExiste(numeroOportunidade))
                 throw new MyException("A oportunidade pesquisada já se encontra no fluxo de aprovações ;(");

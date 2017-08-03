@@ -122,11 +122,11 @@ namespace Rohr.EPC.Web
                 String[] chaves = chaveNoTexto.Split(new[] { "}:" }, StringSplitOptions.None);
 
                 if (chaves.Length != 2) continue;
-                String chaveOriginal = "{" + chaves[0] + "}";   
+                String chaveOriginal = "{" + chaves[0] + "}";
                 String valorChaveOriginal = Server.HtmlDecode(chaves[1].Substring(0, chaves[1].IndexOf("\">", StringComparison.OrdinalIgnoreCase)));
                 String valorTela = Server.HtmlDecode(chaves[1]).Substring(Server.HtmlDecode(chaves[1]).IndexOf("\">", StringComparison.OrdinalIgnoreCase) + 2, valorChaveOriginal.Length);
 
-                if (String.Compare(valorChaveOriginal, valorTela,   StringComparison.OrdinalIgnoreCase) != 0)
+                if (String.Compare(valorChaveOriginal, valorTela, StringComparison.OrdinalIgnoreCase) != 0)
                     throw new MyException("Você alterou um valor de uma variável (em vermelho). Se for necessário, altere na tela de variáveis. As partes serão substituidas pelo texto original.");
 
                 String chaveCompleta = "<a href=\"" + chaveOriginal + ":" + valorChaveOriginal + "\">" + valorTela ;
@@ -147,7 +147,8 @@ namespace Rohr.EPC.Web
             try
             {
                 panelPartes.Controls.Clear();
-                _documento = new Util().GetSessaoDocumento();
+                _documento = new Util().GetSessaoDocumento();                
+                
 
                 if (_documento.EProposta)
                 {
@@ -180,7 +181,7 @@ namespace Rohr.EPC.Web
         {
             try
             {
-                
+
 
                 _documento = new Util().GetSessaoDocumento();
                 List<PartePreenchida> listPartePreenchidaTela = panelPartes.Controls.OfType<CKEditorControl>().Select(item => (item)).Select(oCKEditorContro => new PartePreenchida

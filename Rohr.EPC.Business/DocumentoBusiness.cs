@@ -10,6 +10,27 @@ namespace Rohr.EPC.Business
 {
     public class DocumentoBusiness
     {
+
+        
+
+        public Int32 ObterTermoID(Int32 TermoNumero)
+        {
+            Int32 Termo = 0;            
+            Termo = new DocumentoDAO().ObterTermoID(TermoNumero);            
+            return Termo;
+
+        }
+
+        public DataTable ObterDadosTermo(Int32 IDOportunidade)
+        {  
+                return new DocumentoDAO().ObterDadosTermo(IDOportunidade);
+        }
+
+        public DataTable ObterTermoPMweb(Int32 TermoNumero)
+        {
+            return new DocumentoDAO().ObterTermoPMweb(TermoNumero);
+        }
+
         public Int32 AdicionarProposta(Documento documento, Int32 idUsuario, Int32 idPerfil)
         {
             Int32 idWorkflowEtapa = 1;
@@ -24,7 +45,7 @@ namespace Rohr.EPC.Business
                 WorkflowAcao = new WorkflowAcao(15)
             };
 
-            
+
             return new DocumentoDAO().AdicionarProposta(documento, oWorkflow);
         }
         public Int32 AdicionarRevisaoProposta(Documento documento, Int32 idUsuario, Int32 idPerfil)
@@ -91,7 +112,7 @@ namespace Rohr.EPC.Business
             oDocumento.DocumentoDescricaoGeralFoto = new DocumentoImagensBusiness().ObterDescricaoGeralPorIdDocumento(oDocumento.IdDocumento);
             oDocumento.DocumentoDescricaoGeralPortfolio = new DocumentoPortfolioBusiness().ObterDescricaoGeralPorIdDocumento(oDocumento.IdDocumento);
             oDocumento.DocumentoDescricaoGeralPortfolioParte2 = new DocumentoPortfolioBusiness().ObterDescricaoGeralPorIdDocumentoParte2(oDocumento.IdDocumento);
-           
+
 
             return oDocumento;
         }

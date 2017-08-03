@@ -1,0 +1,8 @@
+Error;2017/05/05 15:12:07.822;System.IndexOutOfRangeException: Observacao
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em Rohr.EPC.DAL.DocumentoResumoDAO.ObterUltimoResumo(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoResumoDAO.cs:linha 50
+   em Rohr.EPC.Business.DocumentoResumoBusiness.ObterUltimoResumo(Int32 idDocumento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoResumoBusiness.cs:linha 21
+   em Rohr.EPC.Web.Resumo.CarregarResumoProposta(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Resumo.aspx.cs:linha 126
+   em Rohr.EPC.Web.Resumo.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Resumo.aspx.cs:linha 52;Rohr.EPC.Web.Resumo.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Resumo.Page_Load;

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Rohr.EPC.Entity
 {
     public class Documento
-    {
+    {        
         public Int32 IdDocumento { get; set; }
         public Int32 CodigoSistemaOrigem { get; set; }
         public Int32 NumeroDocumento { get; set; }
@@ -41,10 +41,15 @@ namespace Rohr.EPC.Entity
         public DocumentoDescricaoGeralPortfolio DocumentoDescricaoGeralPortfolio { get; set; }
         public DocumentoDescricaoGeralPortfolio DocumentoDescricaoGeralPortfolioParte2 { get; set; }
 
+        public Boolean Edicao { get; set; }
+        public Boolean EhTermoAditivo { get; set; }
 
+        public Int32 EClausula { get; set; }
 
+        public Int32 EOrcamento { get; set; }
         public Boolean Edicao { get; set; }
 
+        public Int32 IDStatus { get; set; }
 
         public Documento()
         {

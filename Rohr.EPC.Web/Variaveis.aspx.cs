@@ -386,6 +386,7 @@ namespace Rohr.EPC.Web
         }
         void CarregarPainelDetalhes()
         {
+            
             if (!_documento.EProposta)
             {
                 divContrato.Visible = true;
@@ -574,10 +575,14 @@ namespace Rohr.EPC.Web
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            
             try
-            {
+            {                   
+
                 Session["pmwebDocumentTodoList"] = null;
                 _documento = new Util().GetSessaoDocumento();
+
+                if (_documento.EhTermoAditivo) { panelVariaveis.Enabled = false; Contrato_Termo.Text = "Termo Aditivo"; }
 
                 if (_documento.Modelo.ModeloTipo.IdModeloTipo == 3)
                 {
@@ -586,7 +591,8 @@ namespace Rohr.EPC.Web
                     Session["documento"] = _documento;
                     Session["pmwebDocumentTodoList"] = null;
                     Response.Redirect("Objeto.aspx", false);
-                } 
+                }
+
 
                 if (!_documento.Edicao)
                     _documento.ListChavePreenchida.Clear();
@@ -594,8 +600,9 @@ namespace Rohr.EPC.Web
                 if (_documento.EProposta)
                 {
                     ObterOportunidadePmweb();
-                    new DocumentoBusiness().VerificarPropostaFechadaPMWeb(_documento);
-                }
+                    new DocumentoBusiness().VerificarPropostaFechadaPMWeb(_documento);                   
+
+                }               
                 else
                 {
                     CostManagementCommitments oCostManagementCommitments = new CostManagementCommitments().ObterContrato(_documento.CodigoSistemaOrigem);
@@ -623,71 +630,73 @@ namespace Rohr.EPC.Web
         }
 
         protected void btnContinuar_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                if (_documento.ListChavePreenchida == null)
-                    _documento.ListChavePreenchida = new List<ChavePreenchida>();
-
-                _documento.ListChavePreenchida.Clear();
-
-                foreach (Table table in panelVariaveis.Controls.OfType<Table>().Select(item => (item)))
+        {            
+                try
                 {
-                    for (int i = 0; i < table.Rows.Count; i++)
+
+                    if (_documento.ListChavePreenchida == null)
+                        _documento.ListChavePreenchida = new List<ChavePreenchida>();
+
+                    _documento.ListChavePreenchida.Clear();
+
+                    foreach (Table table in panelVariaveis.Controls.OfType<Table>().Select(item => (item)))
                     {
-                        foreach (Object controle in table.Rows[i].Cells[1].Controls)
+                        for (int i = 0; i < table.Rows.Count; i++)
                         {
-                            ChavePreenchida oChavePreenchida = new ChavePreenchida();
-                            if (controle is TextBox)
+                            foreach (Object controle in table.Rows[i].Cells[1].Controls)
                             {
-                                TextBox textBox = ((TextBox)controle);
+                                ChavePreenchida oChavePreenchida = new ChavePreenchida();
+                                if (controle is TextBox)
+                                {
+                                    TextBox textBox = ((TextBox)controle);
 
-                                oChavePreenchida.IdChave = Int32.Parse(textBox.ID);
-                                oChavePreenchida.Texto = textBox.Text;
-                                oChavePreenchida.DataCadastro = DateTime.Now;
+                                    oChavePreenchida.IdChave = Int32.Parse(textBox.ID);
+                                    oChavePreenchida.Texto = textBox.Text;
+                                    oChavePreenchida.DataCadastro = DateTime.Now;
+                                }
+                                else if (controle is DropDownList)
+                                {
+                                    DropDownList dropDownList = ((DropDownList)controle);
+
+                                    oChavePreenchida.IdChave = Int32.Parse(dropDownList.ID);
+                                    oChavePreenchida.Texto = dropDownList.SelectedItem.Value;
+                                    oChavePreenchida.DataCadastro = DateTime.Now;
+                                }
+                                else if (controle is Label)
+                                {
+                                    Label label = ((Label)controle);
+
+                                    oChavePreenchida.IdChave = Int32.Parse(label.ID);
+                                    oChavePreenchida.Texto = label.Text;
+                                    oChavePreenchida.DataCadastro = DateTime.Now;
+                                }
+
+                                _documento.ListChavePreenchida.Add(oChavePreenchida);
                             }
-                            else if (controle is DropDownList)
-                            {
-                                DropDownList dropDownList = ((DropDownList)controle);
-
-                                oChavePreenchida.IdChave = Int32.Parse(dropDownList.ID);
-                                oChavePreenchida.Texto = dropDownList.SelectedItem.Value;
-                                oChavePreenchida.DataCadastro = DateTime.Now;
-                            }
-                            else if (controle is Label)
-                            {
-                                Label label = ((Label)controle);
-
-                                oChavePreenchida.IdChave = Int32.Parse(label.ID);
-                                oChavePreenchida.Texto = label.Text;
-                                oChavePreenchida.DataCadastro = DateTime.Now;
-                            }
-
-                            _documento.ListChavePreenchida.Add(oChavePreenchida);
                         }
                     }
-                }
 
-                VerificarRevisao(_documento);
-                AdicionarChavesPreenchidas(_documento);
+                    VerificarRevisao(_documento);
+                    AdicionarChavesPreenchidas(_documento);
 
-                Estimates oEstimates = null;
-                if (_documento.EProposta)
-                    oEstimates = new Estimates().ObterEstimate(new Estimates().ObterEstimatePorDocumentoId(new DocumentTodoList().ObterDocumentTodoLists(_documento.NumeroDocumento).IdDocumentoTodoList).Id);
-                else
-                {
-                    CostManagementCommitments oCostManagementCommitments = new CostManagementCommitments().ObterContrato(_documento.CodigoSistemaOrigem);
-                    oEstimates = new Estimates().ObterEstimateContrato(oCostManagementCommitments.EstimatedId);
-                }
+                    Estimates oEstimates = null;
+                    if (_documento.EProposta)
+                        oEstimates = new Estimates().ObterEstimate(new Estimates().ObterEstimatePorDocumentoId(new DocumentTodoList().ObterDocumentTodoLists(_documento.NumeroDocumento).IdDocumentoTodoList).Id);
 
-                _documento.PercentualLimpeza = Convert.ToDecimal(new Specifications().ObterPercentualLimpezaProposta(oEstimates.Id).Measure);
-                new DocumentoBusiness().AtualizarPercentualLimpeza(_documento);
+                   else
+                    {
+                        CostManagementCommitments oCostManagementCommitments = new CostManagementCommitments().ObterContrato(_documento.CodigoSistemaOrigem);
+                        oEstimates = new Estimates().ObterEstimateContrato(oCostManagementCommitments.EstimatedId);
+                    }
 
-                new DocumentoComercialBusiness().Atualizar(_documento);
-                new DocumentoObraBusiness().Atualizar(_documento);
-                new DocumentoClienteBusiness().Atualizar(_documento);
+                    _documento.PercentualLimpeza = Convert.ToDecimal(new Specifications().ObterPercentualLimpezaProposta(oEstimates.Id).Measure);
+                    new DocumentoBusiness().AtualizarPercentualLimpeza(_documento);
 
-                new AuditoriaLogBusiness().AdicionarLogDocumentoVariaveis(_documento, Request.Browser);
+                    new DocumentoComercialBusiness().Atualizar(_documento);
+                    new DocumentoObraBusiness().Atualizar(_documento);
+                    new DocumentoClienteBusiness().Atualizar(_documento);
+
+                    new AuditoriaLogBusiness().AdicionarLogDocumentoVariaveis(_documento, Request.Browser);
 
                 if (_documento.Modelo.ModeloTipo.IdModeloTipo == 2)
                 {
@@ -696,7 +705,7 @@ namespace Rohr.EPC.Web
                     Session["pmwebDocumentTodoList"] = null;
                     Response.Redirect("Objeto.aspx", false);
                 }
-                    
+
                 else if (_documento.Modelo.ModeloTipo.IdModeloTipo == 1)
                 {
                     Session["documento"] = null;
@@ -710,14 +719,17 @@ namespace Rohr.EPC.Web
 
                 }
 
+                if (_documento.EhTermoAditivo) { Response.Redirect("Partes.aspx", false); } else { Response.Redirect("Objeto.aspx", false); }                    
 
-            }
-            catch (Exception ex)
-            {
-                Util.ExibirMensagem(lblMensagemErro, ex.Message, Util.TipoMensagem.Erro);
-                NLog.Log().Error(ex);
-                ExcecaoBusiness.Adicionar(ex, HttpContext.Current.Request.Url.AbsolutePath);
-            }
+
+
+                }
+                catch (Exception ex)
+                {
+                    Util.ExibirMensagem(lblMensagemErro, ex.Message, Util.TipoMensagem.Erro);
+                    NLog.Log().Error(ex);
+                    ExcecaoBusiness.Adicionar(ex, HttpContext.Current.Request.Url.AbsolutePath);
+                }            
         }
 
         private void buscaUltimaFoto(int IdDocumento)

@@ -1,0 +1,14 @@
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\bin\Release\Rohr.EPC.Business.dll
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\bin\Release\Rohr.EPC.Business.pdb
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\bin\Release\EO.Pdf.dll
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\bin\Release\Rohr.EPC.DAL.dll
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\bin\Release\Rohr.EPC.Entity.dll
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\bin\Release\Rohr.PMWeb.dll
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\bin\Release\Rohr.Data.dll
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\bin\Release\Rohr.EPC.DAL.pdb
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\bin\Release\Rohr.EPC.Entity.pdb
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\bin\Release\Rohr.PMWeb.pdb
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\bin\Release\Rohr.Data.pdb
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\obj\Release\Rohr.EPC.Business.csprojResolveAssemblyReference.cache
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\obj\Release\Rohr.EPC.Business.dll
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.EPC.Business\obj\Release\Rohr.EPC.Business.pdb

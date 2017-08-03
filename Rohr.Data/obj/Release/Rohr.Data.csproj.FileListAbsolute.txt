@@ -1,0 +1,5 @@
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.Data\bin\Release\Rohr.Data.dll
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.Data\bin\Release\Rohr.Data.pdb
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.Data\obj\Release\Rohr.Data.dll
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.Data\obj\Release\Rohr.Data.pdb
+R:\AdmCorporativa\Sistemas\Scripts\Rodnei\EPC\trunk\Rohr.Data\obj\Release\Rohr.Data.csprojResolveAssemblyReference.cache

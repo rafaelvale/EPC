@@ -1,0 +1,921 @@
+Error;2017/06/23 07:53:10.014;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 07:53:10.112;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 07:54:34.085;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 07:54:34.126;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 08:00:46.802;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 08:00:46.834;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 08:03:34.344;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 08:20:47.334;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 08:20:47.375;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 08:28:46.816;System.FormatException: A cadeia de caracteres de entrada não estava em um formato correto.
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Convert.ToInt32(String value)
+   em Rohr.EPC.Web.Fotos.butEscolherReg_Click(Object sender, CommandEventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 338;Rohr.EPC.Web.Fotos.butEscolherReg_Click;ImageButton.RaisePostBackEvent => ImageButton.OnCommand => Fotos.butEscolherReg_Click;
+Error;2017/06/23 08:32:06.896;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 08:32:06.937;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 08:53:41.076;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 08:53:41.108;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 09:18:19.069;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 09:18:19.095;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 09:55:32.512;System.InvalidOperationException: Um espaço reservado de item deve ser especificado no ListView 'livImagens'. Especifique um espaço reservado de item definindo a propriedade ID do controle como "itemPlaceholder". O controle de espaço reservado de item também deve especificar runat="server".
+   em System.Web.UI.WebControls.ListView.GetPreparedContainerInfo(Control outerContainer, Boolean isItem, Int32& placeholderIndex)
+   em System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   em System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   em System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   em System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   em System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   em System.Web.UI.WebControls.ListView.PerformSelect()
+   em System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 329
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 09:56:04.963;System.InvalidOperationException: Um espaço reservado de item deve ser especificado no ListView 'livImagens'. Especifique um espaço reservado de item definindo a propriedade ID do controle como "itemPlaceholder". O controle de espaço reservado de item também deve especificar runat="server".
+   em System.Web.UI.WebControls.ListView.GetPreparedContainerInfo(Control outerContainer, Boolean isItem, Int32& placeholderIndex)
+   em System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   em System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   em System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   em System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   em System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   em System.Web.UI.WebControls.ListView.PerformSelect()
+   em System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 329
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 09:57:49.260;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 09:57:49.337;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 10:09:26.950;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 10:09:26.968;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 10:11:49.511;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 10:11:49.538;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 10:13:41.886;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 10:13:41.913;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 10:46:34.272;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 10:46:46.829;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 10:46:46.847;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 10:46:57.956;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 10:47:22.164;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:34:47.500;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:35:02.214;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:37:47.075;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:40:52.936;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:40:53.846;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:40:57.016;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:40:57.627;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:40:57.883;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:40:58.031;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:40:58.212;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:40:58.415;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:40:58.585;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:40:58.711;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:40:58.859;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:41:15.691;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:45:22.927;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:46:17.234;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:48:10.160;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:48:11.004;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:48:11.582;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:48:50.168;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 328
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 240;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 11:49:08.693;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 11:49:08.744;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 11:50:09.845;System.ArgumentException: A coluna 'IdImagem' não pertence à tabela .
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 265
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 12:00:26.341;System.ArgumentException: A coluna 'IdImagem' não pertence à tabela .
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 265
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 12:01:47.919;System.ArgumentException: A coluna 'IdImagem' não pertence à tabela .
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 265
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 12:03:09.581;System.Data.SqlClient.SqlException (0x80131904): Timeout expirado. O timeout esgotou antes da conclusão da operação ou o servidor não está respondendo. ---> System.ComponentModel.Win32Exception (0x80004005): O tempo limite de espera foi atingido
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   em System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   em System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   em System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   em System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 317
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 295
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, IDbTransaction transacao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 287
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 279
+   em Rohr.PMWeb.DocumentTodoList.ObterDocumentTodoLists(Int32 docNumber) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\DocumentTodoList.cs:linha 32
+   em Rohr.EPC.Web.Fotos.ObterOportunidadePmweb() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 154
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 215
+ClientConnectionId:53d110fb-965a-467e-943d-23bbbed27d9e
+Error Number:-2,State:0,Class:11;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 12:03:59.540;System.Data.SqlClient.SqlException (0x80131904): Tempo Limite de Conexão Expirado. O tempo limite decorrido durante a fase pós-logon. A conexão expirou enquanto aguardava o servidor concluir o processo de logon e responder; ou talvez tenha expirado ao tentar criar várias conexões ativas.  A duração da tentativa de conexão com este servidor foi: [Pre-Login] initialization=234; handshake=9544; [Login] initialization=0; authentication=0; [Post-Login] complete=9805;  ---> System.ComponentModel.Win32Exception (0x80004005): O tempo limite de espera foi atingido
+   em System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   em System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   em System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   em System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   em System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   em System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   em System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   em System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   em System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   em System.Data.SqlClient.SqlConnection.Open()
+   em Rohr.Data.DbGerenciador.PegarConexao(String nomeConexao, String servidor) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbGerenciador.cs:linha 19
+   em Rohr.Data.DbGerenciador.PegarConexao(String nomeConexao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbGerenciador.cs:linha 12
+   em Rohr.Data.DbHelper..ctor(String nomeConexao) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 12
+   em Rohr.EPC.DAL.PerfilDAO..ctor()
+   em Rohr.EPC.Business.PerfilBusiness.ObterPorId(Int32 idPerfil)
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 26
+ClientConnectionId:f56f9e8b-3edf-4276-bc11-f419b1461c23
+Error Number:-2,State:0,Class:11;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/23 12:08:11.797;System.FormatException: A cadeia de caracteres de entrada não estava em um formato correto.
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Convert.ToInt32(String value)
+   em Rohr.EPC.Web.Fotos.butEscolherReg_Click(Object sender, CommandEventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 329;Rohr.EPC.Web.Fotos.butEscolherReg_Click;ImageButton.RaisePostBackEvent => ImageButton.OnCommand => Fotos.butEscolherReg_Click;
+Error;2017/06/23 12:09:25.306;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 12:10:15.867;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 12:10:29.582;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 12:11:07.243;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 12:11:08.881;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 12:11:25.328;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 12:13:21.107;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 12:14:52.955;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 12:15:13.577;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 12:15:13.633;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 12:19:16.811;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 12:19:16.840;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 12:48:31.165;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 312
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 233;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 12:48:46.881;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 312
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 233;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:09:23.037;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 312
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 233;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:19:34.891;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 14:19:34.918;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario()
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser)
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 14:33:40.405;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 312
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 233;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:33:56.401;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 14:33:56.427;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario()
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser)
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 14:34:08.079;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 312
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 233;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:34:21.854;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 312
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 233;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:35:32.521;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 312
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 233;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:35:33.294;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 312
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 233;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:35:33.766;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 312
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 233;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:35:33.952;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 312
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 233;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:35:34.147;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 312
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 233;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:35:34.309;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 312
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 233;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:35:53.866;System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 312
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 233;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:36:45.755;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 14:36:45.786;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 14:39:09.410;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:42:59.720;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 14:42:59.765;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 14:44:25.587;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:49:02.732;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 14:49:02.760;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 14:49:22.237;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:59:11.468;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:59:12.511;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:59:13.106;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:59:13.293;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:59:13.618;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:59:13.806;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:59:13.964;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 14:59:20.929;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:00:20.632;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 15:00:20.650;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 15:01:51.085;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 15:01:51.111;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 15:08:45.981;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 15:08:46.034;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 15:11:46.375;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 15:11:46.415;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 15:19:59.131;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 15:19:59.159;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 15:20:11.790;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:21:04.004;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:21:04.656;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:21:05.122;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:21:05.273;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:21:05.434;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:21:05.588;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:21:05.960;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:21:06.116;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:21:06.277;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:21:06.453;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:22:14.051;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:22:16.277;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:22:16.858;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:22:17.212;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:22:17.386;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:22:17.549;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:22:17.706;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:22:37.701;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:23:08.366;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 15:23:08.407;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 15:23:36.195;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:27:48.640;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 15:27:48.681;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 15:28:29.256;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:34:13.031;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens)
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e);Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:36:26.173;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 15:36:26.201;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 15:37:21.124;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:01.020;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:01.709;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:02.022;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:02.193;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:02.353;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:02.513;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:02.669;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:02.813;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:02.977;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:03.128;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:03.300;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:03.463;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:03.625;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:03.794;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:03.943;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:04.103;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:04.280;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:04.421;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:04.582;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:04.736;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:04.897;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:05.055;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:05.217;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:05.384;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:05.552;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:05.708;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:05.878;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:06.047;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:06.203;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:06.374;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:06.520;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:06.679;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:06.849;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:07.006;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:07.177;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:07.329;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:07.488;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:07.639;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:18.084;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:18.756;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:19.319;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:25.984;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:53.051;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:38:53.791;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:39:29.417;System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Rohr.EPC.Web.Fotos.DataImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 275
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 234;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:39:47.930;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 15:39:47.970;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 15:46:51.730;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 15:46:51.749;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 15:54:23.623;System.InvalidOperationException: É necessário definir um ItemTemplate em ListView 'livImagens'.
+   em System.Web.UI.WebControls.ListView.InstantiateItemTemplate(Control container, Int32 displayIndex)
+   em System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   em System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   em System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   em System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   em System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   em System.Web.UI.WebControls.ListView.PerformSelect()
+   em System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 322
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 235;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 15:56:22.041;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 15:56:22.068;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 16:07:48.393;System.InvalidOperationException: É necessário definir um ItemTemplate em ListView 'livImagens'.
+   em System.Web.UI.WebControls.ListView.InstantiateItemTemplate(Control container, Int32 displayIndex)
+   em System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   em System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   em System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   em System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   em System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   em System.Web.UI.WebControls.ListView.PerformSelect()
+   em System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 322
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 235;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 16:12:47.842;System.InvalidOperationException: É necessário definir um ItemTemplate em ListView 'livImagens'.
+   em System.Web.UI.WebControls.ListView.InstantiateItemTemplate(Control container, Int32 displayIndex)
+   em System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   em System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   em System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   em System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   em System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   em System.Web.UI.WebControls.ListView.PerformSelect()
+   em System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 322
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 235;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 16:13:17.643;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 16:13:17.661;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 16:13:37.623;System.InvalidOperationException: É necessário definir um ItemTemplate em ListView 'livImagens'.
+   em System.Web.UI.WebControls.ListView.InstantiateItemTemplate(Control container, Int32 displayIndex)
+   em System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   em System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   em System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   em System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   em System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   em System.Web.UI.WebControls.ListView.PerformSelect()
+   em System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 322
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 235;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 16:15:14.068;System.InvalidOperationException: É necessário definir um ItemTemplate em ListView 'livImagens'.
+   em System.Web.UI.WebControls.ListView.InstantiateItemTemplate(Control container, Int32 displayIndex)
+   em System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   em System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   em System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   em System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   em System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   em System.Web.UI.WebControls.ListView.PerformSelect()
+   em System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 322
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 235;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 16:15:37.542;System.InvalidOperationException: Um espaço reservado de grupo deve ser especificado no ListView 'livImagens' quando GroupTemplate é definido. Especifique um espaço reservado de grupo definindo sua propriedade ID como "groupPlaceholder". O controle de espaço reservado de grupo também deve especificar runat="server".
+   em System.Web.UI.WebControls.ListView.GetPreparedContainerInfo(Control outerContainer, Boolean isItem, Int32& placeholderIndex)
+   em System.Web.UI.WebControls.ListView.CreateItemsInGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   em System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   em System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   em System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   em System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   em System.Web.UI.WebControls.ListView.PerformSelect()
+   em System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 322
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 235;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 16:16:44.040;System.InvalidOperationException: Um espaço reservado de grupo deve ser especificado no ListView 'livImagens' quando GroupTemplate é definido. Especifique um espaço reservado de grupo definindo sua propriedade ID como "groupPlaceHolder1". O controle de espaço reservado de grupo também deve especificar runat="server".
+   em System.Web.UI.WebControls.ListView.GetPreparedContainerInfo(Control outerContainer, Boolean isItem, Int32& placeholderIndex)
+   em System.Web.UI.WebControls.ListView.CreateItemsInGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   em System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   em System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   em System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   em System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   em System.Web.UI.WebControls.ListView.PerformSelect()
+   em System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 322
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 235;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 16:16:45.217;System.InvalidOperationException: Um espaço reservado de grupo deve ser especificado no ListView 'livImagens' quando GroupTemplate é definido. Especifique um espaço reservado de grupo definindo sua propriedade ID como "groupPlaceHolder1". O controle de espaço reservado de grupo também deve especificar runat="server".
+   em System.Web.UI.WebControls.ListView.GetPreparedContainerInfo(Control outerContainer, Boolean isItem, Int32& placeholderIndex)
+   em System.Web.UI.WebControls.ListView.CreateItemsInGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   em System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   em System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   em System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   em System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   em System.Web.UI.WebControls.ListView.PerformSelect()
+   em System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 322
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 235;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 16:17:30.374;System.InvalidOperationException: Um espaço reservado de grupo deve ser especificado no ListView 'livImagens' quando GroupTemplate é definido. Especifique um espaço reservado de grupo definindo sua propriedade ID como "groupPlaceHolder1". O controle de espaço reservado de grupo também deve especificar runat="server".
+   em System.Web.UI.WebControls.ListView.GetPreparedContainerInfo(Control outerContainer, Boolean isItem, Int32& placeholderIndex)
+   em System.Web.UI.WebControls.ListView.CreateItemsInGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   em System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   em System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   em System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   em System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   em System.Web.UI.WebControls.ListView.PerformSelect()
+   em System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 322
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 235;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 16:22:16.388;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 16:22:16.416;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/23 16:47:58.523;System.InvalidOperationException: Um espaço reservado de item deve ser especificado no ListView 'livImagens'. Especifique um espaço reservado de item definindo a propriedade ID do controle como "itemPlaceholder". O controle de espaço reservado de item também deve especificar runat="server".
+   em System.Web.UI.WebControls.ListView.GetPreparedContainerInfo(Control outerContainer, Boolean isItem, Int32& placeholderIndex)
+   em System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   em System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   em System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   em System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   em System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   em System.Web.UI.WebControls.ListView.PerformSelect()
+   em System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 322
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 235;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/23 17:28:18.518;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/23 17:28:18.547;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;

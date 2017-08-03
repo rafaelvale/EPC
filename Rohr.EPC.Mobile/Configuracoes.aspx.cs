@@ -33,7 +33,7 @@ namespace Rohr.EPC.Mobile
             List<Perfil> listPerfil = new List<Perfil>();
 
             foreach (Perfil perfil in usuario.Perfis)
-            {
+            { 
                 //Incluso no dia 23/05 o Supervisor PTA, conforme solicitação do Reginaldo Rocha
                 if (perfil.IdPerfil == 5 || perfil.IdPerfil == 8 || perfil.IdPerfil == 9 || perfil.IdPerfil == 10 || perfil.IdPerfil == 7)
                     listPerfil.Add(perfil);

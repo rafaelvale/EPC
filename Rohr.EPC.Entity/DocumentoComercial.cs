@@ -12,7 +12,7 @@ namespace Rohr.EPC.Entity
         public String Departamento { get; set; }
         public String Email { get; set; }
         public String Telefone { get; set; }
-        
+
 
 
     }

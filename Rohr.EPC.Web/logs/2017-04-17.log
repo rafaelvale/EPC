@@ -1,0 +1,40 @@
+Error;2017/04/17 12:26:47.787;Rohr.EPC.Business.MyException: A oportunidade pesquisada já se encontra no fluxo de aprovações ;(
+   em Rohr.EPC.Web.PropostaDocumento.ValidarNumeroProposta() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 28
+   em Rohr.EPC.Web.PropostaDocumento.linkButtonPesquisar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 198;Rohr.EPC.Web.PropostaDocumento.linkButtonPesquisar_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => PropostaDocumento.linkButtonPesquisar_Click;
+Error;2017/04/17 12:27:13.018;System.Exception: Não foi possível identificar o endereço do cliente no PMWeb. Verifique se o cliente tem um endereço marcado como primário :(
+   em Rohr.PMWeb.CompanyAddress.ObterCompanyAddresses(Int32 idCompany) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\CompanyAddress.cs:linha 70
+   em Rohr.EPC.Web.PropostaDocumento.ObterOportunidadePmweb(Int32 numeroOportunidade) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 74
+   em Rohr.EPC.Web.PropostaDocumento.ValidarNumeroProposta() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 38
+   em Rohr.EPC.Web.PropostaDocumento.linkButtonPesquisar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 198;Rohr.EPC.Web.PropostaDocumento.linkButtonPesquisar_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => PropostaDocumento.linkButtonPesquisar_Click;
+Error;2017/04/17 12:27:17.840;System.Exception: Não foi possível identificar o endereço do cliente no PMWeb. Verifique se o cliente tem um endereço marcado como primário :(
+   em Rohr.PMWeb.CompanyAddress.ObterCompanyAddresses(Int32 idCompany) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\CompanyAddress.cs:linha 70
+   em Rohr.EPC.Web.PropostaDocumento.ObterOportunidadePmweb(Int32 numeroOportunidade) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 74
+   em Rohr.EPC.Web.PropostaDocumento.ValidarNumeroProposta() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 38
+   em Rohr.EPC.Web.PropostaDocumento.linkButtonPesquisar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 198;Rohr.EPC.Web.PropostaDocumento.linkButtonPesquisar_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => PropostaDocumento.linkButtonPesquisar_Click;
+Error;2017/04/17 12:27:23.647;System.Exception: Não foi possível verificar o percentual de limpeza no PMWeb :(
+   em Rohr.PMWeb.Specifications.ObterPercentualLimpezaProposta(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Specifications.cs:linha 204
+   em Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 234;Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click;Button.RaisePostBackEvent => Button.OnClick => PropostaDocumento.btnUtilizarModelo_Click;
+Error;2017/04/17 12:30:29.915;System.Exception: Não foi possível recuperar a descrição do serviço no PMWeb :(
+   em Rohr.PMWeb.Specifications.ObterDescricaoDoServico(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Specifications.cs:linha 253
+   em Rohr.EPC.Web.Variaveis.MontarLabelValor(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 301
+   em Rohr.EPC.Web.Variaveis.MontarControles(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 21
+   em Rohr.EPC.Web.Variaveis.MontarHtml(IEnumerable`1 partes, Table table) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 489
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 614;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/17 12:30:46.359;System.Exception: Não foi possível recuperar a descrição do serviço no PMWeb :(
+   em Rohr.PMWeb.Specifications.ObterDescricaoDoServico(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Specifications.cs:linha 253
+   em Rohr.EPC.Web.Variaveis.MontarLabelValor(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 301
+   em Rohr.EPC.Web.Variaveis.MontarControles(Chave chave) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 21
+   em Rohr.EPC.Web.Variaveis.MontarHtml(IEnumerable`1 partes, Table table) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 489
+   em Rohr.EPC.Web.Variaveis.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 614;Rohr.EPC.Web.Variaveis.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Variaveis.Page_Load;
+Error;2017/04/17 12:30:55.740;System.Exception: Não foi possível verificar o percentual de limpeza no PMWeb :(
+   em Rohr.PMWeb.Specifications.ObterPercentualLimpezaProposta(Int32 entityId) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.PMWeb\Specifications.cs:linha 204
+   em Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 234;Rohr.EPC.Web.PropostaDocumento.btnUtilizarModelo_Click;Button.RaisePostBackEvent => Button.OnClick => PropostaDocumento.btnUtilizarModelo_Click;
+Error;2017/04/17 12:37:39.200;Rohr.EPC.Business.MyException: A oportunidade pesquisada já se encontra no fluxo de aprovações ;(
+   em Rohr.EPC.Web.PropostaDocumento.ValidarNumeroProposta() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 28
+   em Rohr.EPC.Web.PropostaDocumento.linkButtonPesquisar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 198;Rohr.EPC.Web.PropostaDocumento.linkButtonPesquisar_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => PropostaDocumento.linkButtonPesquisar_Click;
+Error;2017/04/17 12:37:48.814;Rohr.EPC.Business.MyException: A oportunidade pesquisada já se encontra no fluxo de aprovações ;(
+   em Rohr.EPC.Web.PropostaDocumento.ValidarNumeroProposta() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 28
+   em Rohr.EPC.Web.PropostaDocumento.linkButtonPesquisar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\PropostaDocumento.aspx.cs:linha 198;Rohr.EPC.Web.PropostaDocumento.linkButtonPesquisar_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => PropostaDocumento.linkButtonPesquisar_Click;
+Error;2017/04/17 16:52:22.163;Rohr.EPC.Business.MyException: Nenhum documento selecionado.
+   em Rohr.EPC.Web.MasterPage.MasterDefault.GerarPdf() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 651
+   em Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 82;Rohr.EPC.Web.MasterPage.MasterDefault.btnMenu_Click;LinkButton.RaisePostBackEvent => LinkButton.OnClick => MasterDefault.btnMenu_Click;

@@ -1,0 +1,31 @@
+Error;2017/01/20 15:22:50.814;EO.Pdf.HtmlToPdfException: Conversion failed. Conversion failed. error code = 7. License '6391775527' is not valid for this build. ---> System.Exception: Conversion failed. error code = 7. License '6391775527' is not valid for this build.
+   em EO.Internal.o9.a(b A_0, a7y A_1, WriteArgDelegate A_2)
+   em EO.Internal.o9.a(HtmlToPdfOptions A_0, Single A_1, Single A_2, amb A_3, List`1 A_4, af2 A_5)
+   em EO.Internal.a3c.a(af2 A_0, Single& A_1)
+   em EO.Internal.a3c.a(af2 A_0)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em EO.Pdf.HtmlToPdfException.b(Exception A_0)
+   em EO.Internal.a3c.a(af2 A_0)
+   em EO.Pdf.HtmlToPdfSession.RenderAsPDF(PdfDocument doc)
+   em EO.Pdf.HtmlToPdf.ConvertHtml(String html, PdfDocument doc, HtmlToPdfOptions options)
+   em EO.Pdf.HtmlToPdf.ConvertHtml(String html, PdfDocument doc)
+   em Rohr.EPC.Business.PdfBusiness.GerarPdf(Documento documento, Int32 idPerfil, Int32 idUsuario) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 49
+   em Rohr.EPC.Web.BaixarDocumento.GerarPdf(Documento documento, Int32 idPerfilAtivo, HttpContext context, Int32 idUsuario) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 74
+   em Rohr.EPC.Web.BaixarDocumento.ProcessRequest(HttpContext context) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 44;Rohr.EPC.Web.BaixarDocumento.ProcessRequest;HttpApplication.ExecuteStep => CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute => BaixarDocumento.ProcessRequest;
+Error;2017/01/20 15:23:47.543;EO.Pdf.HtmlToPdfException: Conversion failed. Conversion failed. error code = 7. License '6391775527' is not valid for this build. ---> System.Exception: Conversion failed. error code = 7. License '6391775527' is not valid for this build.
+   em EO.Internal.o9.a(b A_0, a7y A_1, WriteArgDelegate A_2)
+   em EO.Internal.o9.a(HtmlToPdfOptions A_0, Single A_1, Single A_2, amb A_3, List`1 A_4, af2 A_5)
+   em EO.Internal.a3c.a(af2 A_0, Single& A_1)
+   em EO.Internal.a3c.a(af2 A_0)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em EO.Pdf.HtmlToPdfException.b(Exception A_0)
+   em EO.Internal.a3c.a(af2 A_0)
+   em EO.Pdf.HtmlToPdfSession.RenderAsPDF(PdfDocument doc)
+   em EO.Pdf.HtmlToPdf.ConvertHtml(String html, PdfDocument doc, HtmlToPdfOptions options)
+   em EO.Pdf.HtmlToPdf.ConvertHtml(String html, PdfDocument doc)
+   em Rohr.EPC.Business.PdfBusiness.GerarPdf(Documento documento, Int32 idPerfil, Int32 idUsuario) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 49
+   em Rohr.EPC.Web.BaixarDocumento.GerarPdf(Documento documento, Int32 idPerfilAtivo, HttpContext context, Int32 idUsuario) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 74
+   em Rohr.EPC.Web.BaixarDocumento.ProcessRequest(HttpContext context) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 44;Rohr.EPC.Web.BaixarDocumento.ProcessRequest;HttpApplication.ExecuteStep => CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute => BaixarDocumento.ProcessRequest;
+Error;2017/01/20 16:11:27.679;System.Exception: Não foi possível verificar o percentual de limpeza no PMWeb :(
+   em Rohr.PMWeb.Specifications.ObterPercentualLimpezaProposta(Int32 entityId) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.PMWeb\Specifications.cs:linha 204
+   em Rohr.EPC.Web.Variaveis.btnContinuar_Click(Object sender, EventArgs e) na C:\Users\rafael.marques\Desktop\EPC2\trunk\Rohr.EPC.Web\Variaveis.aspx.cs:linha 683;Rohr.EPC.Web.Variaveis.btnContinuar_Click;Button.RaisePostBackEvent => Button.OnClick => Variaveis.btnContinuar_Click;

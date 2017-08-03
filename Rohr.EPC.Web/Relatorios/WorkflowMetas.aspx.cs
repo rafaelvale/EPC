@@ -13,15 +13,11 @@ namespace Rohr.EPC.Web.Relatorios
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
             Repeater1.DataSource = new ModeloBusiness().ObterTodosModelosRelatorio();
             Repeater1.DataBind();
 
             Repeater2.DataSource = new ModeloCondicoesGeraisBusiness().ObterLista();
             Repeater2.DataBind();
-            
-            
-            
         }
         protected void Repeater1_ItemDataBound(object sender, RepeaterItemEventArgs e)
         {
@@ -96,7 +92,7 @@ namespace Rohr.EPC.Web.Relatorios
                 response.End();
             }
             catch (ThreadAbortException) { }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 var msg = "<script type=\"text/javascript\">$(document).ready(function() {alert('" + ex.Message.Replace("'", "").Replace(Environment.NewLine, string.Empty) + "');});</script>";
                 Page.ClientScript.RegisterClientScriptBlock(GetType(), "alert", msg);

@@ -116,6 +116,7 @@ namespace Rohr.EPC.Business
 
 
             //CONFORME CONVERSADO COM TELMA NO DIA 07/07/2017 O VALOR GLOBAL NÃO DEVE APARECER NO TIPO EMPREITADA
+
             //if (documento.Modelo.Segmento.IdSegmento == 7)
             //{
             //    htmlObjeto.Append(String.Format("<div style='font-family: Helvetica;text-align:left;'>Valor Global: R$ {0:N2}</div>", documento.ValorNegocio));
@@ -123,7 +124,7 @@ namespace Rohr.EPC.Business
             //}
             //else
             //{
-                if (documento.ListDocumentoObjeto.Count > 0 && documento.ListDocumentoObjeto[0].ExibirFaturamentoMensal)
+            if (documento.ListDocumentoObjeto.Count > 0 && documento.ListDocumentoObjeto[0].ExibirFaturamentoMensal)
                     htmlObjeto.Append(String.Format("<div style='font-family: Helvetica;text-align:right;'>Valor total da {1} mensal: R$ {0:N2}</div>", documento.ValorFaturamentoMensal, tipoDocumento));
 
                 if (documento.ListDocumentoObjeto.Count > 0 && documento.ListDocumentoObjeto[0].ExibirValorNegocio)

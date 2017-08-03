@@ -1,0 +1,337 @@
+Error;2017/06/14 08:56:01.415;System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'GetDocumentoImagens'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 317
+   em Rohr.Data.DbHelper.ExecutarDataReader(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 299
+   em Rohr.EPC.DAL.DocumentoImagensDAO.GetDocumentoImagens(Int32 IdDoc) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoImagensDAO.cs:linha 20
+   em Rohr.EPC.Business.DocumentoImagensBusiness.GetDocumentoImagens(Int32 IdDoc) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoImagensBusiness.cs:linha 30
+   em Rohr.EPC.Business.PdfBusiness.MontarHtmlDocumento(Documento documento) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 390
+   em Rohr.EPC.Business.PdfBusiness.GerarPdf(Documento documento, Int32 idPerfil, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\PdfBusiness.cs:linha 57
+   em Rohr.EPC.Web.BaixarDocumento.GerarPdf(Documento documento, Int32 idPerfilAtivo, HttpContext context, Int32 idUsuario) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 74
+   em Rohr.EPC.Web.BaixarDocumento.ProcessRequest(HttpContext context) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\BaixarDocumento.ashx.cs:linha 44
+ClientConnectionId:a14cff92-de78-4cb1-bbbc-ac3d88182d18
+Error Number:2812,State:62,Class:16;Rohr.EPC.Web.BaixarDocumento.ProcessRequest;HttpApplication.ExecuteStep => CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute => BaixarDocumento.ProcessRequest;
+Error;2017/06/14 11:32:46.394;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 22;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/14 11:49:37.065;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\MasterPage\MasterDefault.Master.cs:linha 22;Rohr.EPC.Web.MasterPage.MasterDefault.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => MasterDefault.Page_Load;
+Error;2017/06/14 14:30:15.111;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/14 14:30:15.179;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/14 14:33:19.412;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/14 14:33:19.458;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/14 14:36:44.463;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/14 14:36:44.511;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/14 14:36:57.080;System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.ImagensDAO.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\ImagensDAO.cs:linha 42
+   em Rohr.EPC.Business.ImagemBusiness.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ImagemBusiness.cs:linha 29
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 263
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 239;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/14 14:37:02.077;System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.ImagensDAO.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\ImagensDAO.cs:linha 42
+   em Rohr.EPC.Business.ImagemBusiness.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ImagemBusiness.cs:linha 29
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 263
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 239;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/14 14:37:02.130;System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'DeleteDocumentoImagens'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 150
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 132
+   em Rohr.EPC.DAL.DocumentoImagensDAO.Delete(Int32 IdDocImagem) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoImagensDAO.cs:linha 73
+   em Rohr.EPC.Business.DocumentoImagensBusiness.DeleteDocumentoImagens(Int32 IdDocImagem) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoImagensBusiness.cs:linha 25
+   em Rohr.EPC.Web.Fotos.butDeleteImagem_Click(Object sender, ImageClickEventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 89
+ClientConnectionId:80fa0d9a-369f-430e-80cf-c07ac22097a2
+Error Number:2812,State:62,Class:16;Rohr.EPC.Web.Fotos.butDeleteImagem_Click;ImageButton.RaisePostBackEvent => ImageButton.OnClick => Fotos.butDeleteImagem_Click;
+Error;2017/06/14 14:38:58.975;System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.ImagensDAO.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\ImagensDAO.cs:linha 42
+   em Rohr.EPC.Business.ImagemBusiness.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ImagemBusiness.cs:linha 29
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 263
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 239;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/14 14:38:59.010;System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'DeleteDocumentoImagens'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 150
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 132
+   em Rohr.EPC.DAL.DocumentoImagensDAO.Delete(Int32 IdDocImagem) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoImagensDAO.cs:linha 73
+   em Rohr.EPC.Business.DocumentoImagensBusiness.DeleteDocumentoImagens(Int32 IdDocImagem) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoImagensBusiness.cs:linha 25
+   em Rohr.EPC.Web.Fotos.butDeleteImagem_Click(Object sender, ImageClickEventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 89
+ClientConnectionId:90f922c1-70fd-425b-93ad-ecb55d0417c9
+Error Number:2812,State:62,Class:16;Rohr.EPC.Web.Fotos.butDeleteImagem_Click;ImageButton.RaisePostBackEvent => ImageButton.OnClick => Fotos.butDeleteImagem_Click;
+Error;2017/06/14 14:39:04.608;System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.ImagensDAO.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\ImagensDAO.cs:linha 42
+   em Rohr.EPC.Business.ImagemBusiness.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ImagemBusiness.cs:linha 29
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 263
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 239;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/14 14:39:04.626;System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'DeleteDocumentoImagens'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 150
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 132
+   em Rohr.EPC.DAL.DocumentoImagensDAO.Delete(Int32 IdDocImagem) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoImagensDAO.cs:linha 73
+   em Rohr.EPC.Business.DocumentoImagensBusiness.DeleteDocumentoImagens(Int32 IdDocImagem) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoImagensBusiness.cs:linha 25
+   em Rohr.EPC.Web.Fotos.butDeleteImagem_Click(Object sender, ImageClickEventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 89
+ClientConnectionId:46df3018-e83a-4f3e-b7a5-371838842968
+Error Number:2812,State:62,Class:16;Rohr.EPC.Web.Fotos.butDeleteImagem_Click;ImageButton.RaisePostBackEvent => ImageButton.OnClick => Fotos.butDeleteImagem_Click;
+Error;2017/06/14 14:39:07.002;System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.ImagensDAO.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\ImagensDAO.cs:linha 42
+   em Rohr.EPC.Business.ImagemBusiness.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ImagemBusiness.cs:linha 29
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 263
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 239;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/14 14:39:07.033;System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'DeleteDocumentoImagens'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 150
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 132
+   em Rohr.EPC.DAL.DocumentoImagensDAO.Delete(Int32 IdDocImagem) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoImagensDAO.cs:linha 73
+   em Rohr.EPC.Business.DocumentoImagensBusiness.DeleteDocumentoImagens(Int32 IdDocImagem) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoImagensBusiness.cs:linha 25
+   em Rohr.EPC.Web.Fotos.butDeleteImagem_Click(Object sender, ImageClickEventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 89
+ClientConnectionId:d329dc65-1686-4c39-bee7-7a1121a18a01
+Error Number:2812,State:62,Class:16;Rohr.EPC.Web.Fotos.butDeleteImagem_Click;ImageButton.RaisePostBackEvent => ImageButton.OnClick => Fotos.butDeleteImagem_Click;
+Error;2017/06/14 14:39:39.357;System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.ImagensDAO.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\ImagensDAO.cs:linha 42
+   em Rohr.EPC.Business.ImagemBusiness.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ImagemBusiness.cs:linha 29
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 263
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 239;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/14 14:39:39.380;System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'DeleteDocumentoImagens'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 150
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 132
+   em Rohr.EPC.DAL.DocumentoImagensDAO.Delete(Int32 IdDocImagem) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoImagensDAO.cs:linha 73
+   em Rohr.EPC.Business.DocumentoImagensBusiness.DeleteDocumentoImagens(Int32 IdDocImagem) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoImagensBusiness.cs:linha 25
+   em Rohr.EPC.Web.Fotos.butDeleteImagem_Click(Object sender, ImageClickEventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 89
+ClientConnectionId:b96d13dd-18b9-4103-83cf-4ead8bdd193a
+Error Number:2812,State:62,Class:16;Rohr.EPC.Web.Fotos.butDeleteImagem_Click;ImageButton.RaisePostBackEvent => ImageButton.OnClick => Fotos.butDeleteImagem_Click;
+Error;2017/06/14 14:39:41.373;System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.ImagensDAO.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\ImagensDAO.cs:linha 42
+   em Rohr.EPC.Business.ImagemBusiness.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ImagemBusiness.cs:linha 29
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 263
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 239;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/14 14:39:41.394;System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'DeleteDocumentoImagens'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 150
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 132
+   em Rohr.EPC.DAL.DocumentoImagensDAO.Delete(Int32 IdDocImagem) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoImagensDAO.cs:linha 73
+   em Rohr.EPC.Business.DocumentoImagensBusiness.DeleteDocumentoImagens(Int32 IdDocImagem) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoImagensBusiness.cs:linha 25
+   em Rohr.EPC.Web.Fotos.butDeleteImagem_Click(Object sender, ImageClickEventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 89
+ClientConnectionId:35380beb-4920-47f3-a3df-3ce02633f13f
+Error Number:2812,State:62,Class:16;Rohr.EPC.Web.Fotos.butDeleteImagem_Click;ImageButton.RaisePostBackEvent => ImageButton.OnClick => Fotos.butDeleteImagem_Click;
+Error;2017/06/14 14:39:52.070;System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.ImagensDAO.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\ImagensDAO.cs:linha 42
+   em Rohr.EPC.Business.ImagemBusiness.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ImagemBusiness.cs:linha 29
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 263
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 239;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/14 14:39:55.455;System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.ImagensDAO.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\ImagensDAO.cs:linha 42
+   em Rohr.EPC.Business.ImagemBusiness.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ImagemBusiness.cs:linha 29
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 263
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 239;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/14 14:39:55.483;System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'DeleteDocumentoImagens'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, IDbTransaction transacao, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 150
+   em Rohr.Data.DbHelper.ExecutarNonQuery(String comandoSql, DbParametros parametros, CommandType tipoComando) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.Data\DbHelper.cs:linha 132
+   em Rohr.EPC.DAL.DocumentoImagensDAO.Delete(Int32 IdDocImagem) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\DocumentoImagensDAO.cs:linha 73
+   em Rohr.EPC.Business.DocumentoImagensBusiness.DeleteDocumentoImagens(Int32 IdDocImagem) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\DocumentoImagensBusiness.cs:linha 25
+   em Rohr.EPC.Web.Fotos.butDeleteImagem_Click(Object sender, ImageClickEventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 89
+ClientConnectionId:a1c214c0-fdb6-4dca-a98f-b7d2600d8b4c
+Error Number:2812,State:62,Class:16;Rohr.EPC.Web.Fotos.butDeleteImagem_Click;ImageButton.RaisePostBackEvent => ImageButton.OnClick => Fotos.butDeleteImagem_Click;
+Error;2017/06/14 14:40:59.505;System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.ImagensDAO.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\ImagensDAO.cs:linha 42
+   em Rohr.EPC.Business.ImagemBusiness.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ImagemBusiness.cs:linha 29
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 263
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 239;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/14 14:40:59.537;System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.ImagensDAO.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\ImagensDAO.cs:linha 42
+   em Rohr.EPC.Business.ImagemBusiness.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ImagemBusiness.cs:linha 29
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 263
+   em Rohr.EPC.Web.Fotos.butDeleteImagem_Click(Object sender, ImageClickEventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 93;Rohr.EPC.Web.Fotos.butDeleteImagem_Click;ImageButton.RaisePostBackEvent => ImageButton.OnClick => Fotos.butDeleteImagem_Click;
+Error;2017/06/14 14:41:01.206;System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.ImagensDAO.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\ImagensDAO.cs:linha 42
+   em Rohr.EPC.Business.ImagemBusiness.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ImagemBusiness.cs:linha 29
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 263
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 239;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/14 14:41:03.112;System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.ImagensDAO.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\ImagensDAO.cs:linha 42
+   em Rohr.EPC.Business.ImagemBusiness.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ImagemBusiness.cs:linha 29
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 263
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 239;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/14 14:41:07.338;System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.ImagensDAO.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\ImagensDAO.cs:linha 42
+   em Rohr.EPC.Business.ImagemBusiness.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ImagemBusiness.cs:linha 29
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 263
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 239;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/14 14:59:44.716;System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.ImagensDAO.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\ImagensDAO.cs:linha 42
+   em Rohr.EPC.Business.ImagemBusiness.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ImagemBusiness.cs:linha 29
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 263
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 239;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/14 15:32:31.511;System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.ImagensDAO.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\ImagensDAO.cs:linha 42
+   em Rohr.EPC.Business.ImagemBusiness.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ImagemBusiness.cs:linha 29
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 263
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 239;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/14 16:25:33.330;System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.ImagensDAO.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\ImagensDAO.cs:linha 42
+   em Rohr.EPC.Business.ImagemBusiness.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ImagemBusiness.cs:linha 29
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 263
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 239;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/14 17:06:09.714;Não foi possível recuperar a sessão do usuário;Rohr.EPC.Web.Redirecionar.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load;
+Error;2017/06/14 17:06:09.766;Rohr.EPC.Business.MyException: Não foi possível recuperar a sessão do usuário
+   em Rohr.EPC.Business.Util.GetSessaoUsuario() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\Util.cs:linha 27
+   em Rohr.EPC.Business.AuditoriaLogBusiness.AdicionarLogLogout(HttpBrowserCapabilities browser) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\AuditoriaLogBusiness.cs:linha 35
+   em Rohr.EPC.Web.Redirecionar.Redirect(String destino) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Redirecionar.aspx.cs:linha 41;Rohr.EPC.Web.Redirecionar.Redirect;CalliEventHandlerDelegateProxy.Callback => Redirecionar.Page_Load => Redirecionar.Redirect;
+Error;2017/06/14 17:06:24.078;System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.ImagensDAO.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\ImagensDAO.cs:linha 42
+   em Rohr.EPC.Business.ImagemBusiness.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ImagemBusiness.cs:linha 29
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 263
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 239;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/14 17:08:06.407;System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.ImagensDAO.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\ImagensDAO.cs:linha 42
+   em Rohr.EPC.Business.ImagemBusiness.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ImagemBusiness.cs:linha 29
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 263
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 239;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/14 17:09:36.464;System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.ImagensDAO.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\ImagensDAO.cs:linha 42
+   em Rohr.EPC.Business.ImagemBusiness.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ImagemBusiness.cs:linha 29
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 263
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 239;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
+Error;2017/06/14 17:10:15.659;System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em Rohr.EPC.DAL.ImagensDAO.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.DAL\ImagensDAO.cs:linha 42
+   em Rohr.EPC.Business.ImagemBusiness.GetImagens() na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Business\ImagemBusiness.cs:linha 29
+   em Rohr.EPC.Web.Fotos.LoadImagens(List`1 DocuImagens) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 263
+   em Rohr.EPC.Web.Fotos.Page_Load(Object sender, EventArgs e) na C:\Users\rafael.marques\BKP_RAFAEL\Desktop\EPC2\trunk\Rohr.EPC.Web\Fotos.aspx.cs:linha 239;Rohr.EPC.Web.Fotos.Page_Load;Control.OnLoad => CalliEventHandlerDelegateProxy.Callback => Fotos.Page_Load;
