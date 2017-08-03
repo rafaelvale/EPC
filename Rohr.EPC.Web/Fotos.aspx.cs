@@ -230,6 +230,8 @@ namespace Rohr.EPC.Web
             try
             {
 
+
+
                 ResumoGeralFotos.config.toolbar = new object[] { new object[] { "Maximize", "-", "Undo", "Redo", "-", "Bold", "Italic", "RemoveFormat" } };
                 ResumoGeralFotos.config.enterMode = EnterMode.BR;
                 ResumoGeralFotos.config.removePlugins = "elementspath";
@@ -240,44 +242,48 @@ namespace Rohr.EPC.Web
 
 
 
-                Session["pmwebDocumentTodoList"] = null;
-                _documento = new Util().GetSessaoDocumento();
 
-                if (_documento.Modelo.ModeloTipo.IdModeloTipo == 3)
-                {
-                    Session["documento"] = null;
-                    Session["documento"] = _documento;
                     Session["pmwebDocumentTodoList"] = null;
-                    Response.Redirect("Objeto.aspx", false);
-                }
+                    _documento = new Util().GetSessaoDocumento();
 
-                if (!_documento.Edicao)
-                    _documento.ListChavePreenchida.Clear();
+                    if (_documento.Modelo.ModeloTipo.IdModeloTipo == 3)
+                    {
+                        Session["documento"] = null;
+                        Session["documento"] = _documento;
+                        Session["pmwebDocumentTodoList"] = null;
+                        Response.Redirect("Objeto.aspx", false);
+                    }
 
-                if (_documento.EProposta)
-                {
-                    ObterOportunidadePmweb();
-                    VerificarPropostaFechadaPMWeb(_documento);
-                }
-                else
-                {
-                    CostManagementCommitments oCostManagementCommitments = new CostManagementCommitments().ObterContrato(_documento.CodigoSistemaOrigem);
-                    new Estimates().OrcamentoFinalizado(oCostManagementCommitments.ProjectId);
+                    if (!_documento.Edicao)
+                        _documento.ListChavePreenchida.Clear();
 
-                    DocumentoBusiness oDocumentoBusiness = new DocumentoBusiness();
-                    Int32 idDocumentoProposta = oDocumentoBusiness.ObterIdDocumentoProposta(_documento.IdDocumento);
-                    _documentoProposta = oDocumentoBusiness.ObterPorId(idDocumentoProposta);
-                }
+                    if (_documento.EProposta)
+                    {
+                        ObterOportunidadePmweb();
+                        VerificarPropostaFechadaPMWeb(_documento);
+                    }
+                    else
+                    {
+                        CostManagementCommitments oCostManagementCommitments = new CostManagementCommitments().ObterContrato(_documento.CodigoSistemaOrigem);
+                        new Estimates().OrcamentoFinalizado(oCostManagementCommitments.ProjectId);
 
-                CarregarPainelDetalhes();
+                        DocumentoBusiness oDocumentoBusiness = new DocumentoBusiness();
+                        Int32 idDocumentoProposta = oDocumentoBusiness.ObterIdDocumentoProposta(_documento.IdDocumento);
+                        _documentoProposta = oDocumentoBusiness.ObterPorId(idDocumentoProposta);
+                    }
 
-              
+                    CarregarPainelDetalhes();
 
-                var DocuImagens = new DocumentoImagensBusiness().GetDocumentoImagens(_documento.IdDocumento);
 
-                LoadImagens(DocuImagens);
-                ObterItensTela();
-                CarregarResumoProposta(_documento);
+
+                    var DocuImagens = new DocumentoImagensBusiness().GetDocumentoImagens(_documento.IdDocumento);
+
+                    LoadImagens(DocuImagens);
+                    ObterItensTela();
+
+             
+
+                    CarregarResumoProposta(_documento);
 
 
 
@@ -481,7 +487,12 @@ namespace Rohr.EPC.Web
         }
         void CarregarResumoProposta(Documento documento)
         {
-            ResumoGeralFotos.Text = new DocumentoImagensBusiness().ObterUltimoDescricaoGeral(documento.IdDocumento);
+
+            if (!IsPostBack)
+            {
+
+                ResumoGeralFotos.Text = new DocumentoImagensBusiness().ObterUltimoDescricaoGeral(documento.IdDocumento);
+            }
         }
 
     }

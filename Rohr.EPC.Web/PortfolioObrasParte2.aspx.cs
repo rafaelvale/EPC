@@ -446,7 +446,12 @@ namespace Rohr.EPC.Web
         }
         void CarregarResumoProposta(Documento documento)
         {
-            ResumoGeralFotos.Text = new DocumentoPortfolioBusiness().ObterUltimoDescricaoGeralParte2(documento.IdDocumento);
+
+            if (!IsPostBack)
+            {
+                ResumoGeralFotos.Text = new DocumentoPortfolioBusiness().ObterUltimoDescricaoGeralParte2(documento.IdDocumento);
+            }
+            
         }
 
     }
